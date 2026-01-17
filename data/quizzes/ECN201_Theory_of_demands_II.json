@@ -1,0 +1,217 @@
+{
+  "courseCode": "ECN201",
+  "topic": "Theory of demands II",
+  "marks": "100",
+  "timeLimit": "10",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1768670423395,
+      "text": " Which of the following best defines \"Market Demand\"? ",
+      "type": "mcq",
+      "options": [
+        " The quantity a single household is willing to buy at a specific price.",
+        " The total quantity of all goods produced by firms in an economy.",
+        "The desire of consumers to purchase goods regardless of their ability to pay.",
+        "The total quantity of a specific commodity that all consumers in a market are willing and able to purchase at a given price over a specific time period."
+      ],
+      "correctOption": 3,
+      "answer": ""
+    },
+    {
+      "id": 1768670569160,
+      "text": " If a fall in the price of Good Y causes a decrease in the demand for Good X, how are these two commodities related? ",
+      "type": "mcq",
+      "options": [
+        " They are complementary goods ",
+        "They are substitute goods ",
+        "They are luxury goods ",
+        "They are Giffen goods"
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768670765162,
+      "text": " According to the principle of \"Income of the Consumer,\" a good is classified as \"Inferior\" when: ",
+      "type": "mcq",
+      "options": [
+        " Its demand remains unchanged as income rises",
+        "Its demand increases proportionally with a rise in income ",
+        " It is an inexpensive foodstuff like salt",
+        "Its demand falls as consumer income rises beyond a certain level"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768670808249,
+      "text": "[Answer: A] Which of the following describes the relationship between a good and its \"Complement\" on a graph? A",
+      "type": "mcq",
+      "options": [
+        " The curve slopes downward, showing that a fall in the price of the complement increases demand for the good.",
+        " The curve slopes upward, showing that a fall in the price of the complement decreases demand for the good.",
+        "The curve is vertical, showing no relationship between the two.",
+        "The curve is horizontal, showing demand is perfectly elastic."
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768670924310,
+      "text": "",
+      "type": "mcq",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768670947374,
+      "text": "",
+      "type": "mcq",
+      "options": [
+        "Quantity demanded will rise indefinitely. ",
+        " Quantity demanded will remain completely or largely unaffected. ",
+        "Quantity demanded will fall to zero. ",
+        "The consumer will switch to a more expensive substitute."
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768671155209,
+      "text": "In economics, the terms \"expansion\" and \"contraction\" of demand are used to describe changes in quantity demanded specifically caused by:",
+      "type": "mcq",
+      "options": [
+        "Changes in the price of the commodity itself ",
+        "Changes in the consumer's level of income ",
+        "Changes in tastes and fashion",
+        "Changes in the prices of substitute goods"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768671249272,
+      "text": "A \"contraction\" in demand is graphically represented by: ",
+      "type": "mcq",
+      "options": [
+        " A rightward shift of the entire demand curve",
+        "An upward movement along a given demand curv",
+        "A downward movement along a given demand curve",
+        "A leftward shift of the entire demand curve"
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768671401693,
+      "text": " According to the text, expansion and contraction of demand occur only when which of the following remains constant?",
+      "type": "mcq",
+      "options": [
+        "Tastes and preferences",
+        "Household income",
+        "Prices of related goods",
+        "All of the above (Ceteris Paribus)"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768671444639,
+      "text": " If the price of a product decreases from $P$ to $P_1$, resulting in a movement from a higher point to a lower point on the same demand curve, this is known as:",
+      "type": "mcq",
+      "options": [
+        "A decrease in demand",
+        "An increase in demand",
+        "An expansion in demand",
+        "A shift in demand"
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768671608342,
+      "text": "An increase in the minimum wage leads to higher consumer incomes. Graphically, how would this affect the demand for a normal good like clothes? ",
+      "type": "mcq",
+      "options": [
+        "An upward movement along the existing demand curve.",
+        "A downward movement along the existing demand curve.",
+        "A leftward shift of the entire demand curve.",
+        "A rightward shift of the entire demand curve."
+      ],
+      "correctOption": 3,
+      "answer": ""
+    },
+    {
+      "id": 1768671654328,
+      "text": " Which of the following specifically causes a \"change in demand\" (a shift of the curve) rather than a \"change in quantity demanded\"?",
+      "type": "mcq",
+      "options": [
+        "A reduction in the market price of the good.",
+        "A change in consumer tastes and preferences.",
+        "An increase in the cost of production.",
+        "An improvement in manufacturing technology."
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768671810280,
+      "text": " [Answer: D] The term \"ceteris paribus\" in the context of the demand function Qd = a - bP implies that:",
+      "type": "mcq",
+      "options": [
+        "Price and income are changing simultaneously",
+        " The demand curve is shifting to the right",
+        "The supply of the good is perfectly elastic",
+        " All factors other than the price of the commodity remain constant."
+      ],
+      "correctOption": 3,
+      "answer": ""
+    },
+    {
+      "id": 1768671978685,
+      "text": "[Answer: B] Consider a market demand function represented by the equation Qd = 200 - 4P + 0.5Y, where Qd is the quantity demanded, P is the price, and Y is the household income. If the current price is $20 and the average household income is $400, what is the quantity demanded?",
+      "type": "mcq",
+      "options": [
+        "220 units",
+        " 320 units",
+        "120 units",
+        "400 units"
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768672053405,
+      "text": "A consumer's demand function for a specific good is Qd = 150 - 10P. If the market price increases from $5 to $8, what is the resulting change in the quantity demanded?\n",
+      "type": "mcq",
+      "options": [
+        "An expansion of 30 units",
+        "An expansion of 100 units",
+        "A contraction of 80 units",
+        "A contraction of 30 units"
+      ],
+      "correctOption": 3,
+      "answer": ""
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-01-17T17:48:46.739Z"
+}

@@ -1,0 +1,152 @@
+{
+  "courseCode": "ECN201",
+  "topic": "THE PROBLEMS OF ECONOMIC THEORY",
+  "marks": "100",
+  "timeLimit": "10",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1768599627722,
+      "text": "According to Adam Smith (1776), economics is concerned with inquiring into the:\n",
+      "type": "mcq",
+      "options": [
+        " A. Political stability of regions",
+        "B. Nature and causes of the wealth of nations",
+        " C. History of agricultural development",
+        "  D. Legal structures of corporations"
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768599628056,
+      "text": "The study of economics assists individuals in understanding the decisions of households, businesses, and governments based on:",
+      "type": "mcq",
+      "options": [
+        "A. Climate change and weather patterns",
+        " B. Beliefs, human behaviour, structure, needs, and constraints",
+        "C. Military strength and defense spending",
+        " D. International travel and tourism"
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768599628281,
+      "text": "Utility and satisfaction derived at each point in time:",
+      "type": "mcq",
+      "options": [
+        "A. Varies even for the same person",
+        " B. Remains constant throughout a person's life",
+        " C. Is the same for everyone in a society",
+        " D. Cannot be affected by time"
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768599628536,
+      "text": "In developing economies, \"what to produce\" is considered more important as a result of:",
+      "type": "mcq",
+      "options": [
+        "A. Abundance of natural resources",
+        " B. High levels of technology",
+        "C. Scarcity of skilled manpower",
+        " D. Low population growth"
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768599628924,
+      "text": "The problem of \"how to produce\" arises due to differences in:",
+      "type": "mcq",
+      "options": [
+        "A. Language and culture",
+        "B. Availability of resources in differing economy",
+        "C. The number of holidays in a year",
+        " D. The size of the government"
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768599629179,
+      "text": "The economic problem of \"for whom to produce\" depends on:\n\n",
+      "type": "mcq",
+      "options": [
+        "A. The distance of the market",
+        "B. The socioeconomic ideology",
+        "C. The age of the consumers",
+        " D. The weather patterns"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768599629424,
+      "text": "In a capitalist economy, there is usually:\n\n",
+      "type": "mcq",
+      "options": [
+        "A. Occupational freedom",
+        "B. Total government control",
+        "C. No profit motive",
+        " D. Mandatory resource sharing"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768599629924,
+      "text": "Basically, economics is important for studying how people:\n",
+      "type": "mcq",
+      "options": [
+        "A. Stop the process of consumption",
+        "B. Influence the weather",
+        "C. Avoid all forms of work",
+        "D. React to and allocate limited resources"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768600067407,
+      "text": "The process of taking full advantage of one’s own benefit leads to the broader benefit of:\n\n",
+      "type": "mcq",
+      "options": [
+        "Increased poverty",
+        "Total government collapse",
+        " Reduced market competition",
+        "Efficient allocation of resources across society"
+      ],
+      "correctOption": 3,
+      "answer": ""
+    },
+    {
+      "id": 1768600067631,
+      "text": "By \"regular custom,\" if a person is in doubt about spending money on yoghurt, coffee, or chocolate, we state that he expects:\n",
+      "type": "mcq",
+      "options": [
+        "From each of these actions an equal satisfaction",
+        "To save the money instead",
+        "More satisfaction from the chocolate",
+        " No satisfaction at all"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-01-16T21:59:03.084Z"
+}
