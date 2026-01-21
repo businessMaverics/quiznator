@@ -1,0 +1,217 @@
+{
+  "courseCode": "ECN201",
+  "topic": "THEORY OF CONSUMER BEHAVIOR II",
+  "marks": "100",
+  "timeLimit": "20",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1768992530609,
+      "text": "\nWhich of the following describes the 'Lumpy Goods' problem in Equi-Marginal Analysis?",
+      "type": "mcq",
+      "options": [
+        "Certain goods like cars or fans cannot be divided into small fractions to reach equilibrium.",
+        " Consumers are too ignorant to buy expensive goods.",
+        " The marginal utility of money remains constant for large purchases.",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768992682377,
+      "text": "A consumer buys a specific brand of shoes simply because they are 'in fashion,' without comparing the utility per Naira to other brands. This violates which assumption.",
+      "type": "mcq",
+      "options": [
+        " Assumption of Rationality",
+        " Assumption of Divisibility",
+        "Assumption of Cardinal Utility",
+        "Assumption of the scale of preference"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768992775639,
+      "text": "what did economist J.R. Hicks use to explain consumer equilibrium instead of the 'unrealistic' cardinal measurement of utility?",
+      "type": "mcq",
+      "options": [
+        " The Law of Supply",
+        "The Multiplier Effect",
+        " Indifference Curve Analysis",
+        "the addiional effects"
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768992854205,
+      "text": "What is the primary reason the Indifference Curve approach abandoned 'Cardinal Utility'?",
+      "type": "mcq",
+      "options": [
+        "becasue it is useless compared to it",
+        " Because cardinal utility is too simple to calculate.",
+        " Because utility is a psychological feeling and cannot be measured in exact numbers.",
+        " Because cardinal utility only applies to one good at a time."
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768992984904,
+      "text": "If a consumer says, 'Combination A gives me more satisfaction than Combination B,' which concept are they using?",
+      "type": "mcq",
+      "options": [
+        "discretional utility",
+        " Constant Marginal Utility",
+        " Ordinal Utility",
+        " Cardinal Utility"
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768993072808,
+      "text": "Which two economists are primarily associated with the development of the Ordinal Utility analysis?",
+      "type": "mcq",
+      "options": [
+        " Marshall and Pigou",
+        "Hicks and Allen",
+        " Smith and Ricardo",
+        "smith and mill "
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768993185804,
+      "text": "What is the best definition of an 'Indifference Map' based on the text?",
+      "type": "mcq",
+      "options": [
+        " A table showing the marginal utility of a single commodity.",
+        " A graph showing the relationship between price and quantity demanded.",
+        " A single curve showing the budget of a consumer.",
+        "A set or family of indifference curves representing different levels of satisfaction."
+      ],
+      "correctOption": 3,
+      "answer": ""
+    },
+    {
+      "id": 1768993399823,
+      "text": "According to the principle of the Indifference Map, which curve provides the HIGHEST level of satisfaction?",
+      "type": "mcq",
+      "options": [
+        " The curve that intersects the X-axis.",
+        " The curve closest to the origin (O).",
+        " All curves in the map provide the same satisfaction.",
+        " The curve farthest away from the origin (O)."
+      ],
+      "correctOption": 3,
+      "answer": ""
+    },
+    {
+      "id": 1768993519295,
+      "text": "Why does a curve nearer to the origin represent a lower level of satisfaction?",
+      "type": "mcq",
+      "options": [
+        " Because the goods are indivisible.",
+        "Because it contains smaller combinations of goods X and Y.",
+        " Because the marginal utility of money is constant.",
+        "  Because the consumer is acting irrationally."
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768993600418,
+      "text": "A consumer is in equilibrium spending N24 on Good X (P \nx\n​\n =N2) and Good Y (P \ny\n​\n =N3). If the MU of the last unit of X is 10, what must be the MU of the last unit of Y?",
+      "type": "mcq",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "5"
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768994414053,
+      "text": "Which assumption states that a consumer will always prefer a larger amount of a good to a smaller amount?",
+      "type": "mcq",
+      "options": [
+        " Diminishing Marginal Rate of Substitution",
+        " The Non-Satiety Assumption",
+        " The Assumption of Rationality",
+        " The Assumption of Transitivity"
+      ],
+      "correctOption": 1,
+      "answer": ""
+    },
+    {
+      "id": 1768994414603,
+      "text": "If Indifference Curves were to intersect, which logical principle would be violated?",
+      "type": "mcq",
+      "options": [
+        "Diminishing Marginal Utility",
+        " Non-Satiety",
+        " Transitivity",
+        "Indivisibility"
+      ],
+      "correctOption": 2,
+      "answer": ""
+    },
+    {
+      "id": 1768994415094,
+      "text": "Why must an Indifference Curve be downward sloping (negative slope)?",
+      "type": "mcq",
+      "options": [
+        "To keep satisfaction constant, an increase in one good must be offset by a decrease in the other.",
+        " Because the Marginal Utility of money is constant.",
+        " Because the consumer has a limited budget.",
+        " Because prices always rise as we buy more."
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768994415297,
+      "text": "What is responsible for the 'Convex to the Origin' shape of an Indifference Curve?",
+      "type": "mcq",
+      "options": [
+        "Diminishing Marginal Rate of Substitution",
+        " Constant Marginal Rate of Substitution",
+        " Increasing Marginal Rate of Substitution",
+        " Perfect Substitutability"
+      ],
+      "correctOption": 0,
+      "answer": ""
+    },
+    {
+      "id": 1768994415930,
+      "text": "................................ refers to the combinations of commodities that a\nconsumer is able to purchase given his income the prices of the commodities. ",
+      "type": "mcq",
+      "options": [
+        "diminising marginal rate",
+        "scale of prefrence",
+        "opportunity costg",
+        "budget line "
+      ],
+      "correctOption": 0,
+      "answer": ""
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-01-21T11:24:57.450Z"
+}

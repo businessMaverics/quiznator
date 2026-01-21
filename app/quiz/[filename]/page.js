@@ -23,6 +23,12 @@ export default function QuizRoom({ params }) {
     const [loading, setLoading] = useState(true);
     const [timeLeft, setTimeLeft] = useState(0);
 
+    // Royal Blue Theme Constants
+    const THEME = {
+        bg: "bg-[#4169E1]",
+        card: "bg-white text-black",
+    };
+
     useEffect(() => {
         async function fetchQuiz() {
             try {
@@ -173,7 +179,7 @@ export default function QuizRoom({ params }) {
 
     // --- UI COMPONENTS ---
     const QuestionNavigator = () => (
-        <div className="bg-blue-50/50 border-b border-gray-100 px-6 py-3 overflow-x-auto no-scrollbar flex space-x-2">
+        <div className="bg-blue-50/50 border-b border-gray-100 px-6 py-3 overflow-x-auto custom-scrollbar flex space-x-2">
             {questions.map((q, idx) => {
                 const isAnswered = userAnswers[q.id] !== undefined && userAnswers[q.id] !== "";
                 const isCurrent = currentQIndex === idx;
@@ -255,10 +261,15 @@ export default function QuizRoom({ params }) {
                     <div className="text-5xl md:text-6xl font-black mb-6">
                         {score} / {questions.length}
                     </div>
-                    <p className="text-gray-500 mb-8">
+                    <p className="text-gray-500 mb-4">
                         {score === questions.length ? "Perfect Score! 🌟" :
                             score > questions.length / 2 ? "Great Job! 👍" : "Keep Practicing! 💪"}
                     </p>
+                    <div className="mb-8 p-3 bg-purple-50 rounded-xl border border-purple-100 italic transition-all animate-pulse">
+                        <p className="text-[11px] text-purple-600 font-medium">
+                            Keep practicing, who knows! 🚀✨ There are over 1,000 questions on Quiznator to master!
+                        </p>
+                    </div>
 
                     <div className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
                         <button
@@ -298,6 +309,14 @@ export default function QuizRoom({ params }) {
                                             <p className="text-xs text-green-600 font-bold">Correct Answer: {q.answer}</p>
                                         </div>
                                     )}
+
+                                    {/* Explanation Section */}
+                                    {q.explanation && (
+                                        <div className="mt-4 p-3 bg-blue-50 rounded-lg border-l-4 border-[#4169E1]">
+                                            <p className="text-[11px] uppercase font-bold text-[#4169E1] mb-1">Explanation</p>
+                                            <p className="text-xs text-gray-700 leading-relaxed">{q.explanation}</p>
+                                        </div>
+                                    )}
                                 </div>
                             ))}
                         </div>
@@ -318,10 +337,6 @@ export default function QuizRoom({ params }) {
 
     if (!quizData) return <div className="min-h-screen bg-black text-white flex items-center justify-center">Quiz not found.</div>;
 
-    const THEME = {
-        bg: "bg-[#4169E1]",
-        card: "bg-white text-black",
-    };
 
     const currentQ = questions[currentQIndex];
 

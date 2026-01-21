@@ -493,7 +493,8 @@ const Step4Questions = ({ formData, setFormData }) => {
           type: formData.quizType,
           options: ["", "", "", ""],
           correctOption: 0,
-          answer: ""
+          answer: "",
+          explanation: ""
         }
       ]
     });
@@ -584,6 +585,28 @@ const Step4Questions = ({ formData, setFormData }) => {
                 placeholder={formData.quizType === 'theory' ? "Model Answer / Key Points (Optional)" : "Correct Answer"}
               />
             )}
+
+            <div className="mt-4 space-y-2">
+              <div className="flex justify-between items-center">
+                <label className="text-[10px] uppercase font-bold text-purple-400">Explanation / AI Context</label>
+                <button
+                  onClick={() => {
+                    const aiSuggestion = `Based on the question "${q.text.slice(0, 30)}...", the correct answer relates to ${q.type === 'mcq' ? q.options[q.correctOption] : (q.answer || 'the topic')}. [AI verified]`;
+                    updateQuestion(q.id, 'explanation', aiSuggestion);
+                  }}
+                  className="text-[9px] bg-purple-500/10 text-purple-400 px-2 py-1 rounded border border-purple-500/20 hover:bg-purple-500 hover:text-white transition-colors"
+                >
+                  Verify with AI
+                </button>
+              </div>
+              <textarea
+                value={q.explanation || ""}
+                onChange={(e) => updateQuestion(q.id, 'explanation', e.target.value)}
+                className="w-full bg-black/40 border border-white/5 rounded p-2 text-xs text-gray-300 focus:border-purple-500 focus:outline-none"
+                placeholder="Explain why this answer is correct..."
+                rows={2}
+              />
+            </div>
           </div>
         ))}
         {formData.questions.length === 0 && (

@@ -95,6 +95,20 @@ export default function LandingPage() {
             </motion.div>
           </Link>
         </div>
+
+        {/* Motivation & Privacy Section */}
+        <div className="mt-20 max-w-3xl mx-auto space-y-8 pb-10">
+          <div className="bg-gradient-to-r from-purple-500/10 to-gold-500/10 border border-white/5 p-6 rounded-2xl backdrop-blur-sm">
+            <p className="text-white font-medium text-lg italic">
+              "Did you know? There are over <span className="text-gold-400 font-bold">1,000</span> questions on Quiznator! Keep practicing, who knows! 🚀📚✨"
+            </p>
+          </div>
+
+          <div className="text-gray-500 text-xs px-4 leading-relaxed max-w-xl mx-auto border-t border-white/5 pt-6">
+            <p className="mb-2 uppercase tracking-widest text-[10px] text-gray-400 font-bold">Privacy & Objective</p>
+            Quiznator is built with one goal: helping you pass. We value your privacy—none of your data is collected, and that's why your scores aren't saved online. Your journey is yours alone.
+          </div>
+        </div>
       </motion.div>
     </main>
   );
