@@ -1,0 +1,232 @@
+{
+  "courseCode": "BUS203",
+  "topic": "INTRODUCTION TO LOGISTIC AND SUPPLY CHAIN MANGEMENT",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1769500748583,
+      "text": "What is the process of coordinating the movement, storage, and handling of goods and materials throughout a supply chain?",
+      "type": "mcq",
+      "options": [
+        "A) Production",
+        "B) Logistics",
+        "C) Marketing",
+        "D) Procurement"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "Based on the question \"What is the process of coordin...\", the correct answer relates to B) Logistics. [AI verified]"
+    },
+    {
+      "id": 1769500805651,
+      "text": "Supply Chain Management (SCM) is defined as managing the entire production flow from:",
+      "type": "mcq",
+      "options": [
+        "A) Manufacturer to retailer",
+        "B) Raw materials to end customer",
+        "C) Warehouse to distribution center",
+        "D) Supplier to manufacturer"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "Based on the question \"Supply Chain Management (SCM) ...\", the correct answer relates to B) Raw materials to end customer. [AI verified]"
+    },
+    {
+      "id": 1769500810529,
+      "text": " LSCM ensures products are delivered efficiently and at the:",
+      "type": "mcq",
+      "options": [
+        "A) Highest quality regardless of cost",
+        "B) Lowest possible cost",
+        "C) Most expensive premium rate",
+        "D) Local market price"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "Based on the question \" LSCM ensures products are del...\", the correct answer relates to B) Lowest possible cost. [AI verified]"
+    },
+    {
+      "id": 1769500810671,
+      "text": "LSCM boosts competitiveness by creating seamless operations between which parties?",
+      "type": "mcq",
+      "options": [
+        "A) Competitors and stakeholders",
+        "B) Government and private sectors",
+        "C) Suppliers, manufacturers, and customers",
+        "D) Transporters and warehouse managers"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "Based on the question \"LSCM boosts competitiveness by...\", the correct answer relates to C) Suppliers, manufacturers, and customers. [AI verified]"
+    },
+    {
+      "id": 1769501211285,
+      "text": "How does LSCM reduce waste and costs?",
+      "type": "mcq",
+      "options": [
+        "A) By increasing production speed",
+        "B) By hiring more personnel",
+        "C) By optimizing inventory, transportation, and production processes",
+        "D) By reducing customer service requirements"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "Based on the question \"How does LSCM reduce waste and...\", the correct answer relates to A) By increasing production speed. [AI verified]"
+    },
+    {
+      "id": 1769501279195,
+      "text": "The objective of \"Responsiveness\" refers to the ability to:",
+      "type": "mcq",
+      "options": [
+        "A) Consistently deliver products on time",
+        "B) Minimize environmental impact",
+        "C) Quickly adapt to market changes and customer needs",
+        "D) Minimize resource usage"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "Based on the question \"The objective of \"Responsivene...\", the correct answer relates to C) Quickly adapt to market changes and customer needs. [AI verified]"
+    },
+    {
+      "id": 1769501390270,
+      "text": "The \"Sustainability\" objective in LSCM focuses on:",
+      "type": "mcq",
+      "options": [
+        "A) Minimizing resource usage",
+        "B) Building customer loyalty",
+        "C) Consistently delivering the right products",
+        "D) Using practices that minimize environmental impact"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "Based on the question \"The \"Sustainability\" objective...\", the correct answer relates to A) Minimizing resource usage. [AI verified]"
+    },
+    {
+      "id": 1769501441912,
+      "text": "According to the Council of Logistics Management, what is the ultimate purpose of controlling the flow of goods?",
+      "type": "mcq",
+      "options": [
+        "A) To maximize transportation speed",
+        "B) To conform to customer requirements",
+        "C) To reduce the number of employees",
+        "D) To increase inventory levels"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "Based on the question \"According to the Council of Lo...\", the correct answer relates to B) To conform to customer requirements. [AI verified]"
+    },
+    {
+      "id": 1769501535473,
+      "text": "Logistics \"value\" is created when products are in the possession of the customer:",
+      "type": "mcq",
+      "options": [
+        "A) At the lowest possible price",
+        "B) In the largest possible quantity",
+        "C) When  and where  they wish to consume them",
+        "D) Directly from the raw material supplier"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769501535972,
+      "text": "The primary decision triangle of logistics consists of:",
+      "type": "mcq",
+      "options": [
+        "A) Supply, Materials Management, and Transport",
+        "B) Location, Inventory, and Transportation",
+        "C) Procurement, Production, and Distribution",
+        "D) Efficiency, Reliability, and Responsiveness"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "Based on the question \"The primary decision triangle ...\", the correct answer relates to B) Location, Inventory, and Transportation. [AI verified]"
+    },
+    {
+      "id": 1769501643093,
+      "text": "In a logistics system, \"transportation services\" are usually depicted as:",
+      "type": "mcq",
+      "options": [
+        "A) Static sites",
+        "B) Inventory levels",
+        "C) Facility to facility movement",
+        "D) Customer service standards"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "Based on the question \"In a logistics system, \"transp...\", the correct answer relates to C) Facility to facility movement. [AI verified]"
+    },
+    {
+      "id": 1769501763322,
+      "text": " Which of the following is NOT one of the four principal components of logistics?\n",
+      "type": "mcq",
+      "options": [
+        "A) Order processing",
+        "B) Warehousing",
+        "C) Marketing and Advertising",
+        "D) Transportation"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "Based on the question \" Which of the following is NOT...\", the correct answer relates to C) Marketing and Advertising. [AI verified]"
+    },
+    {
+      "id": 1769502252821,
+      "text": "The \"systems approach\" to distribution management is concerned with:",
+      "type": "mcq",
+      "options": [
+        "A) Maximizing the cost of each individual function Answer: A",
+        "B) Ensuring individual distributive functions are optimized to realize a common objective",
+        " C) Separating transportation from warehousing to avoid confusion",
+        "D) Increasing the number of stock levels"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "HE SHOCK YOU. WHY YOU SEF GO PICK A"
+    },
+    {
+      "id": 1769502253820,
+      "text": "hat is considered a \"major feature\" of logistics in the systems approach?",
+      "type": "mcq",
+      "options": [
+        "A) That functions remain independent",
+        "B) That functions be integrated",
+        "C) That order processing is ignored",
+        "D) That only transportation is optimized"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769502256892,
+      "text": "Which stage of the logistical process is order processing?",
+      "type": "mcq",
+      "options": [
+        "A) The final stage",
+        "B) The second stage",
+        "C) The first stage",
+        "D) The third stage"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "Based on the question \"Which stage of the logistical ...\", the correct answer relates to A) The final stage. [AI verified]"
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-01-27T08:27:36.560Z"
+}

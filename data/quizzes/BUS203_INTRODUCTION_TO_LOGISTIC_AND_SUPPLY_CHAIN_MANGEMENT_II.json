@@ -1,0 +1,232 @@
+{
+  "courseCode": "BUS203",
+  "topic": "INTRODUCTION TO LOGISTIC AND SUPPLY CHAIN MANGEMENT II",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1769502517036,
+      "text": "Which stage of the logistical process is order processing?",
+      "type": "mcq",
+      "options": [
+        "A) The final stage",
+        "B) The second stage",
+        "C) The first stage",
+        "D) The third stage"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "Based on the question \"Which stage of the logistical ...\", the correct answer relates to C) The first stage. [AI verified]"
+    },
+    {
+      "id": 1769502553347,
+      "text": "The efficiency of order processing has a direct effect on:",
+      "type": "mcq",
+      "options": [
+        "A) Employee salaries",
+        "B) Lead times",
+        "C) Warehouse location",
+        "D) Vehicle maintenance"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769502610577,
+      "text": "How are orders typically received by a company?",
+      "type": "mcq",
+      "options": [
+        "A) Through the accounting department",
+        "B) From the sales team through the sales department",
+        "C) Directly from the transport driver",
+        "D) From the warehouse manager"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "Based on the question \"How are orders typically recei...\", the correct answer relates to B) From the sales team through the sales department. [AI verified]"
+    },
+    {
+      "id": 1769502947325,
+      "text": "Many companies establish regular supply routes that remain stable over time, provided that:",
+      "type": "mcq",
+      "options": [
+        "The supplier performs satisfactorily",
+        " The inventory levels are zero",
+        "The credit check fails",
+        " The customer pays in advance"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769502948978,
+      "text": "Which activity is NOT listed as one of the four major activities of order processing?",
+      "type": "mcq",
+      "options": [
+        "Designing new products",
+        " Adjusting inventory records",
+        " Locating the item and shipping",
+        " A credit check"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769503151287,
+      "text": "In order processing, what is done after a sale is recorded (such as crediting a commission account)?",
+      "type": "mcq",
+      "options": [
+        " Making the appropriate accounting entries",
+        "Drawing up a new contract",
+        "Negotiating with the sales team",
+        " Changing the supply route"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769517502243,
+      "text": "Inventory control analysts have developed a number of techniques which can help small businesses control inventory effectively, and  The most basic is the ",
+      "type": "mcq",
+      "options": [
+        "Economic Order Quantity (EOQ) model",
+        "stocks management system ",
+        "Inventory Managemt System",
+        "Economic Order Quality (EOQ) model"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769517737298,
+      "text": "EOQ model  involves a trade-off between the two fundamental components of a/an",
+      "type": "mcq",
+      "options": [
+        " inventory-carrying cost",
+        "order-processing cost",
+        "inventory production cost",
+        "inventory control cost"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769518241014,
+      "text": "The principal components of logistics are the following except",
+      "type": "mcq",
+      "options": [
+        "Transportation.",
+        "Warehousing;",
+        "Order processing;",
+        "goods production"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769518418533,
+      "text": "In summary, inventory management:\n1. Managing stock levels to meet demand without overstocking or\nunderstocking.\n2. Involves tracking inventory, forecasting demand, and reordering stock as\nneeded.\n3. Inventory control techniques include Just-In-Time (JIT), Economic Order\nQuantity (EOQ), and ABC Analysis.\n4. \n",
+      "type": "mcq",
+      "options": [
+        "",
+        "",
+        "",
+        "Effective inventory control maximizes holding costs, reduces stockouts, and maintains service levels."
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "Effective inventory control maximizes holding costs, reduces stockouts, and maintains service levels. is wrong but it \nEffective inventory control MINIMIZES holding costs, reduces stockouts, and maintains service levels. "
+    },
+    {
+      "id": 1769518591558,
+      "text": "the process of which goods are being distributed from the producer to the consumer",
+      "type": "mcq",
+      "options": [
+        "Transportation",
+        "route planning",
+        " carrier selection",
+        " fleet management"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769518878782,
+      "text": "Costs can be carefully controlled through the mode of transport selected amongst alternatives ",
+      "type": "mcq",
+      "options": [
+        "true",
+        "false",
+        "none of the above",
+        "all of the  above"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769518938193,
+      "text": "the flow of material, information, and money between countries is ........................",
+      "type": "mcq",
+      "options": [
+        "international trade",
+        "international logistics",
+        "global logistics",
+        "globalization"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769519489347,
+      "text": "Key Benefits of Logistics and Supply Chain Management They are as follows execpt",
+      "type": "mcq",
+      "options": [
+        "Develops better customer relationship and service. ",
+        "Creates better delivery mechanisms for products and services in demand with minimum delay.",
+        ". Improvises productivity and business functions.",
+        "creates  warehouse and transportation profit."
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1769520901624,
+      "text": "which of the following isn't a key component of supply chain",
+      "type": "mcq",
+      "options": [
+        "suppliers",
+        "company",
+        "producer",
+        "distributors"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-01-27T13:37:24.381Z"
+}

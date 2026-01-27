@@ -1,0 +1,400 @@
+{
+    "courseCode": "BUS203",
+    "topic": "Warehousing in Logistics and Supply Chain Management",
+    "marks": "100",
+    "timeLimit": "40",
+    "quizType": "mcq",
+    "questions": [
+        {
+            "id": 1738000000201,
+            "text": "What is the primary definition of warehousing in supply chain management?",
+            "type": "mcq",
+            "options": [
+                "The process of manufacturing goods for sale",
+                "The storage of goods until they are needed by the consumer or for further production",
+                "The transportation of goods between countries",
+                "The marketing of products to potential buyers"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Warehousing is primarily about the safe storage of goods until they are required in the supply chain."
+        },
+        {
+            "id": 1738000000202,
+            "text": "Which four specific activities are considered part of the warehousing process?",
+            "type": "mcq",
+            "options": [
+                "Buying, selling, advertising, and auditing",
+                "Hiring, training, supervising, and firing",
+                "Receiving, storing, handling, and distributing",
+                "Designing, engineering, testing, and shipping"
+            ],
+            "correctOption": 2,
+            "answer": "",
+            "explanation": "These four activities form the core workflow of any warehouse operation."
+        },
+        {
+            "id": 1738000000203,
+            "text": "What is the ultimate goal of storing goods safely until they are needed?",
+            "type": "mcq",
+            "options": [
+                "To increase the market price of the items",
+                "To ensure products are available at the right time and in the right condition",
+                "To hide products from competitors",
+                "To satisfy building fire codes"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "The goal is to maintain utility and availability for the end customer or next stage of production."
+        },
+        {
+            "id": 1738000000204,
+            "text": "How do warehouses protect goods from damage or theft?",
+            "type": "mcq",
+            "options": [
+                "By keeping them in outdoor open-air lots",
+                "Through controlled environments, physical security, and organized shelving",
+                "By insuring them but leaving them unguarded",
+                "By constantly moving them from one truck to another"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Proper infrastructure and security protocols are essential for asset protection in warehousing."
+        },
+        {
+            "id": 1738000000205,
+            "text": "What is the advantage of consolidating large quantities of goods in one facility?",
+            "type": "mcq",
+            "options": [
+                "It makes it easier for thieves to target all items at once",
+                "It achieves economies of scale and reduces transportation costs through bulk shipping",
+                "It complicates the tracking of individual items",
+                "It increases the total amount of paperwork required"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Consolidation allows businesses to ship in larger, more cost-effective batches."
+        },
+        {
+            "id": 1738000000206,
+            "text": "How does warehousing help businesses meet customer demand during peak seasons?",
+            "type": "mcq",
+            "options": [
+                "By slowing down deliveries to spread out the work",
+                "By allowing them to build up inventory in advance to prepare for surges",
+                "By charging higher prices to reduce the number of orders",
+                "By hiring more salespeople instead of warehouse staff"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Warehousing provides the space to store 'pre-build' stock for holidays or busy periods."
+        },
+        {
+            "id": 1738000000207,
+            "text": "How does warehousing provide value-added services?",
+            "type": "mcq",
+            "options": [
+                "By increasing the base cost of every item",
+                "By performing tasks like packaging, labeling, and light assembly within the facility",
+                "By reducing the quality of the products to save time",
+                "By delaying shipments as long as possible"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Modern warehouses often perform final product customization before shipping to customers."
+        },
+        {
+            "id": 1738000000208,
+            "text": "What characterizes a 'Public Warehouse'?",
+            "type": "mcq",
+            "options": [
+                "It is owned by the government for public use",
+                "It is operated by a third party and offers flexible space to many different businesses",
+                "It is a warehouse that is open for retail customers to walk in and shop",
+                "It is free for anyone to use without any fees"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Public warehouses are a flexible, cost-effective option for businesses that don't want to own their own space."
+        },
+        {
+            "id": 1738000000209,
+            "text": "What is the primary difference between a Private and a Public warehouse?",
+            "type": "mcq",
+            "options": [
+                "Private warehouses are always larger",
+                "Public warehouses are owned by the business that stores the goods",
+                "Private warehouses are owned and operated by the company storing their own goods",
+                "There is no functional difference between them"
+            ],
+            "correctOption": 2,
+            "answer": "",
+            "explanation": "Private warehousing involves the company owning the building and managing its own operations."
+        },
+        {
+            "id": 1738000000210,
+            "text": "What is the role of a 'Bonded Warehouse' in international trade?",
+            "type": "mcq",
+            "options": [
+                "To store only luxury goods like diamonds and gold",
+                "To store imported goods until customs duties are paid or the goods are exported",
+                "To provide a place for dock workers to sleep",
+                "To manufacture goods that will be sold locally"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Bonded warehouses allow companies to defer tax payments until the goods are officially entered into the local market."
+        },
+        {
+            "id": 1738000000211,
+            "text": "What is the main function of a 'Distribution Center'?",
+            "type": "mcq",
+            "options": [
+                "Long-term storage of items for several decades",
+                "Efficient and rapid movement of goods to customers",
+                "Acting as a museum for historical products",
+                "Housing corporate executives and sales teams"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Distribution centers focus on high turnover and getting products to the end-user quickly."
+        },
+        {
+            "id": 1738000000212,
+            "text": "What factor must be considered in warehouse layout design to ensure efficiency?",
+            "type": "mcq",
+            "options": [
+                "The proximity to several high-end shopping malls",
+                "Product flow, space utilization, and speed of access",
+                "The aesthetic appeal of the exterior landscaping",
+                "The age of the neighboring buildings"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Good design minimizes travel time and maximizes the use of available cube space."
+        },
+        {
+            "id": 1738000000213,
+            "text": "What are the benefits of automation technologies like AS/RS or AGVs?",
+            "type": "mcq",
+            "options": [
+                "They increase the need for manual paperwork",
+                "They improve speed, reduce labor costs, and increase accuracy",
+                "They are cheaper to install than a simple wooden shelf",
+                "They require no maintenance or electricity"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Automation streamlines repetitive tasks and reduces the likelihood of human error."
+        },
+        {
+            "id": 1738000000214,
+            "text": "How do Warehouse Management Systems (WMS) improve accuracy?",
+            "type": "mcq",
+            "options": [
+                "By providing real-time data on inventory levels and exact locations",
+                "By replacing all humans with robotic guards",
+                "By limiting the number of items that can be stored",
+                "By making the labels more colorful"
+            ],
+            "correctOption": 0,
+            "answer": "",
+            "explanation": "A WMS provides digitally tracked visibility into every item's movement and status."
+        },
+        {
+            "id": 1738000000215,
+            "text": "What are the three categories of warehouse security measures?",
+            "type": "mcq",
+            "options": [
+                "North, South, and Central security",
+                "Physical, Personnel, and Software-based measures",
+                "Water, Earth, and Fire defenses",
+                "Visible, Invisible, and Electronic measures"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "A comprehensive security strategy addresses the building, the staff, and the digital systems."
+        },
+        {
+            "id": 1738000000216,
+            "text": "What is an example of a software-based security measure for a warehouse?",
+            "type": "mcq",
+            "options": [
+                "A heavy-duty padlock on the front gate",
+                "Data encryption, firewalls, and intrusion detection systems",
+                "Background checks for all new hires",
+                "A fence topped with barbed wire"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Software security protects information systems and prevents unauthorized digital access."
+        },
+        {
+            "id": 1738000000217,
+            "text": "Which of the following activities is NOT part of the standard warehousing process?",
+            "type": "mcq",
+            "options": [
+                "Receiving goods",
+                "Handling goods",
+                "Manufacturing goods",
+                "Distributing goods"
+            ],
+            "correctOption": 2,
+            "answer": "",
+            "explanation": "Warehousing involves receiving, storing, handling, and distributing goods, but not manufacturing them."
+        },
+        {
+            "id": 1738000000218,
+            "text": "What is a primary advantage of using a 'Public Warehouse'?",
+            "type": "mcq",
+            "options": [
+                "It is owned and operated by the business using it",
+                "It offers flexibility and is cost-effective for businesses with varying needs",
+                "It is used exclusively for long-term storage of hazardous materials",
+                "It allows for the deferment of customs duties"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Public warehouses are operated by third-party companies and offer flexibility for businesses with changing storage requirements."
+        },
+        {
+            "id": 1738000000219,
+            "text": "Which type of warehouse is used specifically to store imported goods until customs duties are paid?",
+            "type": "mcq",
+            "options": [
+                "Distribution Center",
+                "Private Warehouse",
+                "Bonded Warehouse",
+                "Climate-Controlled Warehouse"
+            ],
+            "correctOption": 2,
+            "answer": "",
+            "explanation": "Bonded warehouses are used to store imported goods until the required customs duties have been paid."
+        },
+        {
+            "id": 1738000000220,
+            "text": "What is the main objective of a 'Distribution Center'?",
+            "type": "mcq",
+            "options": [
+                "Long-term storage of raw materials",
+                "Rapid movement and distribution of goods to customers",
+                "Storing goods only for government use",
+                "Protecting goods from climate changes only"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Distribution centers are designed for the efficient and rapid distribution of goods to customers."
+        },
+        {
+            "id": 1738000000221,
+            "text": "In warehouse design, what is the purpose of considering 'Product Flow'?",
+            "type": "mcq",
+            "options": [
+                "To ensure goods move efficiently from receiving to shipping",
+                "To determine the color of the warehouse walls",
+                "To increase the price of the products",
+                "To limit the number of employees in the facility"
+            ],
+            "correctOption": 0,
+            "answer": "",
+            "explanation": "Design must consider product flow to ensure that goods move through the facility with minimal disruption."
+        },
+        {
+            "id": 1738000000222,
+            "text": "Which technology is used to automatically move goods through a warehouse without human intervention?",
+            "type": "mcq",
+            "options": [
+                "Manual Pallet Jacks",
+                "Automated Guided Vehicles (AGVs)",
+                "Paper-based filing systems",
+                "Handheld clipboards"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Automation technologies like AGVs can move goods through the warehouse automatically."
+        },
+        {
+            "id": 1738000000223,
+            "text": "What is an example of a 'Software-based' security measure?",
+            "type": "mcq",
+            "options": [
+                "Perimeter fencing",
+                "Security guards",
+                "Data encryption systems",
+                "Deadbolt locks"
+            ],
+            "correctOption": 2,
+            "answer": "",
+            "explanation": "Software-based measures include data encryption, firewalls, and intrusion detection systems."
+        },
+        {
+            "id": 1738000000224,
+            "text": "How does a Warehouse Management System (WMS) contribute to efficiency?",
+            "type": "mcq",
+            "options": [
+                "By reducing the need for any storage racks",
+                "By providing real-time data on inventory levels and locations",
+                "By physical guarding the entrance",
+                "By paying customs duties automatically"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "A WMS helps businesses track inventory in real-time and manage storage locations more accurately."
+        },
+        {
+            "id": 1738000000225,
+            "text": "How does a 'Climate-Controlled Warehouse' protect specialized goods?",
+            "type": "mcq",
+            "options": [
+                "By maintaining specific temperature and humidity levels",
+                "By keeping them far away from any other products",
+                "By using special guards with climate training",
+                "By only shipping them during winter"
+            ],
+            "correctOption": 0,
+            "answer": "",
+            "explanation": "Items like pharmaceuticals and electronics require strict environment controls to remain viable."
+        },
+        {
+            "id": 1738000000226,
+            "text": "What is a 'reorder point' in the context of warehouse inventory?",
+            "type": "mcq",
+            "options": [
+                "The time when a manager decides to retire",
+                "The inventory level that signals a need for replenishment",
+                "The back door used for outgoing shipments",
+                "The maximum capacity of the warehouse"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Reorder points prevent stockouts by triggering replenishment at a pre-calculated safety level."
+        },
+        {
+            "id": 1738000000227,
+            "text": "Why is personnel security considered a critical measure?",
+            "type": "mcq",
+            "options": [
+                "To make employees feel more important",
+                "To prevent internal theft and ensure staff are trained in safety protocols",
+                "To increase the cost of hiring",
+                "To replace the need for physical locks"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Trusted, well-trained staff are the first line of defense in maintaining warehouse integrity."
+        }
+    ],
+    "tableData": {
+        "headers": [
+            "",
+            ""
+        ],
+        "rows": [
+            [
+                "",
+                ""
+            ]
+        ]
+    },
+    "createdAt": "2026-01-27T15:44:25Z"
+}

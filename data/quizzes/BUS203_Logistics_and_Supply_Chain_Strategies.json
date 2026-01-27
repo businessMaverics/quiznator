@@ -1,0 +1,134 @@
+{
+    "courseCode": "BUS203",
+    "topic": "Logistics and Supply Chain Strategies",
+    "marks": "100",
+    "timeLimit": "30",
+    "quizType": "mcq",
+    "questions": [
+        {
+            "id": 1738000000001,
+            "text": "Which strategy involves producing or stocking goods only when there is genuine demand from customers?",
+            "type": "mcq",
+            "options": [
+                "Push Strategy",
+                "Pull Strategy",
+                "Vendor Managed Inventory (VMI)",
+                "Cross-Docking"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Pull strategies involve only manufacturing or keeping products on hand when there is a genuine demand."
+        },
+        {
+            "id": 1738000000002,
+            "text": "What is a primary drawback of a \"Push Strategy\"?",
+            "type": "mcq",
+            "options": [
+                "Delays in processing orders",
+                "Higher fees from third-party providers",
+                "Potential for overstocking and increased inventory costs",
+                "Loss of control over the process"
+            ],
+            "correctOption": 2,
+            "answer": "",
+            "explanation": "The drawback of push strategies is that they may result in overstocking, which increases inventory costs."
+        },
+        {
+            "id": 1738000000003,
+            "text": "In which type of strategy does a third-party provider act as an integrator for the entire supply chain management procedure?",
+            "type": "mcq",
+            "options": [
+                "Third-Party Logistics (3PL)",
+                "Cross-Docking",
+                "Just-in-Time (JIT)",
+                "Fourth-Party Logistics (4PL)"
+            ],
+            "correctOption": 3,
+            "answer": "",
+            "explanation": "4PL involves outsourcing the entire process to an outside company that serves as an integrator of various service providers."
+        },
+        {
+            "id": 1738000000004,
+            "text": "What is the main advantage of using Cross-Docking strategies?",
+            "type": "mcq",
+            "options": [
+                "Reducing the need for storage space",
+                "Accessing specialized knowledge",
+                "Improving data security",
+                "Ensuring high-speed air transport"
+            ],
+            "correctOption": 0,
+            "answer": "",
+            "explanation": "This strategy has the advantage of assisting businesses in lowering inventory costs by removing the need for storage space between shipments."
+        },
+        {
+            "id": 1738000000005,
+            "text": "When designing an inventory management system, what factors are crucial to consider?",
+            "type": "mcq",
+            "options": [
+                "Political figure endorsements",
+                "Warehouse size and the type of products being stored",
+                "Only the fastest mode of transportation",
+                "Minimizing all customer service contact"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "It is crucial to consider the size of the storage facility and the type of products being stored."
+        },
+        {
+            "id": 1738000000006,
+            "text": "Which type of risk is most frequent in logistics and supply chain management?",
+            "type": "mcq",
+            "options": [
+                "Financial Risk",
+                "Environmental Risk",
+                "Operational Risk",
+                "Legal Risk"
+            ],
+            "correctOption": 2,
+            "answer": "",
+            "explanation": "Operational risk is the most frequent kind of risk in logistics and supply chain management."
+        },
+        {
+            "id": 1738000000007,
+            "text": "A successful strategic plan must include which of the following?",
+            "type": "mcq",
+            "options": [
+                "A concise vision statement",
+                "An evaluation of the current environment",
+                "A schedule for implementation and regular reviews",
+                "All of the above"
+            ],
+            "correctOption": 3,
+            "answer": "",
+            "explanation": "A successful strategy should have a distinct vision statement, an evaluation of the environment, thorough tactics, a timetable, and regular reviews."
+        },
+        {
+            "id": 1738000000008,
+            "text": "What does \"Reverse Logistics\" specifically handle?",
+            "type": "mcq",
+            "options": [
+                "Moving goods from origin to consumer",
+                "Returns management, such as product repair or disposal",
+                "Air freight regulations",
+                "Managing the stock levels of clients"
+            ],
+            "correctOption": 1,
+            "answer": "",
+            "explanation": "Reverse logistics outsourcing entails contracting out tasks related to returns management, like repair or disposal."
+        }
+    ],
+    "tableData": {
+        "headers": [
+            "",
+            ""
+        ],
+        "rows": [
+            [
+                "",
+                ""
+            ]
+        ]
+    },
+    "createdAt": "2026-01-27T15:27:40Z"
+}
