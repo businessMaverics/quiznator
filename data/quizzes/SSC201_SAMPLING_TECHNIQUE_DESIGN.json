@@ -1,0 +1,170 @@
+{
+  "courseCode": "SSC201",
+  "topic": "SAMPLING TECHNIQUE/DESIGN",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1770808067155,
+      "text": " a subset of a population selected to meet specific objectives is known as ",
+      "type": "mcq",
+      "options": [
+        "a sample ",
+        "data",
+        "value",
+        "variable"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770808621517,
+      "text": "a sampling procedure which involves dividing the population into a number of non-overlapping sub-populations  is known as ",
+      "type": "mcq",
+      "options": [
+        "Stratified Sampling",
+        " Systematic Sampling",
+        "Simple Random Sampling",
+        "Cluster Sampling"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770808688731,
+      "text": "a sampling technique  in which the element in the target population are selected in group rather than\nindividually is known as ",
+      "type": "mcq",
+      "options": [
+        "Stratified Sampling",
+        " Systematic Sampling",
+        "Simple Random Sampling",
+        "Cluster Sampling"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770808808205,
+      "text": "the sampling technique  often used when the elements in the population are not easily identified individually\nbut are grouped is the",
+      "type": "mcq",
+      "options": [
+        "Stratified Sampling",
+        " Systematic Sampling",
+        "Simple Random Sampling",
+        "Cluster Sampling"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    }
+  ],
+  "createdAt": "2026-02-11T11:29:54.495Z"
+}

@@ -1,0 +1,450 @@
+{
+  "courseCode": "SSC201",
+  "topic": "NATURE AND OBJECTIVES OF STATISTICS ",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1770801505362,
+      "text": "decision-making is very crucial to every human being and However, these decisions are made based on numerical information called ............",
+      "type": "mcq",
+      "options": [
+        "fact",
+        "wants",
+        "need ",
+        "data"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770801605883,
+      "text": "The aspect of making a decision based on numerical information is called",
+      "type": "mcq",
+      "options": [
+        "data representation ",
+        "data implementation ",
+        "data analysis ",
+        "statistic "
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770801694100,
+      "text": " a science which deals with the collection, analysis, and interpretation of numerical data is ",
+      "type": "mcq",
+      "options": [
+        "hypothesis ",
+        "research ",
+        "statistics ",
+        "data"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770801768372,
+      "text": "statistics can be defined according to different scholars  as the following execpt",
+      "type": "mcq",
+      "options": [
+        "Statistics is a science which deals with the collection, analysis, and interpretation of numerical data",
+        "statistics is a science that deals with the collection, compilation, analysing, summarisation, presentation, and interpretation of data",
+        "statistics is hypothesis ",
+        " Statistics is concerned with a method for treating numerical data that have been collected in observation taken in the form of measurement or count so that meaningful conclusions are drawn from such data."
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770801899954,
+      "text": "in which order does statistic follows \ni. Collection of data\nii. Presentation of data\niii. Organisation of data\niv. Analysis of data",
+      "type": "mcq",
+      "options": [
+        "i, iii, ii and iv",
+        "i, ii, iii, and iv",
+        "i, iii,iv, and ii",
+        "none of the above"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770802187113,
+      "text": "The last stage in statistical investigation is ",
+      "type": "mcq",
+      "options": [
+        "Interpretation of data",
+        "Analysis of data",
+        "Presentation of data",
+        " Organisation of data"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770802301725,
+      "text": "This is the aspect of statistics that describes and summarizes a set of data in\norder to make them readily comprehensible is known as ",
+      "type": "mcq",
+      "options": [
+        "Inferential Statistics",
+        "Descriptive Statistics",
+        "simple statistics ",
+        "organized data"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770802507272,
+      "text": " the process of reaching generalization about the whole  by examining a portion is known as",
+      "type": "mcq",
+      "options": [
+        "partial statistics ",
+        "Inferential Statistics",
+        "Descriptive Statistics",
+        "model statistic "
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770802787735,
+      "text": "",
+      "type": "mcq",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770802881492,
+      "text": " a feature of a population that helps to summaries information about the population with regards to the variable under study is ",
+      "type": "mcq",
+      "options": [
+        "Parameter",
+        "variable ",
+        "census ",
+        "analysis "
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770802978966,
+      "text": "These are the set of recorded observations made on a sample",
+      "type": "mcq",
+      "options": [
+        "variable",
+        "data",
+        "value",
+        "analyisis"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    }
+  ],
+  "createdAt": "2026-02-11T09:44:20.205Z"
+}

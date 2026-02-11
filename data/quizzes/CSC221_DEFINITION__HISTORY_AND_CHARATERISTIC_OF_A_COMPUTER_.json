@@ -1,0 +1,368 @@
+{
+  "courseCode": "CSC221",
+  "topic": "DEFINITION, HISTORY AND CHARATERISTIC OF A COMPUTER ",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1770533969615,
+      "text": " any device, which aids humans in performing various kinds of tasks including\ncomputations or calculations amongst others is",
+      "type": "mcq",
+      "options": [
+        "laptop",
+        "analog computer",
+        "digital computer",
+        "computer"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "Based on the question \" any device, which aids humans...\", the correct answer relates to laptop. [AI verified]"
+    },
+    {
+      "id": 1770534086756,
+      "text": "which type of computer supports some form of input, processing, and\noutput",
+      "type": "mcq",
+      "options": [
+        "analog computer",
+        "hybrid computer ",
+        "digital computer",
+        "all of the above"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "Based on the question \"which type of computer support...\", the correct answer relates to all of the above. [AI verified]"
+    },
+    {
+      "id": 1770534189727,
+      "text": "all computer depends on ...........",
+      "type": "mcq",
+      "options": [
+        "eletricity ",
+        "complex numerical calculation",
+        "basic numerical calculations",
+        "BODMAS"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770534321273,
+      "text": "a characteristic of Computer which makes it  capable of performing millions of tasks per second",
+      "type": "mcq",
+      "options": [
+        "Speed",
+        "Accurac",
+        "Multitaskin",
+        "Reliability"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "Based on the question \"a characteristic of Computer w...\", the correct answer relates to Speed. [AI verified]"
+    },
+    {
+      "id": 1770534460389,
+      "text": "Another characteristic of computers which makes a user can do different\ntypes of tasks on the computer at the same time. ",
+      "type": "mcq",
+      "options": [
+        "reliability ",
+        " Versatility",
+        "Multitasking",
+        "accuracy"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770534596968,
+      "text": "Early computers uses",
+      "type": "mcq",
+      "options": [
+        "binary digit",
+        "punch card",
+        "analog calculator ",
+        "zeros and one"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770534708036,
+      "text": "the founding CEO of  IBM is ",
+      "type": "mcq",
+      "options": [
+        "Joseph Marie",
+        "Charles Babbage",
+        "Herman Hollerith",
+        "Alan Turing"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770534822848,
+      "text": "the Two University of Pennsylvania professors that build the Electronic Numerical Integrator and Calculator (ENIAC)",
+      "type": "mcq",
+      "options": [
+        " J.V. Atanasoff",
+        "David Packard and Bill Hewlett",
+        "Atanasoff and Clifford Berry",
+        "John Mauchly and J. Presper Eckert"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770534995967,
+      "text": "the first computer language is  known as",
+      "type": "mcq",
+      "options": [
+        "HTML",
+        "COBOL",
+        "PYTHON ",
+        "ENIVAC"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770535076518,
+      "text": " The FORTRAN programming language, an acronym for",
+      "type": "mcq",
+      "options": [
+        " FORmula TRANslation",
+        "First Order Recoil TRANsistors ",
+        "FORmation of TRANsistors",
+        "none of the above"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770535221417,
+      "text": "the first integrated circuit was unveild in  the year",
+      "type": "mcq",
+      "options": [
+        "1958",
+        "1953",
+        "1999",
+        "1960s"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770535292546,
+      "text": " who unveil the integrated circuit",
+      "type": "mcq",
+      "options": [
+        "Jack Kilby ",
+        "Robert Noyce",
+        "none of the above ",
+        "both I and II"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770535365356,
+      "text": " UNIX, an operating system that addressed compatibility issues was written in the ",
+      "type": "mcq",
+      "options": [
+        "phyton  programming language ",
+        "BIN  programming language",
+        "C programming language",
+        "FORTRAN  programming language"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770535463845,
+      "text": "he first Dynamic Access Memory (DRAM) chip was unveil by",
+      "type": "mcq",
+      "options": [
+        "IBM",
+        "Howlet Packard",
+        "INTEL",
+        "Bells lab"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770618345663,
+      "text": "a device made of beads strung on wires that was developed and was for adding and subtracting  was the ",
+      "type": "mcq",
+      "options": [
+        "TYING KNOTS",
+        "NAPIER's Boxes",
+        "CARVING MARKS",
+        "ABACUS "
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770618578607,
+      "text": "the first generation of computers relied on",
+      "type": "mcq",
+      "options": [
+        "test tube",
+        "vaccume tube",
+        "transistors",
+        "light bulb"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770618693754,
+      "text": "The first generation computers were all execpt",
+      "type": "mcq",
+      "options": [
+        "huge",
+        "slow",
+        "expensive",
+        " dependable"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770618808724,
+      "text": "what is the full acronym UNIVAC",
+      "type": "mcq",
+      "options": [
+        "UNIt VAcume Computer",
+        "UNIVersal Automatic Computer",
+        "UNIVersal VAccume Calculator",
+        "UNIfied VAriable Calculator"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770619049238,
+      "text": "the  internal storage for the first generation computer was the ",
+      "type": "mcq",
+      "options": [
+        "magnetic drum",
+        "transistors ",
+        "vaccume tube",
+        "punch card"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770619122194,
+      "text": "the second generation period lasted ",
+      "type": "mcq",
+      "options": [
+        " 1959 - 1964",
+        "1955-1959",
+        "1945 - 1955",
+        "1964-1975"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770619462572,
+      "text": "One transistor replaced the equivalent of how many vacuum tubes?",
+      "type": "mcq",
+      "options": [
+        "10",
+        "20",
+        "40",
+        "60"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770619706259,
+      "text": "the third generation of computer brought about ",
+      "type": "mcq",
+      "options": [
+        "vaccume tube",
+        "small computer",
+        "integrated circuits",
+        "COBOL "
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770620204832,
+      "text": ".................. help prepare document like reports and lettere",
+      "type": "mcq",
+      "options": [
+        "word processing system",
+        "arithmetic logic unit",
+        "operating system",
+        "CPU"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770620280349,
+      "text": " tapes and disk are examples of ",
+      "type": "mcq",
+      "options": [
+        "secondary storage system ",
+        "tertiary storage system  ",
+        "primary storage system ",
+        "removable storage system "
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-02-09T07:01:37.592Z"
+}

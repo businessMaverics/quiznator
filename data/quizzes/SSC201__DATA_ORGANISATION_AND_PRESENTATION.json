@@ -1,0 +1,442 @@
+{
+  "courseCode": "SSC201",
+  "topic": " DATA ORGANISATION AND PRESENTATION",
+  "marks": "100",
+  "timeLimit": "20",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1770804411310,
+      "text": "Find the relative frequency for A, B, and C",
+      "type": "mcq",
+      "options": [
+        "13, .26, 2",
+        "13, .40, 1.0",
+        "13, .22, 1.0",
+        "NONE OF THE ABOVE"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": true,
+      "tableData": {
+        "headers": [
+          "score",
+          "frequency",
+          "relative frequency"
+        ],
+        "rows": [
+          [
+            "60 - 62",
+            "1",
+            "0.02"
+          ],
+          [
+            "63 - 65",
+            "2",
+            "0.04"
+          ],
+          [
+            "66-68",
+            "A",
+            "0.26"
+          ],
+          [
+            "69-71",
+            "20",
+            "B"
+          ],
+          [
+            "72-74",
+            "11",
+            "0.22"
+          ],
+          [
+            "75-77",
+            "3",
+            "0.06"
+          ],
+          [
+            "total ",
+            "50",
+            "C"
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770804559650,
+      "text": "data can be classified based on",
+      "type": "mcq",
+      "options": [
+        "chronology",
+        "quality of data ",
+        "both i and ii",
+        "only ii"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770805699162,
+      "text": " a table from which further analysis could be made is known as",
+      "type": "mcq",
+      "options": [
+        "working table",
+        " Reference Table",
+        "simple table",
+        "special purpose table"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770806116945,
+      "text": "a table in which possible values for variables are grouped into classes and the number of observed values that belong to each class is recorded is known as",
+      "type": "mcq",
+      "options": [
+        "frequency distribution ",
+        "values observation ",
+        "hypothesis testing ",
+        "statistical observation "
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770806254129,
+      "text": "in grouped data, the range of values included in each class in indicated by the",
+      "type": "mcq",
+      "options": [
+        "inclusive class interval ",
+        "exclusive class interval ",
+        "class interval",
+        "all of the above"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770806372642,
+      "text": "a circle divided into sectors is known as ",
+      "type": "mcq",
+      "options": [
+        "sector chart",
+        "arc chart ",
+        "bar chat ",
+        "pie chart "
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770807035521,
+      "text": " by joining the mid-point of the tops of rectangles of the\nhistogram we can obtain a",
+      "type": "mcq",
+      "options": [
+        "accurate histogram ",
+        "perfect data representation ",
+        "i dont know",
+        "frequency polygon"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770807209013,
+      "text": "Calculate the mean mark of the students using the step-deviation or direct method.",
+      "type": "mcq",
+      "options": [
+        "24.8",
+        "30",
+        "24.70",
+        "24.1"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": true,
+      "tableData": {
+        "headers": [
+          "Marks (Class Interval)",
+          "Frequency"
+        ],
+        "rows": [
+          [
+            "0-10",
+            "4"
+          ],
+          [
+            "11-20",
+            "6"
+          ],
+          [
+            "21-30",
+            "10"
+          ],
+          [
+            "31-40",
+            "8"
+          ],
+          [
+            "41-50",
+            "2"
+          ],
+          [
+            "51-60",
+            "0"
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1770807926139,
+      "text": "Consider the grouped frequency distribution below.\n\nUsing the arithmetic mean formula for grouped data:\n\n\\[ \\bar{X} = \\frac{\\sum fX}{\\sum f} \\]\n\nwhere \\(X\\) represents the class midpoint, calculate the mean of the distribution.",
+      "type": "mcq",
+      "options": [
+        "\\( \\displaystyle 23.50 \\)",
+        "\\( \\displaystyle 24.77 \\)",
+        "\\( \\displaystyle 25.33 \\)",
+        "\\( \\displaystyle 26.10 \\)"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "Mean = Sum(fX) / Sum(f) = 743 / 30 = 24.766...",
+      "includeTable": true,
+      "tableData": {
+        "headers": [
+          "Class Interval",
+          "Frequency"
+        ],
+        "rows": [
+          [
+            "0-10",
+            "4"
+          ],
+          [
+            "11-20",
+            "6"
+          ],
+          [
+            "21-30",
+            "10"
+          ],
+          [
+            "31-40",
+            "8"
+          ],
+          [
+            "41-50",
+            "2"
+          ],
+          [
+            "51-60",
+            "0"
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    }
+  ],
+  "createdAt": "2026-02-11T11:07:02.461Z"
+}

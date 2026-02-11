@@ -2,9 +2,10 @@
 
 import React, { useState, useEffect, use } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, ArrowLeft, CheckCircle, XCircle, RefreshCw, BookOpen, Clock } from "lucide-react";
+import { ArrowRight, ArrowLeft, CheckCircle, XCircle, RefreshCw, BookOpen, Clock, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { MathJaxContext, MathJax } from "better-react-mathjax";
 
 export default function QuizRoom({ params }) {
     // Use React.use() to unwrap params in Next.js 15+ (if applicable), or just access directly if older.
@@ -29,6 +30,14 @@ export default function QuizRoom({ params }) {
         card: "bg-white text-black",
     };
 
+    const mathJaxConfig = {
+        loader: { load: ["input/tex", "output/chtml"] },
+        tex: {
+            inlineMath: [["$", "$"], ["\\(", "\\)"]],
+            displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+        },
+    };
+
     useEffect(() => {
         async function fetchQuiz() {
             try {
@@ -48,7 +57,11 @@ export default function QuizRoom({ params }) {
 
                 // 2. Timer Setup (minutes -> seconds)
                 if (quiz.timeLimit) {
-                    setTimeLeft(parseInt(quiz.timeLimit) * 60);
+                    let totalSeconds = parseInt(quiz.timeLimit) * 60;
+                    // Auto-expand timer for table questions (Add 5 min per table)
+                    const tableCount = qList.filter(q => q.isTableAnswer || q.includeTable).length;
+                    totalSeconds += (tableCount * 5 * 60);
+                    setTimeLeft(totalSeconds);
                 }
 
                 setLoading(false);
@@ -130,27 +143,40 @@ export default function QuizRoom({ params }) {
 
     const calculateScore = () => {
         let newScore = 0;
+        let totalPossible = 0;
+
         questions.forEach(q => {
             const uAns = userAnswers[q.id];
+
+            if (q.isTableAnswer) {
+                totalPossible += 100;
+                if (typeof uAns === 'object' && uAns !== null) {
+                    // Gradual grading for table: 
+                    // Give points based on percentage of rows that have at least one cell filled
+                    const filledRows = uAns.rows?.filter(r => r.some(c => c && c.trim())).length || 0;
+                    const totalRows = uAns.rows?.length || 1;
+                    newScore += Math.floor((filledRows / totalRows) * 100);
+                }
+                return;
+            }
+
+            totalPossible += 1;
             if (q.type === 'mcq') {
                 if (uAns === q.correctOption) newScore++;
             } else {
-                // Fuzzy/AI Logic
-                const normalize = (str) => str?.toLowerCase().replace(/[^a-z0-9]/g, '') || "";
+                // Fuzzy/AI Logic for regular text answers
+                const normalize = (str) => {
+                    if (typeof str !== 'string') return "";
+                    return str.toLowerCase().replace(/[^a-z0-9]/g, '') || "";
+                };
                 const uVal = normalize(uAns);
                 const cVal = normalize(q.answer);
 
                 if (!uVal) return; // empty
-
-                // 1. Direct
                 if (uVal === cVal) { newScore++; return; }
-
-                // 2. Levenshtein
                 const dist = levenshtein(uVal, cVal);
                 const maxLen = Math.max(uVal.length, cVal.length);
                 if (maxLen > 0 && (1 - dist / maxLen) >= 0.75) { newScore++; return; }
-
-                // 3. Keyword
                 if (cVal.length > 10) {
                     const words = q.answer.toLowerCase().split(/\s+/).filter(w => w.length > 3);
                     const uRaw = (uAns || "").toLowerCase();
@@ -162,6 +188,8 @@ export default function QuizRoom({ params }) {
             }
         });
         setScore(newScore);
+        // We'll store the total possible in the state if we want to show it easily
+        setQuizData(prev => ({ ...prev, totalPossiblePoints: totalPossible }));
     };
 
     const retakeQuiz = () => {
@@ -225,28 +253,30 @@ export default function QuizRoom({ params }) {
             });
 
             return (
-                <div className="space-y-4">
-                    {nonTablePrefix.map((l, i) => <p key={i}>{l}</p>)}
-                    <div className="overflow-x-auto my-6 rounded-xl border border-gray-200 shadow-sm">
-                        <table className="w-full text-sm text-left">
-                            <tbody className="divide-y divide-gray-100">
-                                {tableLines.map((row, rIdx) => (
-                                    <tr key={rIdx} className={rIdx === 0 ? "bg-blue-50/50 font-bold" : "hover:bg-gray-50/50 transition-colors"}>
-                                        {row.map((cell, cIdx) => (
-                                            <td key={cIdx} className="px-4 py-3 border-r last:border-0 border-gray-100">
-                                                {cell}
-                                            </td>
-                                        ))}
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
+                <MathJax>
+                    <div className="space-y-4">
+                        {nonTablePrefix.map((l, i) => <p key={i}>{l}</p>)}
+                        <div className="overflow-x-auto my-6 rounded-xl border border-gray-200 shadow-sm">
+                            <table className="w-full text-sm text-left">
+                                <tbody className="divide-y divide-gray-100">
+                                    {tableLines.map((row, rIdx) => (
+                                        <tr key={rIdx} className={rIdx === 0 ? "bg-blue-50/50 font-bold" : "hover:bg-gray-50/50 transition-colors"}>
+                                            {row.map((cell, cIdx) => (
+                                                <td key={cIdx} className="px-4 py-3 border-r last:border-0 border-gray-100">
+                                                    {cell}
+                                                </td>
+                                            ))}
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                </div>
+                </MathJax>
             );
         }
 
-        return <p className="whitespace-pre-line">{text}</p>;
+        return <MathJax><p className="whitespace-pre-line">{text}</p></MathJax>;
     };
 
     if (showResult) {
@@ -259,7 +289,7 @@ export default function QuizRoom({ params }) {
                 >
                     <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#4169E1]">Quiz Completed!</h1>
                     <div className="text-5xl md:text-6xl font-black mb-6">
-                        {score} / {questions.length}
+                        {score} / {quizData.totalPossiblePoints || questions.length}
                     </div>
                     <p className="text-gray-500 mb-4">
                         {score === questions.length ? "Perfect Score! 🌟" :
@@ -305,8 +335,22 @@ export default function QuizRoom({ params }) {
                                         </div>
                                     ) : (
                                         <div>
-                                            <p className="text-xs text-gray-500">Your Answer: <span className={userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase() ? "text-green-600" : "text-red-500"}>{userAnswers[q.id] || "No Answer"}</span></p>
-                                            <p className="text-xs text-green-600 font-bold">Correct Answer: {q.answer}</p>
+                                            <p className="text-xs text-gray-500">
+                                                Your Answer:{" "}
+                                                <span className={
+                                                    (typeof userAnswers[q.id] === 'string' && typeof q.answer === 'string' && userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase())
+                                                        ? "text-green-600"
+                                                        : q.isTableAnswer ? "text-blue-600" : "text-red-500"
+                                                }>
+                                                    {q.isTableAnswer ? "(Table Submitted)" : (userAnswers[q.id] || "No Answer")}
+                                                </span>
+                                            </p>
+                                            {!q.isTableAnswer && <p className="text-xs text-green-600 font-bold">Correct Answer: {q.answer}</p>}
+                                            {q.isTableAnswer && <p className="text-xs text-blue-600 font-bold">Points Earned: {
+                                                userAnswers[q.id] && typeof userAnswers[q.id] === 'object'
+                                                    ? Math.floor((userAnswers[q.id].rows?.filter(r => r.some(c => c && c.trim())).length / userAnswers[q.id].rows?.length) * 100)
+                                                    : 0
+                                            } / 100</p>}
                                         </div>
                                     )}
 
@@ -315,6 +359,26 @@ export default function QuizRoom({ params }) {
                                         <div className="mt-4 p-3 bg-blue-50 rounded-lg border-l-4 border-[#4169E1]">
                                             <p className="text-[11px] uppercase font-bold text-[#4169E1] mb-1">Explanation</p>
                                             <p className="text-xs text-gray-700 leading-relaxed">{q.explanation}</p>
+                                        </div>
+                                    )}
+
+                                    {/* Review Section - Correction View */}
+                                    {q.isTableAnswer && userAnswers[q.id] && (
+                                        <div className="mt-4 space-y-4">
+                                            <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-sm">
+                                                <p className="text-[10px] uppercase font-bold text-[#4169E1] mb-2 flex items-center gap-2">
+                                                    <Sparkles size={12} /> Pedagogical Correction View
+                                                </p>
+                                                <CorrectionTable userTable={userAnswers[q.id]} modelTable={q.answerTable} />
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {/* Review Section - Reference Table */}
+                                    {q.includeTable && q.tableData && q.tableData.headers.some(h => h.trim()) && (
+                                        <div className="mt-4">
+                                            <p className="text-[10px] uppercase font-bold text-gray-400 mb-2">Reference Table</p>
+                                            <DisplayTable tableData={q.tableData} />
                                         </div>
                                     )}
                                 </div>
@@ -341,115 +405,300 @@ export default function QuizRoom({ params }) {
     const currentQ = questions[currentQIndex];
 
     return (
-        <main className={`min-h-screen ${THEME.bg} text-white flex items-center justify-center p-4`}>
-            <motion.div
-                key={currentQIndex}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="w-full max-w-4xl bg-white text-black rounded-3xl shadow-2xl overflow-hidden min-h-[600px] flex flex-col"
-            >
-                {/* Header */}
-                <div className="bg-gray-50 p-6 border-b border-gray-100 flex justify-between items-center shrink-0">
-                    <div>
-                        <span className="text-xs font-bold text-[#4169E1] tracking-wider uppercase">{quizData.courseCode}</span>
-                        <h2 className="text-xl font-bold truncate max-w-[200px] md:max-w-md">{quizData.topic}</h2>
-                    </div>
-                    <div className="flex items-center space-x-2 md:space-x-4">
-                        <div className={`px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold flex items-center text-sm md:text-base ${timeLeft < 60 ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100 text-gray-600'}`}>
-                            <Clock size={16} className="mr-2" />
-                            {formatTime(timeLeft)}
+        <MathJaxContext config={mathJaxConfig}>
+            <main className={`min-h-screen ${THEME.bg} text-white flex items-center justify-center p-4`}>
+                <motion.div
+                    key={currentQIndex}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="w-full max-w-4xl bg-white text-black rounded-3xl shadow-2xl overflow-hidden min-h-[600px] flex flex-col"
+                >
+                    {/* Header */}
+                    <div className="bg-gray-50 p-6 border-b border-gray-100 flex justify-between items-center shrink-0">
+                        <div>
+                            <span className="text-xs font-bold text-[#4169E1] tracking-wider uppercase">{quizData.courseCode}</span>
+                            <h2 className="text-xl font-bold truncate max-w-[200px] md:max-w-md">{quizData.topic}</h2>
                         </div>
-                        <div className="bg-[#4169E1] text-white px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold text-sm md:text-base">
-                            {currentQIndex + 1} / {questions.length}
+                        <div className="flex items-center space-x-2 md:space-x-4">
+                            <div className={`px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold flex items-center text-sm md:text-base ${timeLeft < 60 ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100 text-gray-600'}`}>
+                                <Clock size={16} className="mr-2" />
+                                {formatTime(timeLeft)}
+                            </div>
+                            <div className="bg-[#4169E1] text-white px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold text-sm md:text-base">
+                                {currentQIndex + 1} / {questions.length}
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-                {/* Responsive Paginator */}
-                <QuestionNavigator />
-
-                {/* Question Body */}
-                <div className="p-6 md:p-8 flex-1 overflow-y-auto custom-scrollbar">
-
-                    {/* Formal Accounting Table (If exists and has content) */}
-                    {quizData.tableData && quizData.tableData.headers.some(h => h.trim()) && (
-                        <div className="mb-8 overflow-x-auto rounded-xl border border-blue-100 shadow-sm bg-blue-50/10">
-                            <table className="w-full text-sm text-left">
-                                <thead className="bg-[#4169E1] text-white">
-                                    <tr>
-                                        {quizData.tableData.headers.map((h, i) => (
-                                            <th key={i} className="px-4 py-3 font-bold uppercase tracking-wider border-r border-blue-400 last:border-0">{h}</th>
-                                        ))}
-                                    </tr>
-                                </thead>
-                                <tbody className="divide-y divide-gray-200">
-                                    {quizData.tableData.rows.map((row, rI) => (
-                                        <tr key={rI} className="hover:bg-blue-50/50 transition-colors">
-                                            {row.map((cell, cI) => (
-                                                <td key={cI} className="px-4 py-3 border-r border-gray-100 last:border-0">{cell}</td>
-                                            ))}
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
-                    )}
-
-                    <div className="text-xl md:text-2xl font-medium mb-8 leading-relaxed text-gray-800">
-                        <TabularText text={currentQ.text} />
                     </div>
 
-                    {currentQ.type === 'mcq' && (
-                        <div className="grid grid-cols-1 gap-3">
-                            {currentQ.options.map((opt, idx) => (
-                                <button
-                                    key={idx}
-                                    onClick={() => handleAnswer(idx)}
-                                    className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-center justify-between group ${userAnswers[currentQ.id] === idx
-                                        ? "border-[#4169E1] bg-blue-50 text-[#4169E1]"
-                                        : "border-gray-50 hover:border-gray-200 hover:bg-gray-50 text-gray-600"
-                                        }`}
-                                >
-                                    <span className="font-medium pr-4">{opt}</span>
-                                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 ${userAnswers[currentQ.id] === idx ? "border-[#4169E1]" : "border-gray-300"
-                                        }`}>
-                                        {userAnswers[currentQ.id] === idx && <div className="w-3 h-3 bg-[#4169E1] rounded-full" />}
-                                    </div>
-                                </button>
-                            ))}
+                    {/* Responsive Paginator */}
+                    <QuestionNavigator />
+
+                    {/* Question Body */}
+                    <div className="p-6 md:p-8 flex-1 overflow-y-auto custom-scrollbar">
+
+                        {/* Per-Question Reference Table */}
+                        {currentQ.includeTable && currentQ.tableData && currentQ.tableData.headers.some(h => h.trim()) && (
+                            <div className="mb-8">
+                                <p className="text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-4">Reference Data</p>
+                                <DisplayTable tableData={currentQ.tableData} />
+                            </div>
+                        )}
+
+                        <div className="text-xl md:text-2xl font-medium mb-8 leading-relaxed text-gray-800">
+                            <TabularText text={currentQ.text} />
                         </div>
-                    )}
 
-                    {(currentQ.type === 'theory' || currentQ.type === 'fill_blanks') && (
-                        <textarea
-                            className="w-full p-5 border-2 border-gray-100 rounded-2xl focus:border-[#4169E1] focus:ring-4 focus:ring-blue-50 focus:outline-none min-h-[180px] text-lg transition-all"
-                            placeholder="Type your answer here..."
-                            value={userAnswers[currentQ.id] || ""}
-                            onChange={(e) => handleAnswer(e.target.value)}
-                        />
-                    )}
-                </div>
+                        {currentQ.type === 'mcq' && (
+                            <div className="grid grid-cols-1 gap-3">
+                                {currentQ.options.map((opt, idx) => (
+                                    <button
+                                        key={idx}
+                                        onClick={() => handleAnswer(idx)}
+                                        className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-center justify-between group ${userAnswers[currentQ.id] === idx
+                                            ? "border-[#4169E1] bg-blue-50 text-[#4169E1]"
+                                            : "border-gray-50 hover:border-gray-200 hover:bg-gray-50 text-gray-600"
+                                            }`}
+                                    >
+                                        <span className="font-medium pr-4"><MathJax inline>{opt}</MathJax></span>
+                                        <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 ${userAnswers[currentQ.id] === idx ? "border-[#4169E1]" : "border-gray-300"
+                                            }`}>
+                                            {userAnswers[currentQ.id] === idx && <div className="w-3 h-3 bg-[#4169E1] rounded-full" />}
+                                        </div>
+                                    </button>
+                                ))}
+                            </div>
+                        )}
 
-                {/* Footer */}
-                <div className="p-6 bg-gray-50 border-t border-gray-100 flex justify-between items-center shrink-0">
-                    <button
-                        onClick={() => setCurrentQIndex(prev => Math.max(0, prev - 1))}
-                        disabled={currentQIndex === 0}
-                        className={`px-6 py-3 rounded-xl font-bold transition-all flex items-center ${currentQIndex === 0 ? "text-gray-300 cursor-not-allowed" : "text-gray-600 hover:bg-gray-100"
-                            }`}
-                    >
-                        <ArrowLeft className="mr-2" size={20} /> <span className="hidden sm:inline">Previous</span>
-                    </button>
+                        {(currentQ.type === 'theory' || currentQ.type === 'fill_blanks') && (
+                            <div className="relative">
+                                {currentQ.isTableAnswer ? (
+                                    <UserTableAnswer
+                                        template={currentQ.answerTable}
+                                        value={userAnswers[currentQ.id]}
+                                        onChange={(val) => handleAnswer(val)}
+                                    />
+                                ) : (
+                                    <textarea
+                                        className="w-full p-5 border-2 border-gray-100 rounded-2xl focus:border-[#4169E1] focus:ring-4 focus:ring-blue-50 focus:outline-none min-h-[180px] text-lg transition-all"
+                                        placeholder="Type your answer here..."
+                                        value={userAnswers[currentQ.id] || ""}
+                                        onChange={(e) => handleAnswer(e.target.value)}
+                                    />
+                                )}
+                            </div>
+                        )}
+                    </div>
 
-                    <button
-                        onClick={nextQuestion}
-                        className="bg-[#4169E1] text-white px-8 py-3 rounded-xl font-bold hover:bg-blue-700 transition-all flex items-center shadow-lg shadow-blue-500/30 active:scale-95"
-                    >
-                        {currentQIndex === questions.length - 1 ? "Finish Quiz" : <><span className="hidden sm:inline">Next Question</span><span className="sm:hidden">Next</span></>}
-                        <ArrowRight className="ml-2" />
-                    </button>
-                </div>
-            </motion.div>
-        </main>
+                    {/* Footer */}
+                    <div className="p-6 bg-gray-50 border-t border-gray-100 flex justify-between items-center shrink-0">
+                        <button
+                            onClick={() => setCurrentQIndex(prev => Math.max(0, prev - 1))}
+                            disabled={currentQIndex === 0}
+                            className={`px-6 py-3 rounded-xl font-bold transition-all flex items-center ${currentQIndex === 0 ? "text-gray-300 cursor-not-allowed" : "text-gray-600 hover:bg-gray-100"
+                                }`}
+                        >
+                            <ArrowLeft className="mr-2" size={20} /> <span className="hidden sm:inline">Previous</span>
+                        </button>
+
+                        <button
+                            onClick={nextQuestion}
+                            className="bg-[#4169E1] text-white px-8 py-3 rounded-xl font-bold hover:bg-blue-700 transition-all flex items-center shadow-lg shadow-blue-500/30 active:scale-95"
+                        >
+                            {currentQIndex === questions.length - 1 ? "Finish Quiz" : <><span className="hidden sm:inline">Next Question</span><span className="sm:hidden">Next</span></>}
+                            <ArrowRight className="ml-2" />
+                        </button>
+                    </div>
+                </motion.div>
+            </main>
+        </MathJaxContext>
     );
 }
+
+const CorrectionTable = ({ userTable, modelTable }) => {
+    if (!modelTable || !modelTable.headers) return <p className="text-xs text-gray-400">Model answer missing.</p>;
+
+    const userRows = userTable?.rows || [];
+    const modelRows = modelTable.rows || [];
+
+    return (
+        <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm bg-white">
+            <table className="w-full text-sm text-left">
+                <thead className="bg-[#4169E1] text-white">
+                    <tr>
+                        {modelTable.headers.map((h, i) => (
+                            <th key={i} className="px-4 py-3 font-bold uppercase tracking-wider border-r border-blue-400 last:border-0">{h}</th>
+                        ))}
+                        <th className="px-4 py-3 font-bold uppercase tracking-wider">Status</th>
+                    </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                    {/* 1. Show Model Rows and compare with User */}
+                    {modelRows.map((mRow, mIdx) => {
+                        const accountName = mRow[0];
+                        const uRow = userRows.find(r => r[0] === accountName);
+
+                        return (
+                            <tr key={`model-${mIdx}`} className={uRow ? "bg-white" : "bg-orange-50/30"}>
+                                {mRow.map((mCell, cIdx) => {
+                                    const uCell = uRow ? uRow[cIdx] : null;
+                                    const isCorrect = uCell?.toString().toLowerCase().trim() === mCell?.toString().toLowerCase().trim();
+
+                                    return (
+                                        <td key={cIdx} className="px-4 py-3 border-r border-gray-100 last:border-0">
+                                            <div className="flex flex-col">
+                                                <span className={uRow ? (isCorrect ? "text-green-600 font-bold" : "text-red-500 line-through") : "text-gray-300 italic"}>
+                                                    {uCell || (uRow ? "(Empty)" : "(Missing)")}
+                                                </span>
+                                                {(!isCorrect || !uRow) && (
+                                                    <span className="text-[10px] text-green-700 font-bold mt-1 bg-green-50 px-1 rounded w-fit">
+                                                        {mCell}
+                                                    </span>
+                                                )}
+                                            </div>
+                                        </td>
+                                    );
+                                })}
+                                <td className="px-4 py-3">
+                                    {uRow ? (
+                                        <span className="text-[10px] font-bold text-green-600 uppercase tracking-tighter">Matched</span>
+                                    ) : (
+                                        <span className="text-[10px] font-bold text-orange-600 uppercase tracking-tighter">Missing Entry</span>
+                                    )}
+                                </td>
+                            </tr>
+                        );
+                    })}
+
+                    {/* 2. Show Extra User Rows (that don't exist in model) */}
+                    {userRows.filter(uRow => !modelRows.some(mRow => mRow[0] === uRow[0]) && uRow.some(c => c?.toString().trim())).map((uRow, uIdx) => (
+                        <tr key={`extra-${uIdx}`} className="bg-red-50/30">
+                            {uRow.map((uCell, cIdx) => (
+                                <td key={cIdx} className="px-4 py-3 border-r border-gray-100 last:border-0 text-red-400 line-through">
+                                    {uCell}
+                                </td>
+                            ))}
+                            <td className="px-4 py-3">
+                                <span className="text-[10px] font-bold text-red-600 uppercase tracking-tighter">Extra / Incorrect</span>
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
+};
+
+const DisplayTable = ({ tableData }) => {
+    if (!tableData || !tableData.headers) return null;
+    return (
+        <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm bg-white">
+            <table className="w-full text-sm text-left">
+                <thead className="bg-[#4169E1] text-white">
+                    <tr>
+                        {tableData.headers.map((h, i) => (
+                            <th key={i} className="px-4 py-3 font-bold uppercase tracking-wider border-r border-blue-400 last:border-0">{h}</th>
+                        ))}
+                    </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                    {tableData.rows.map((row, rI) => (
+                        <tr key={rI} className="hover:bg-gray-50/50 transition-colors">
+                            {row.map((cell, cI) => (
+                                <td key={cI} className="px-4 py-3 border-r border-gray-100 last:border-0">{cell}</td>
+                            ))}
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
+};
+
+const UserTableAnswer = ({ template, value, onChange }) => {
+    // Extract available accounts from the template (model answer)
+    // Assuming first column (0) contains the account names
+    const accountPool = Array.from(new Set(template?.rows?.map(r => r[0]).filter(a => a && a.trim()) || []));
+
+    const [table, setTable] = useState(value || {
+        headers: template?.headers || ["", ""],
+        rows: template?.rows?.map(r => r.map(() => "")) || [["", ""]]
+    });
+
+    useEffect(() => {
+        if (value) setTable(value);
+    }, [value]);
+
+    const updateRow = (rI, cI, val) => {
+        const newTable = { ...table, rows: [...table.rows] };
+        newTable.rows[rI] = [...newTable.rows[rI]];
+        newTable.rows[rI][cI] = val;
+        setTable(newTable);
+        onChange(newTable);
+    };
+
+    const addRow = () => {
+        const newTable = { ...table, rows: [...table.rows, new Array(table.headers.length).fill("")] };
+        setTable(newTable);
+        onChange(newTable);
+    };
+
+    // Get accounts already selected in other rows (to filter the pool)
+    const getSelectedAccounts = (currentRowIndex) => {
+        return table.rows
+            .map((r, i) => i !== currentRowIndex ? r[0] : null)
+            .filter(a => a);
+    };
+
+    return (
+        <div className="space-y-4">
+            <div className="overflow-x-auto rounded-2xl border-2 border-gray-100 shadow-inner bg-gray-50/50 p-4">
+                <table className="w-full text-sm text-left border-collapse">
+                    <thead>
+                        <tr>
+                            {table.headers.map((h, i) => (
+                                <th key={i} className="px-4 py-3 font-bold text-gray-700 uppercase tracking-widest text-[10px] text-center bg-gray-100 rounded-t-lg mx-1">{h || `Col ${i + 1}`}</th>
+                            ))}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {table.rows.map((row, rI) => (
+                            <tr key={rI}>
+                                {row.map((cell, cI) => (
+                                    <td key={cI} className="p-1">
+                                        {cI === 0 ? (
+                                            <select
+                                                value={cell}
+                                                onChange={(e) => updateRow(rI, cI, e.target.value)}
+                                                className="w-full p-3 bg-white border border-gray-200 rounded-lg focus:border-[#4169E1] focus:outline-none transition-colors font-medium shadow-sm appearance-none cursor-pointer"
+                                            >
+                                                <option value="">Select Account...</option>
+                                                {accountPool
+                                                    .filter(acc => !getSelectedAccounts(rI).includes(acc) || acc === cell)
+                                                    .map((acc, index) => (
+                                                        <option key={index} value={acc}>{acc}</option>
+                                                    ))}
+                                            </select>
+                                        ) : (
+                                            <input
+                                                value={cell}
+                                                onChange={(e) => updateRow(rI, cI, e.target.value)}
+                                                className="w-full p-3 bg-white border border-gray-200 rounded-lg focus:border-[#4169E1] focus:outline-none transition-colors text-center font-medium shadow-sm"
+                                                placeholder="..."
+                                            />
+                                        )}
+                                    </td>
+                                ))}
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+            <button
+                onClick={addRow}
+                className="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-xl text-[10px] font-black uppercase tracking-widest text-gray-500 hover:text-[#4169E1] hover:border-blue-200 transition-all shadow-sm"
+            >
+                Add Row
+            </button>
+        </div>
+    );
+};

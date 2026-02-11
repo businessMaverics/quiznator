@@ -1,0 +1,176 @@
+{
+  "courseCode": "CSC221",
+  "topic": "Types of Computer",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1770535863254,
+      "text": "select the odd one out of the kinds of computer",
+      "type": "mcq",
+      "options": [
+        "Analog computers.",
+        "Digital Computers.",
+        "Hybrid computers.",
+        "super computer "
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770536090199,
+      "text": "all but one are characteristic of analog  computer ",
+      "type": "mcq",
+      "options": [
+        " It measures continuous changes in some physical quantity",
+        " are widely used for certain specialized engineering and scientific applications,",
+        "do not require any storage capability because they measure and compare quantities in a single operation.",
+        "they can solve complex data simultaneously at a goal"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770536254084,
+      "text": "A unit of computer system that brings data and instruction into the\ncomputer is ",
+      "type": "mcq",
+      "options": [
+        "software",
+        "input devices ",
+        "storage device ",
+        "data devices"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770536513577,
+      "text": " an electromechanical component designed to create\nspecialized electronic codes (scan codes) when a key is pressed is ",
+      "type": "mcq",
+      "options": [
+        "mouse",
+        "keyboard",
+        "code scanner",
+        "input devices"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770536592828,
+      "text": " Ctrl, Alt, Shift, Del, Insert key all belog to",
+      "type": "mcq",
+      "options": [
+        "Standard type writer keys",
+        "",
+        "Special purpose keys",
+        ""
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770536879380,
+      "text": "all of the following are Cursor movement key except ",
+      "type": "mcq",
+      "options": [
+        "Arrow keys",
+        "Home key",
+        "PageRight",
+        "End end"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770537057527,
+      "text": " a device that controls the movement of the cursor or pointer on a\ndisplay screen is a ",
+      "type": "mcq",
+      "options": [
+        "mouse",
+        "cursor key",
+        "dexstop",
+        "input device"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770537131755,
+      "text": "the main part of a microcomputer consisting processing unit\nand devices is the .................",
+      "type": "mcq",
+      "options": [
+        "system unit",
+        "micro processor",
+        "mother board",
+        "CPU"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770537370194,
+      "text": "which  random access memory can hold data only for few\nmilliseconds",
+      "type": "mcq",
+      "options": [
+        "SRAM",
+        "DRAM",
+        "SDRAM",
+        "EDO DRAM"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770562914264,
+      "text": "  an external connecting socket on the outer side of the system unit is a/an",
+      "type": "mcq",
+      "options": [
+        "output unit",
+        "port",
+        "connectors  ",
+        "sockets "
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770563010212,
+      "text": "floppy disk is an example of",
+      "type": "mcq",
+      "options": [
+        "hardware storage devices",
+        "primary storage devices",
+        "secondary storage devices",
+        "tertiary storage devices "
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": ""
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-02-08T15:05:52.736Z"
+}

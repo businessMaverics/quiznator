@@ -32,8 +32,6 @@ export default function QuiznatorAdmin() {
     timeLimit: "",
     quizType: "theory",
     questions: [],
-    includeTable: false,
-    tableData: { headers: ["", ""], rows: [["", ""]] },
   });
 
   // --- Auth Logic ---
@@ -74,8 +72,6 @@ export default function QuiznatorAdmin() {
         timeLimit: data.timeLimit,
         quizType: data.quizType,
         questions: data.questions || [],
-        includeTable: !!data.tableData,
-        tableData: data.tableData || { headers: ["", ""], rows: [["", ""]] },
       });
       setIsEditing(true);
       setView('upload');
@@ -149,10 +145,7 @@ export default function QuiznatorAdmin() {
       topic: "",
       marks: "",
       timeLimit: "",
-      quizType: "theory",
       questions: [],
-      includeTable: false,
-      tableData: { headers: ["", ""], rows: [["", ""]] },
     });
   };
 
@@ -348,7 +341,6 @@ export default function QuiznatorAdmin() {
               {step === 1 && <Step2Metadata formData={formData} setFormData={setFormData} />}
               {step === 2 && <Step3Type formData={formData} setFormData={setFormData} />}
               {step === 3 && <Step4Questions formData={formData} setFormData={setFormData} />}
-              {step === 4 && formData.includeTable ? <Step5Table formData={formData} setFormData={setFormData} /> : null}
             </motion.div>
           </AnimatePresence>
         )}
@@ -369,16 +361,12 @@ export default function QuiznatorAdmin() {
               {error && <span className="text-red-500 text-sm font-bold animate-pulse">{error}</span>}
 
               <button
-                onClick={
-                  (step === 3 && !formData.includeTable) || (step === 4 && formData.includeTable) ? handleSubmit : nextStep
-                }
+                onClick={step === 3 ? handleSubmit : nextStep}
                 disabled={loading}
                 className="bg-purple-600 text-white px-6 py-3 rounded-lg font-bold text-sm hover:scale-105 active:scale-95 transition-all flex items-center shadow-lg shadow-purple-500/20"
               >
-                {loading ? "Processing..." : (
-                  (step === 3 && !formData.includeTable) || (step === 4 && formData.includeTable) ? "Save Quiz" : "Next Step"
-                )}
-                {!loading && !((step === 3 && !formData.includeTable) || (step === 4 && formData.includeTable)) && <ArrowRight size={16} className="ml-2" />}
+                {loading ? "Processing..." : (step === 3 ? "Save Quiz" : "Next Step")}
+                {!loading && step !== 3 && <ArrowRight size={16} className="ml-2" />}
               </button>
             </div>
           </div>
@@ -464,20 +452,6 @@ const Step3Type = ({ formData, setFormData }) => (
         </button>
       ))}
     </div>
-
-    <div className="flex items-center space-x-3 p-4 bg-white/5 rounded-lg border border-white/10">
-      <input
-        type="checkbox"
-        id="includeTable"
-        checked={formData.includeTable}
-        onChange={(e) => setFormData({ ...formData, includeTable: e.target.checked })}
-        className="w-5 h-5 rounded border-gray-600 text-purple-500 focus:ring-purple-500 bg-gray-700"
-      />
-      <label htmlFor="includeTable" className="text-sm font-medium text-white cursor-pointer select-none">
-        Include Accounting Table?
-      </label>
-      <Grid size={16} className="text-gray-400" />
-    </div>
   </div>
 );
 
@@ -494,7 +468,11 @@ const Step4Questions = ({ formData, setFormData }) => {
           options: ["", "", "", ""],
           correctOption: 0,
           answer: "",
-          explanation: ""
+          explanation: "",
+          includeTable: false,
+          tableData: { headers: ["", ""], rows: [["", ""]] },
+          isTableAnswer: false,
+          answerTable: { headers: ["", ""], rows: [["", ""]] }
         }
       ]
     });
@@ -577,7 +555,7 @@ const Step4Questions = ({ formData, setFormData }) => {
               </div>
             )}
 
-            {(formData.quizType === 'theory' || formData.quizType === 'fill_blanks') && (
+            {(formData.quizType === 'theory' || formData.quizType === 'fill_blanks') && !q.isTableAnswer && (
               <input
                 value={q.answer}
                 onChange={(e) => updateQuestion(q.id, 'answer', e.target.value)}
@@ -607,6 +585,53 @@ const Step4Questions = ({ formData, setFormData }) => {
                 rows={2}
               />
             </div>
+
+            {/* Per-Question Accounting Table Toggle */}
+            <div className="mt-4 pt-4 border-t border-white/5">
+              <div className="flex items-center space-x-3 mb-4">
+                <input
+                  type="checkbox"
+                  id={`includeTable-${q.id}`}
+                  checked={q.includeTable}
+                  onChange={(e) => updateQuestion(q.id, 'includeTable', e.target.checked)}
+                  className="w-4 h-4 rounded border-gray-600 text-purple-500 focus:ring-purple-500 bg-gray-700"
+                />
+                <label htmlFor={`includeTable-${q.id}`} className="text-xs font-medium text-gray-400 cursor-pointer select-none flex items-center">
+                  Include Reference Table? <Grid size={14} className="ml-2" />
+                </label>
+              </div>
+
+              {q.includeTable && (
+                <div className="bg-black/20 p-4 rounded-lg border border-white/5 mb-4">
+                  <QuestionTableEditor question={q} tableKey="tableData" updateTable={(newData) => updateQuestion(q.id, 'tableData', newData)} />
+                </div>
+              )}
+
+              {/* Theory Table Answer Toggle */}
+              {formData.quizType === 'theory' && (
+                <>
+                  <div className="flex items-center space-x-3 mb-4">
+                    <input
+                      type="checkbox"
+                      id={`isTableAnswer-${q.id}`}
+                      checked={q.isTableAnswer}
+                      onChange={(e) => updateQuestion(q.id, 'isTableAnswer', e.target.checked)}
+                      className="w-4 h-4 rounded border-gray-600 text-blue-500 focus:ring-blue-500 bg-gray-700"
+                    />
+                    <label htmlFor={`isTableAnswer-${q.id}`} className="text-xs font-medium text-gray-400 cursor-pointer select-none flex items-center">
+                      User must provide a Table Answer? <FileText size={14} className="ml-2" />
+                    </label>
+                  </div>
+
+                  {q.isTableAnswer && (
+                    <div className="bg-blue-900/10 p-4 rounded-lg border border-blue-500/20">
+                      <p className="text-[10px] text-blue-400 font-bold uppercase mb-2">Model Answer Table</p>
+                      <QuestionTableEditor question={q} tableKey="answerTable" updateTable={(newData) => updateQuestion(q.id, 'answerTable', newData)} />
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
           </div>
         ))}
         {formData.questions.length === 0 && (
@@ -619,73 +644,65 @@ const Step4Questions = ({ formData, setFormData }) => {
   );
 };
 
-const Step5Table = ({ formData, setFormData }) => {
-  // Helper to update cell data
+const QuestionTableEditor = ({ question, tableKey, updateTable }) => {
+  const tableData = question[tableKey];
+
   const updateHeader = (colIndex, val) => {
-    const newHeaders = [...formData.tableData.headers];
+    const newHeaders = [...tableData.headers];
     newHeaders[colIndex] = val;
-    setFormData({ ...formData, tableData: { ...formData.tableData, headers: newHeaders } });
+    updateTable({ ...tableData, headers: newHeaders });
   };
 
   const updateRow = (rowIndex, colIndex, val) => {
-    const newRows = [...formData.tableData.rows];
+    const newRows = [...tableData.rows];
     newRows[rowIndex][colIndex] = val;
-    setFormData({ ...formData, tableData: { ...formData.tableData, rows: newRows } });
+    updateTable({ ...tableData, rows: newRows });
   };
 
   const addCol = () => {
-    setFormData({
-      ...formData,
-      tableData: {
-        headers: [...formData.tableData.headers, ""],
-        rows: formData.tableData.rows.map(r => [...r, ""])
-      }
+    updateTable({
+      headers: [...tableData.headers, ""],
+      rows: tableData.rows.map(r => [...r, ""])
     });
   };
 
   const addRow = () => {
-    setFormData({
-      ...formData,
-      tableData: {
-        ...formData.tableData,
-        rows: [...formData.tableData.rows, new Array(formData.tableData.headers.length).fill("")]
-      }
+    updateTable({
+      ...tableData,
+      rows: [...tableData.rows, new Array(tableData.headers.length).fill("")]
     });
   };
 
   return (
     <div className="space-y-4">
-      <h2 className="text-2xl font-bold text-purple-500 mb-2">Table Editor</h2>
-      <p className="text-xs text-gray-400 mb-4">Design your accounting table structure.</p>
-
-      <div className="overflow-x-auto pb-4">
-        <table className="w-full text-sm">
+      <div className="overflow-x-auto pb-2">
+        <table className="w-full text-[10px]">
           <thead>
             <tr>
-              {formData.tableData.headers.map((h, i) => (
-                <th key={i} className="p-1 min-w-[100px]">
+              {tableData.headers.map((h, i) => (
+                <th key={i} className="p-1 min-w-[80px]">
                   <input
                     value={h}
                     onChange={(e) => updateHeader(i, e.target.value)}
                     placeholder={`Header ${i + 1}`}
-                    className="w-full bg-black/30 border border-purple-500/30 text-purple-400 p-2 rounded text-center font-bold placeholder-purple-500/30 focus:outline-none focus:border-purple-500"
+                    className="w-full bg-black/30 border border-purple-500/20 text-purple-400 p-1 rounded text-center font-bold focus:outline-none focus:border-purple-500"
                   />
                 </th>
               ))}
-              <th className="p-1 w-10">
-                <button onClick={addCol} className="p-2 bg-white/10 rounded hover:bg-purple-500/20 text-purple-500"><Plus size={14} /></button>
+              <th className="p-1 w-8">
+                <button onClick={addCol} className="p-1 bg-white/5 rounded hover:bg-purple-500/20 text-purple-500"><Plus size={12} /></button>
               </th>
             </tr>
           </thead>
           <tbody>
-            {formData.tableData.rows.map((row, rI) => (
+            {tableData.rows.map((row, rI) => (
               <tr key={rI}>
                 {row.map((cell, cI) => (
                   <td key={cI} className="p-1">
                     <input
                       value={cell}
                       onChange={(e) => updateRow(rI, cI, e.target.value)}
-                      className="w-full bg-white/5 border border-white/10 p-2 rounded text-white focus:outline-none focus:border-blue-500"
+                      className="w-full bg-white/5 border border-white/10 p-1 rounded text-white focus:outline-none focus:border-blue-500"
                     />
                   </td>
                 ))}
@@ -694,9 +711,8 @@ const Step5Table = ({ formData, setFormData }) => {
           </tbody>
         </table>
       </div>
-
-      <button onClick={addRow} className="text-xs flex items-center text-purple-500 hover:text-white transition-colors">
-        <Plus size={14} className="mr-1" /> Add Row
+      <button onClick={addRow} className="text-[10px] flex items-center text-purple-500 hover:text-white transition-colors">
+        <Plus size={12} className="mr-1" /> Add Row
       </button>
     </div>
   );

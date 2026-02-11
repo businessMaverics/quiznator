@@ -1,0 +1,162 @@
+{
+  "courseCode": "CSC221",
+  "topic": "DATA REPRESENTATIONS",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1770620616065,
+      "text": "Computer represent information on two state device which is in",
+      "type": "mcq",
+      "options": [
+        "0 and 1",
+        "nibble and binary",
+        "binary and bits",
+        "bits and base "
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770620775289,
+      "text": "a word is equivalent to",
+      "type": "mcq",
+      "options": [
+        "0000 0000 0000 0101",
+        "0000 0101",
+        " 0101",
+        "1"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770621003805,
+      "text": "A kilobyte is equal to  ",
+      "type": "mcq",
+      "options": [
+        "1024 bytes.",
+        "100 bytes ",
+        "1000 bytes",
+        " 640x1000 bytes"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770621116773,
+      "text": "Convert (101) base 2 to base 10. ",
+      "type": "mcq",
+      "options": [
+        "5 ",
+        "9 ",
+        "10 ",
+        "4"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770621332213,
+      "text": "convert 11010 base2 to base 4",
+      "type": "mcq",
+      "options": [
+        "122",
+        "221",
+        "212",
+        "123"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770621501312,
+      "text": "convert BC.DE base 16 to base 2",
+      "type": "mcq",
+      "options": [
+        "101110.110110",
+        "10111110.11011110",
+        "11111010.00100001",
+        "111111111.00001"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770621743483,
+      "text": "convert A base 12 to base 4",
+      "type": "mcq",
+      "options": [
+        "10",
+        "22",
+        "4",
+        "12"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770621825267,
+      "text": "00101001 × 00000110 = ",
+      "type": "mcq",
+      "options": [
+        "1111101110",
+        "11110110",
+        "10000010001",
+        "100001001"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770621958868,
+      "text": "Using two's complement add -23 to +5 using 8-bit system.",
+      "type": "mcq",
+      "options": [
+        "00010010 base 2",
+        "11101110 base 8",
+        "000100010 base 8",
+        "11101110 base 2"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": ""
+    },
+    {
+      "id": 1770622151613,
+      "text": " 234 to octal",
+      "type": "mcq",
+      "options": [
+        "293",
+        "253",
+        "235",
+        "2930"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": ""
+    }
+  ],
+  "tableData": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "createdAt": "2026-02-09T07:31:17.641Z"
+}
