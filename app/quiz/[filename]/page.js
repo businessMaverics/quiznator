@@ -231,6 +231,7 @@ export default function QuizRoom({ params }) {
     );
 
     const TabularText = ({ text }) => {
+        if (!text || typeof text !== 'string') return null;
         // Detect if text contains a "table-like" structure (lines with multiple columns)
         // Usually, these look like: Header Header\n1 2\n3 4
         const lines = text.split('\n');
@@ -281,112 +282,114 @@ export default function QuizRoom({ params }) {
 
     if (showResult) {
         return (
-            <main className={`min-h-screen ${THEME.bg} text-white p-4 flex flex-col items-center justify-center`}>
-                <motion.div
-                    initial={{ scale: 0.9, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    className="bg-white text-black p-6 md:p-10 rounded-2xl shadow-2xl max-w-2xl w-full text-center"
-                >
-                    <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#4169E1]">Quiz Completed!</h1>
-                    <div className="text-5xl md:text-6xl font-black mb-6">
-                        {score} / {quizData.totalPossiblePoints || questions.length}
-                    </div>
-                    <p className="text-gray-500 mb-4">
-                        {score === questions.length ? "Perfect Score! 🌟" :
-                            score > questions.length / 2 ? "Great Job! 👍" : "Keep Practicing! 💪"}
-                    </p>
-                    <div className="mb-8 p-3 bg-purple-50 rounded-xl border border-purple-100 italic transition-all animate-pulse">
-                        <p className="text-[11px] text-purple-600 font-medium">
-                            Keep practicing, who knows! 🚀✨ There are over 1,000 questions on Quiznator to master!
-                        </p>
-                    </div>
-
-                    <div className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
-                        <button
-                            onClick={() => setShowSolution(true)}
-                            className="px-6 py-3 border-2 border-[#4169E1] text-[#4169E1] font-bold rounded-xl hover:bg-[#4169E1] hover:text-white transition-colors flex items-center justify-center"
-                        >
-                            <BookOpen size={20} className="mr-2" /> Show Solution
-                        </button>
-                        <button
-                            onClick={retakeQuiz}
-                            className="px-6 py-3 bg-[#4169E1] text-white font-bold rounded-xl hover:bg-blue-700 transition-colors flex items-center justify-center shadow-lg shadow-blue-500/30"
-                        >
-                            <RefreshCw size={20} className="mr-2" /> Retake Quiz
-                        </button>
-                    </div>
-
-                    {showSolution && (
-                        <div className="mt-10 text-left space-y-6 max-h-[50vh] overflow-y-auto pr-2 custom-scrollbar">
-                            {questions.map((q, i) => (
-                                <div key={q.id} className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                                    <div className="font-bold mb-2">
-                                        Q{i + 1}: <TabularText text={q.text} />
-                                    </div>
-                                    {q.type === 'mcq' ? (
-                                        <div className="space-y-1">
-                                            {q.options.map((opt, oIdx) => (
-                                                <div key={oIdx} className={`px-3 py-2 rounded text-sm ${oIdx === q.correctOption ? "bg-green-100 text-green-800 font-bold border border-green-200" :
-                                                    userAnswers[q.id] === oIdx ? "bg-red-100 text-red-800 border border-red-200" : "text-gray-600"
-                                                    }`}>
-                                                    {opt} {oIdx === q.correctOption && <CheckCircle size={14} className="inline ml-1" />}
-                                                </div>
-                                            ))}
-                                        </div>
-                                    ) : (
-                                        <div>
-                                            <p className="text-xs text-gray-500">
-                                                Your Answer:{" "}
-                                                <span className={
-                                                    (typeof userAnswers[q.id] === 'string' && typeof q.answer === 'string' && userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase())
-                                                        ? "text-green-600"
-                                                        : q.isTableAnswer ? "text-blue-600" : "text-red-500"
-                                                }>
-                                                    {q.isTableAnswer ? "(Table Submitted)" : (userAnswers[q.id] || "No Answer")}
-                                                </span>
-                                            </p>
-                                            {!q.isTableAnswer && <p className="text-xs text-green-600 font-bold">Correct Answer: {q.answer}</p>}
-                                            {q.isTableAnswer && <p className="text-xs text-blue-600 font-bold">Points Earned: {
-                                                userAnswers[q.id] && typeof userAnswers[q.id] === 'object'
-                                                    ? Math.floor((userAnswers[q.id].rows?.filter(r => r.some(c => c && c.trim())).length / userAnswers[q.id].rows?.length) * 100)
-                                                    : 0
-                                            } / 100</p>}
-                                        </div>
-                                    )}
-
-                                    {/* Explanation Section */}
-                                    {q.explanation && (
-                                        <div className="mt-4 p-3 bg-blue-50 rounded-lg border-l-4 border-[#4169E1]">
-                                            <p className="text-[11px] uppercase font-bold text-[#4169E1] mb-1">Explanation</p>
-                                            <p className="text-xs text-gray-700 leading-relaxed">{q.explanation}</p>
-                                        </div>
-                                    )}
-
-                                    {/* Review Section - Correction View */}
-                                    {q.isTableAnswer && userAnswers[q.id] && (
-                                        <div className="mt-4 space-y-4">
-                                            <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-sm">
-                                                <p className="text-[10px] uppercase font-bold text-[#4169E1] mb-2 flex items-center gap-2">
-                                                    <Sparkles size={12} /> Pedagogical Correction View
-                                                </p>
-                                                <CorrectionTable userTable={userAnswers[q.id]} modelTable={q.answerTable} />
-                                            </div>
-                                        </div>
-                                    )}
-
-                                    {/* Review Section - Reference Table */}
-                                    {q.includeTable && q.tableData && q.tableData.headers.some(h => h.trim()) && (
-                                        <div className="mt-4">
-                                            <p className="text-[10px] uppercase font-bold text-gray-400 mb-2">Reference Table</p>
-                                            <DisplayTable tableData={q.tableData} />
-                                        </div>
-                                    )}
-                                </div>
-                            ))}
+            <MathJaxContext config={mathJaxConfig}>
+                <main className={`min-h-screen ${THEME.bg} text-white p-4 flex flex-col items-center justify-center`}>
+                    <motion.div
+                        initial={{ scale: 0.9, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        className="bg-white text-black p-6 md:p-10 rounded-2xl shadow-2xl max-w-2xl w-full text-center"
+                    >
+                        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#4169E1]">Quiz Completed!</h1>
+                        <div className="text-5xl md:text-6xl font-black mb-6">
+                            {score} / {quizData.totalPossiblePoints || questions.length}
                         </div>
-                    )}
-                </motion.div>
-            </main>
+                        <p className="text-gray-500 mb-4">
+                            {score === questions.length ? "Perfect Score! 🌟" :
+                                score > questions.length / 2 ? "Great Job! 👍" : "Keep Practicing! 💪"}
+                        </p>
+                        <div className="mb-8 p-3 bg-purple-50 rounded-xl border border-purple-100 italic transition-all animate-pulse">
+                            <p className="text-[11px] text-purple-600 font-medium">
+                                Keep practicing, who knows! 🚀✨ There are over 1,000 questions on Quiznator to master!
+                            </p>
+                        </div>
+
+                        <div className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
+                            <button
+                                onClick={() => setShowSolution(true)}
+                                className="px-6 py-3 border-2 border-[#4169E1] text-[#4169E1] font-bold rounded-xl hover:bg-[#4169E1] hover:text-white transition-colors flex items-center justify-center"
+                            >
+                                <BookOpen size={20} className="mr-2" /> Show Solution
+                            </button>
+                            <button
+                                onClick={retakeQuiz}
+                                className="px-6 py-3 bg-[#4169E1] text-white font-bold rounded-xl hover:bg-blue-700 transition-colors flex items-center justify-center shadow-lg shadow-blue-500/30"
+                            >
+                                <RefreshCw size={20} className="mr-2" /> Retake Quiz
+                            </button>
+                        </div>
+
+                        {showSolution && (
+                            <div className="mt-10 text-left space-y-6 max-h-[50vh] overflow-y-auto pr-2 custom-scrollbar">
+                                {questions.map((q, i) => (
+                                    <div key={q.id} className="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                                        <div className="font-bold mb-2">
+                                            Q{i + 1}: <TabularText text={q.text} />
+                                        </div>
+                                        {q.type === 'mcq' ? (
+                                            <div className="space-y-1">
+                                                {q.options.map((opt, oIdx) => (
+                                                    <div key={oIdx} className={`px-3 py-2 rounded text-sm ${oIdx === q.correctOption ? "bg-green-100 text-green-800 font-bold border border-green-200" :
+                                                        userAnswers[q.id] === oIdx ? "bg-red-100 text-red-800 border border-red-200" : "text-gray-600"
+                                                        }`}>
+                                                        {opt} {oIdx === q.correctOption && <CheckCircle size={14} className="inline ml-1" />}
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        ) : (
+                                            <div>
+                                                <p className="text-xs text-gray-500">
+                                                    Your Answer:{" "}
+                                                    <span className={
+                                                        (typeof userAnswers[q.id] === 'string' && typeof q.answer === 'string' && userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase())
+                                                            ? "text-green-600"
+                                                            : q.isTableAnswer ? "text-blue-600" : "text-red-500"
+                                                    }>
+                                                        {q.isTableAnswer ? "(Table Submitted)" : (userAnswers[q.id] || "No Answer")}
+                                                    </span>
+                                                </p>
+                                                {!q.isTableAnswer && <p className="text-xs text-green-600 font-bold">Correct Answer: {q.answer}</p>}
+                                                {q.isTableAnswer && <p className="text-xs text-blue-600 font-bold">Points Earned: {
+                                                    userAnswers[q.id] && typeof userAnswers[q.id] === 'object'
+                                                        ? Math.floor((userAnswers[q.id].rows?.filter(r => r.some(c => c && c.trim())).length / userAnswers[q.id].rows?.length) * 100)
+                                                        : 0
+                                                } / 100</p>}
+                                            </div>
+                                        )}
+
+                                        {/* Explanation Section */}
+                                        {q.explanation && (
+                                            <div className="mt-4 p-3 bg-blue-50 rounded-lg border-l-4 border-[#4169E1]">
+                                                <p className="text-[11px] uppercase font-bold text-[#4169E1] mb-1">Explanation</p>
+                                                <p className="text-xs text-gray-700 leading-relaxed">{q.explanation}</p>
+                                            </div>
+                                        )}
+
+                                        {/* Review Section - Correction View */}
+                                        {q.isTableAnswer && userAnswers[q.id] && (
+                                            <div className="mt-4 space-y-4">
+                                                <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-sm">
+                                                    <p className="text-[10px] uppercase font-bold text-[#4169E1] mb-2 flex items-center gap-2">
+                                                        <Sparkles size={12} /> Pedagogical Correction View
+                                                    </p>
+                                                    <CorrectionTable userTable={userAnswers[q.id]} modelTable={q.answerTable} />
+                                                </div>
+                                            </div>
+                                        )}
+
+                                        {/* Review Section - Reference Table */}
+                                        {q.includeTable && q.tableData && q.tableData.headers.some(h => h.trim()) && (
+                                            <div className="mt-4">
+                                                <p className="text-[10px] uppercase font-bold text-gray-400 mb-2">Reference Table</p>
+                                                <DisplayTable tableData={q.tableData} />
+                                            </div>
+                                        )}
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </motion.div>
+                </main>
+            </MathJaxContext>
         )
     }
 
@@ -400,6 +403,16 @@ export default function QuizRoom({ params }) {
     );
 
     if (!quizData) return <div className="min-h-screen bg-black text-white flex items-center justify-center">Quiz not found.</div>;
+
+    if (questions.length === 0) return (
+        <div className="min-h-screen bg-black text-white flex items-center justify-center flex-col">
+            <h1 className="text-2xl font-bold mb-4 text-[#4169E1]">No Questions Available</h1>
+            <p className="text-gray-400 mb-8">This quiz seems to be empty. Please contact your administrator.</p>
+            <Link href="/dashboard" className="px-6 py-3 bg-[#4169E1] text-white font-bold rounded-xl hover:bg-blue-700 transition-colors">
+                Return to Dashboard
+            </Link>
+        </div>
+    );
 
 
     const currentQ = questions[currentQIndex];
