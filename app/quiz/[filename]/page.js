@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, ArrowLeft, CheckCircle, XCircle, RefreshCw, BookOpen, Clock, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { MathJaxContext, MathJax } from "better-react-mathjax";
+import { MathJax } from "better-react-mathjax";
 
 export default function QuizRoom({ params }) {
     // Use React.use() to unwrap params in Next.js 15+ (if applicable), or just access directly if older.
@@ -30,13 +30,6 @@ export default function QuizRoom({ params }) {
         card: "bg-white text-black",
     };
 
-    const mathJaxConfig = {
-        loader: { load: ["input/tex", "output/chtml"] },
-        tex: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            displayMath: [["$$", "$$"], ["\\[", "\\]"]],
-        },
-    };
 
     useEffect(() => {
         async function fetchQuiz() {
@@ -282,115 +275,113 @@ export default function QuizRoom({ params }) {
 
     if (showResult) {
         return (
-            <MathJaxContext config={mathJaxConfig}>
-                <main className={`min-h-screen ${THEME.bg} text-white p-4 flex flex-col items-center justify-center`}>
-                    <motion.div
-                        initial={{ scale: 0.9, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        className="bg-white text-black p-6 md:p-10 rounded-2xl shadow-2xl max-w-2xl w-full text-center"
-                    >
-                        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#4169E1]">Quiz Completed!</h1>
-                        <div className="text-5xl md:text-6xl font-black mb-6">
-                            {score} / {quizData.totalPossiblePoints || questions.length}
-                        </div>
-                        <p className="text-gray-500 mb-4">
-                            {score === questions.length ? "Perfect Score! 🌟" :
-                                score > questions.length / 2 ? "Great Job! 👍" : "Keep Practicing! 💪"}
+            <main className={`min-h-screen ${THEME.bg} text-white p-4 flex flex-col items-center justify-center`}>
+                <motion.div
+                    initial={{ scale: 0.9, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    className="bg-white text-black p-6 md:p-10 rounded-2xl shadow-2xl max-w-2xl w-full text-center"
+                >
+                    <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#4169E1]">Quiz Completed!</h1>
+                    <div className="text-5xl md:text-6xl font-black mb-6">
+                        {score} / {quizData.totalPossiblePoints || questions.length}
+                    </div>
+                    <p className="text-gray-500 mb-4">
+                        {score === questions.length ? "Perfect Score! 🌟" :
+                            score > questions.length / 2 ? "Great Job! 👍" : "Keep Practicing! 💪"}
+                    </p>
+                    <div className="mb-8 p-3 bg-purple-50 rounded-xl border border-purple-100 italic transition-all animate-pulse">
+                        <p className="text-[11px] text-purple-600 font-medium">
+                            Keep practicing, who knows! 🚀✨ There are over 1,000 questions on Quiznator to master!
                         </p>
-                        <div className="mb-8 p-3 bg-purple-50 rounded-xl border border-purple-100 italic transition-all animate-pulse">
-                            <p className="text-[11px] text-purple-600 font-medium">
-                                Keep practicing, who knows! 🚀✨ There are over 1,000 questions on Quiznator to master!
-                            </p>
-                        </div>
+                    </div>
 
-                        <div className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
-                            <button
-                                onClick={() => setShowSolution(true)}
-                                className="px-6 py-3 border-2 border-[#4169E1] text-[#4169E1] font-bold rounded-xl hover:bg-[#4169E1] hover:text-white transition-colors flex items-center justify-center"
-                            >
-                                <BookOpen size={20} className="mr-2" /> Show Solution
-                            </button>
-                            <button
-                                onClick={retakeQuiz}
-                                className="px-6 py-3 bg-[#4169E1] text-white font-bold rounded-xl hover:bg-blue-700 transition-colors flex items-center justify-center shadow-lg shadow-blue-500/30"
-                            >
-                                <RefreshCw size={20} className="mr-2" /> Retake Quiz
-                            </button>
-                        </div>
+                    <div className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
+                        <button
+                            onClick={() => setShowSolution(true)}
+                            className="px-6 py-3 border-2 border-[#4169E1] text-[#4169E1] font-bold rounded-xl hover:bg-[#4169E1] hover:text-white transition-colors flex items-center justify-center"
+                        >
+                            <BookOpen size={20} className="mr-2" /> Show Solution
+                        </button>
+                        <button
+                            onClick={retakeQuiz}
+                            className="px-6 py-3 bg-[#4169E1] text-white font-bold rounded-xl hover:bg-blue-700 transition-colors flex items-center justify-center shadow-lg shadow-blue-500/30"
+                        >
+                            <RefreshCw size={20} className="mr-2" /> Retake Quiz
+                        </button>
+                    </div>
 
-                        {showSolution && (
-                            <div className="mt-10 text-left space-y-6 max-h-[50vh] overflow-y-auto pr-2 custom-scrollbar">
-                                {questions.map((q, i) => (
-                                    <div key={q.id} className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                                        <div className="font-bold mb-2">
-                                            Q{i + 1}: <TabularText text={q.text} />
-                                        </div>
-                                        {q.type === 'mcq' ? (
-                                            <div className="space-y-1">
-                                                {q.options.map((opt, oIdx) => (
-                                                    <div key={oIdx} className={`px-3 py-2 rounded text-sm ${oIdx === q.correctOption ? "bg-green-100 text-green-800 font-bold border border-green-200" :
-                                                        userAnswers[q.id] === oIdx ? "bg-red-100 text-red-800 border border-red-200" : "text-gray-600"
-                                                        }`}>
-                                                        {opt} {oIdx === q.correctOption && <CheckCircle size={14} className="inline ml-1" />}
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        ) : (
-                                            <div>
-                                                <p className="text-xs text-gray-500">
-                                                    Your Answer:{" "}
-                                                    <span className={
-                                                        (typeof userAnswers[q.id] === 'string' && typeof q.answer === 'string' && userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase())
-                                                            ? "text-green-600"
-                                                            : q.isTableAnswer ? "text-blue-600" : "text-red-500"
-                                                    }>
-                                                        {q.isTableAnswer ? "(Table Submitted)" : (userAnswers[q.id] || "No Answer")}
-                                                    </span>
-                                                </p>
-                                                {!q.isTableAnswer && <p className="text-xs text-green-600 font-bold">Correct Answer: {q.answer}</p>}
-                                                {q.isTableAnswer && <p className="text-xs text-blue-600 font-bold">Points Earned: {
-                                                    userAnswers[q.id] && typeof userAnswers[q.id] === 'object'
-                                                        ? Math.floor((userAnswers[q.id].rows?.filter(r => r.some(c => c && c.trim())).length / userAnswers[q.id].rows?.length) * 100)
-                                                        : 0
-                                                } / 100</p>}
-                                            </div>
-                                        )}
-
-                                        {/* Explanation Section */}
-                                        {q.explanation && (
-                                            <div className="mt-4 p-3 bg-blue-50 rounded-lg border-l-4 border-[#4169E1]">
-                                                <p className="text-[11px] uppercase font-bold text-[#4169E1] mb-1">Explanation</p>
-                                                <p className="text-xs text-gray-700 leading-relaxed">{q.explanation}</p>
-                                            </div>
-                                        )}
-
-                                        {/* Review Section - Correction View */}
-                                        {q.isTableAnswer && userAnswers[q.id] && (
-                                            <div className="mt-4 space-y-4">
-                                                <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-sm">
-                                                    <p className="text-[10px] uppercase font-bold text-[#4169E1] mb-2 flex items-center gap-2">
-                                                        <Sparkles size={12} /> Pedagogical Correction View
-                                                    </p>
-                                                    <CorrectionTable userTable={userAnswers[q.id]} modelTable={q.answerTable} />
-                                                </div>
-                                            </div>
-                                        )}
-
-                                        {/* Review Section - Reference Table */}
-                                        {q.includeTable && q.tableData && q.tableData.headers.some(h => h.trim()) && (
-                                            <div className="mt-4">
-                                                <p className="text-[10px] uppercase font-bold text-gray-400 mb-2">Reference Table</p>
-                                                <DisplayTable tableData={q.tableData} />
-                                            </div>
-                                        )}
+                    {showSolution && (
+                        <div className="mt-10 text-left space-y-6 max-h-[50vh] overflow-y-auto pr-2 custom-scrollbar">
+                            {questions.map((q, i) => (
+                                <div key={q.id} className="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                                    <div className="font-bold mb-2">
+                                        Q{i + 1}: <TabularText text={q.text} />
                                     </div>
-                                ))}
-                            </div>
-                        )}
-                    </motion.div>
-                </main>
-            </MathJaxContext>
-        )
+                                    {q.type === 'mcq' ? (
+                                        <div className="space-y-1">
+                                            {q.options.map((opt, oIdx) => (
+                                                <div key={oIdx} className={`px-3 py-2 rounded text-sm ${oIdx === q.correctOption ? "bg-green-100 text-green-800 font-bold border border-green-200" :
+                                                    userAnswers[q.id] === oIdx ? "bg-red-100 text-red-800 border border-red-200" : "text-gray-600"
+                                                    }`}>
+                                                    {opt} {oIdx === q.correctOption && <CheckCircle size={14} className="inline ml-1" />}
+                                                </div>
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <div>
+                                            <p className="text-xs text-gray-500">
+                                                Your Answer:{" "}
+                                                <span className={
+                                                    (typeof userAnswers[q.id] === 'string' && typeof q.answer === 'string' && userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase())
+                                                        ? "text-green-600"
+                                                        : q.isTableAnswer ? "text-blue-600" : "text-red-500"
+                                                }>
+                                                    {q.isTableAnswer ? "(Table Submitted)" : (userAnswers[q.id] || "No Answer")}
+                                                </span>
+                                            </p>
+                                            {!q.isTableAnswer && <p className="text-xs text-green-600 font-bold">Correct Answer: {q.answer}</p>}
+                                            {q.isTableAnswer && <p className="text-xs text-blue-600 font-bold">Points Earned: {
+                                                userAnswers[q.id] && typeof userAnswers[q.id] === 'object'
+                                                    ? Math.floor((userAnswers[q.id].rows?.filter(r => r.some(c => c && c.trim())).length / userAnswers[q.id].rows?.length) * 100)
+                                                    : 0
+                                            } / 100</p>}
+                                        </div>
+                                    )}
+
+                                    {/* Explanation Section */}
+                                    {q.explanation && (
+                                        <div className="mt-4 p-3 bg-blue-50 rounded-lg border-l-4 border-[#4169E1]">
+                                            <p className="text-[11px] uppercase font-bold text-[#4169E1] mb-1">Explanation</p>
+                                            <p className="text-xs text-gray-700 leading-relaxed">{q.explanation}</p>
+                                        </div>
+                                    )}
+
+                                    {/* Review Section - Correction View */}
+                                    {q.isTableAnswer && userAnswers[q.id] && (
+                                        <div className="mt-4 space-y-4">
+                                            <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-sm">
+                                                <p className="text-[10px] uppercase font-bold text-[#4169E1] mb-2 flex items-center gap-2">
+                                                    <Sparkles size={12} /> Pedagogical Correction View
+                                                </p>
+                                                <CorrectionTable userTable={userAnswers[q.id]} modelTable={q.answerTable} />
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {/* Review Section - Reference Table */}
+                                    {q.includeTable && q.tableData && q.tableData.headers.some(h => h.trim()) && (
+                                        <div className="mt-4">
+                                            <p className="text-[10px] uppercase font-bold text-gray-400 mb-2">Reference Table</p>
+                                            <DisplayTable tableData={q.tableData} />
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </motion.div>
+            </main>
+        );
     }
 
     if (loading) return (
@@ -418,112 +409,110 @@ export default function QuizRoom({ params }) {
     const currentQ = questions[currentQIndex];
 
     return (
-        <MathJaxContext config={mathJaxConfig}>
-            <main className={`min-h-screen ${THEME.bg} text-white flex items-center justify-center p-4`}>
-                <motion.div
-                    key={currentQIndex}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="w-full max-w-4xl bg-white text-black rounded-3xl shadow-2xl overflow-hidden min-h-[600px] flex flex-col"
-                >
-                    {/* Header */}
-                    <div className="bg-gray-50 p-6 border-b border-gray-100 flex justify-between items-center shrink-0">
-                        <div>
-                            <span className="text-xs font-bold text-[#4169E1] tracking-wider uppercase">{quizData.courseCode}</span>
-                            <h2 className="text-xl font-bold truncate max-w-[200px] md:max-w-md">{quizData.topic}</h2>
+        <main className={`min-h-screen ${THEME.bg} text-white flex items-center justify-center p-4`}>
+            <motion.div
+                key={currentQIndex}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="w-full max-w-4xl bg-white text-black rounded-3xl shadow-2xl overflow-hidden min-h-[600px] flex flex-col"
+            >
+                {/* Header */}
+                <div className="bg-gray-50 p-6 border-b border-gray-100 flex justify-between items-center shrink-0">
+                    <div>
+                        <span className="text-xs font-bold text-[#4169E1] tracking-wider uppercase">{quizData.courseCode}</span>
+                        <h2 className="text-xl font-bold truncate max-w-[200px] md:max-w-md">{quizData.topic}</h2>
+                    </div>
+                    <div className="flex items-center space-x-2 md:space-x-4">
+                        <div className={`px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold flex items-center text-sm md:text-base ${timeLeft < 60 ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100 text-gray-600'}`}>
+                            <Clock size={16} className="mr-2" />
+                            {formatTime(timeLeft)}
                         </div>
-                        <div className="flex items-center space-x-2 md:space-x-4">
-                            <div className={`px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold flex items-center text-sm md:text-base ${timeLeft < 60 ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100 text-gray-600'}`}>
-                                <Clock size={16} className="mr-2" />
-                                {formatTime(timeLeft)}
-                            </div>
-                            <div className="bg-[#4169E1] text-white px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold text-sm md:text-base">
-                                {currentQIndex + 1} / {questions.length}
-                            </div>
+                        <div className="bg-[#4169E1] text-white px-3 py-1.5 md:px-4 md:py-2 rounded-full font-mono font-bold text-sm md:text-base">
+                            {currentQIndex + 1} / {questions.length}
                         </div>
                     </div>
+                </div>
 
-                    {/* Responsive Paginator */}
-                    <QuestionNavigator />
+                {/* Responsive Paginator */}
+                <QuestionNavigator />
 
-                    {/* Question Body */}
-                    <div className="p-6 md:p-8 flex-1 overflow-y-auto custom-scrollbar">
+                {/* Question Body */}
+                <div className="p-6 md:p-8 flex-1 overflow-y-auto custom-scrollbar">
 
-                        {/* Per-Question Reference Table */}
-                        {currentQ.includeTable && currentQ.tableData && currentQ.tableData.headers.some(h => h.trim()) && (
-                            <div className="mb-8">
-                                <p className="text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-4">Reference Data</p>
-                                <DisplayTable tableData={currentQ.tableData} />
-                            </div>
-                        )}
-
-                        <div className="text-xl md:text-2xl font-medium mb-8 leading-relaxed text-gray-800">
-                            <TabularText text={currentQ.text} />
+                    {/* Per-Question Reference Table */}
+                    {currentQ.includeTable && currentQ.tableData && currentQ.tableData.headers.some(h => h.trim()) && (
+                        <div className="mb-8">
+                            <p className="text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-4">Reference Data</p>
+                            <DisplayTable tableData={currentQ.tableData} />
                         </div>
+                    )}
 
-                        {currentQ.type === 'mcq' && (
-                            <div className="grid grid-cols-1 gap-3">
-                                {currentQ.options.map((opt, idx) => (
-                                    <button
-                                        key={idx}
-                                        onClick={() => handleAnswer(idx)}
-                                        className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-center justify-between group ${userAnswers[currentQ.id] === idx
-                                            ? "border-[#4169E1] bg-blue-50 text-[#4169E1]"
-                                            : "border-gray-50 hover:border-gray-200 hover:bg-gray-50 text-gray-600"
-                                            }`}
-                                    >
-                                        <span className="font-medium pr-4"><MathJax inline>{opt}</MathJax></span>
-                                        <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 ${userAnswers[currentQ.id] === idx ? "border-[#4169E1]" : "border-gray-300"
-                                            }`}>
-                                            {userAnswers[currentQ.id] === idx && <div className="w-3 h-3 bg-[#4169E1] rounded-full" />}
-                                        </div>
-                                    </button>
-                                ))}
-                            </div>
-                        )}
-
-                        {(currentQ.type === 'theory' || currentQ.type === 'fill_blanks') && (
-                            <div className="relative">
-                                {currentQ.isTableAnswer ? (
-                                    <UserTableAnswer
-                                        template={currentQ.answerTable}
-                                        value={userAnswers[currentQ.id]}
-                                        onChange={(val) => handleAnswer(val)}
-                                    />
-                                ) : (
-                                    <textarea
-                                        className="w-full p-5 border-2 border-gray-100 rounded-2xl focus:border-[#4169E1] focus:ring-4 focus:ring-blue-50 focus:outline-none min-h-[180px] text-lg transition-all"
-                                        placeholder="Type your answer here..."
-                                        value={userAnswers[currentQ.id] || ""}
-                                        onChange={(e) => handleAnswer(e.target.value)}
-                                    />
-                                )}
-                            </div>
-                        )}
+                    <div className="text-xl md:text-2xl font-medium mb-8 leading-relaxed text-gray-800">
+                        <TabularText text={currentQ.text} />
                     </div>
 
-                    {/* Footer */}
-                    <div className="p-6 bg-gray-50 border-t border-gray-100 flex justify-between items-center shrink-0">
-                        <button
-                            onClick={() => setCurrentQIndex(prev => Math.max(0, prev - 1))}
-                            disabled={currentQIndex === 0}
-                            className={`px-6 py-3 rounded-xl font-bold transition-all flex items-center ${currentQIndex === 0 ? "text-gray-300 cursor-not-allowed" : "text-gray-600 hover:bg-gray-100"
-                                }`}
-                        >
-                            <ArrowLeft className="mr-2" size={20} /> <span className="hidden sm:inline">Previous</span>
-                        </button>
+                    {currentQ.type === 'mcq' && (
+                        <div className="grid grid-cols-1 gap-3">
+                            {currentQ.options.map((opt, idx) => (
+                                <button
+                                    key={idx}
+                                    onClick={() => handleAnswer(idx)}
+                                    className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-center justify-between group ${userAnswers[currentQ.id] === idx
+                                        ? "border-[#4169E1] bg-blue-50 text-[#4169E1]"
+                                        : "border-gray-50 hover:border-gray-200 hover:bg-gray-50 text-gray-600"
+                                        }`}
+                                >
+                                    <span className="font-medium pr-4"><MathJax inline>{opt}</MathJax></span>
+                                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 ${userAnswers[currentQ.id] === idx ? "border-[#4169E1]" : "border-gray-300"
+                                        }`}>
+                                        {userAnswers[currentQ.id] === idx && <div className="w-3 h-3 bg-[#4169E1] rounded-full" />}
+                                    </div>
+                                </button>
+                            ))}
+                        </div>
+                    )}
 
-                        <button
-                            onClick={nextQuestion}
-                            className="bg-[#4169E1] text-white px-8 py-3 rounded-xl font-bold hover:bg-blue-700 transition-all flex items-center shadow-lg shadow-blue-500/30 active:scale-95"
-                        >
-                            {currentQIndex === questions.length - 1 ? "Finish Quiz" : <><span className="hidden sm:inline">Next Question</span><span className="sm:hidden">Next</span></>}
-                            <ArrowRight className="ml-2" />
-                        </button>
-                    </div>
-                </motion.div>
-            </main>
-        </MathJaxContext>
+                    {(currentQ.type === 'theory' || currentQ.type === 'fill_blanks') && (
+                        <div className="relative">
+                            {currentQ.isTableAnswer ? (
+                                <UserTableAnswer
+                                    template={currentQ.answerTable}
+                                    value={userAnswers[currentQ.id]}
+                                    onChange={(val) => handleAnswer(val)}
+                                />
+                            ) : (
+                                <textarea
+                                    className="w-full p-5 border-2 border-gray-100 rounded-2xl focus:border-[#4169E1] focus:ring-4 focus:ring-blue-50 focus:outline-none min-h-[180px] text-lg transition-all"
+                                    placeholder="Type your answer here..."
+                                    value={userAnswers[currentQ.id] || ""}
+                                    onChange={(e) => handleAnswer(e.target.value)}
+                                />
+                            )}
+                        </div>
+                    )}
+                </div>
+
+                {/* Footer */}
+                <div className="p-6 bg-gray-50 border-t border-gray-100 flex justify-between items-center shrink-0">
+                    <button
+                        onClick={() => setCurrentQIndex(prev => Math.max(0, prev - 1))}
+                        disabled={currentQIndex === 0}
+                        className={`px-6 py-3 rounded-xl font-bold transition-all flex items-center ${currentQIndex === 0 ? "text-gray-300 cursor-not-allowed" : "text-gray-600 hover:bg-gray-100"
+                            }`}
+                    >
+                        <ArrowLeft className="mr-2" size={20} /> <span className="hidden sm:inline">Previous</span>
+                    </button>
+
+                    <button
+                        onClick={nextQuestion}
+                        className="bg-[#4169E1] text-white px-8 py-3 rounded-xl font-bold hover:bg-blue-700 transition-all flex items-center shadow-lg shadow-blue-500/30 active:scale-95"
+                    >
+                        {currentQIndex === questions.length - 1 ? "Finish Quiz" : <><span className="hidden sm:inline">Next Question</span><span className="sm:hidden">Next</span></>}
+                        <ArrowRight className="ml-2" />
+                    </button>
+                </div>
+            </motion.div>
+        </main>
     );
 }
 

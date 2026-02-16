@@ -2,8 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Lock, ArrowRight, Save, Plus, Trash2, FileText, List, Grid, Settings, LogOut, ArrowLeft } from "lucide-react";
+import { Lock, ArrowRight, Save, Plus, Trash2, FileText, List, Grid, Settings, LogOut, ArrowLeft, Sigma } from "lucide-react";
 import { useRouter } from "next/navigation";
+import MathJaxKeyboard from "./_components/MathJaxKeyboard";
 
 export default function QuiznatorAdmin() {
   const router = useRouter();
@@ -456,6 +457,9 @@ const Step3Type = ({ formData, setFormData }) => (
 );
 
 const Step4Questions = ({ formData, setFormData }) => {
+  const [activeInput, setActiveInput] = useState(null); // { id, field, index? }
+  const [showKeyboard, setShowKeyboard] = useState(false);
+
   const addQuestion = () => {
     setFormData({
       ...formData,
@@ -506,16 +510,61 @@ const Step4Questions = ({ formData, setFormData }) => {
     });
   };
 
+  const handleSymbolSelect = (symbol) => {
+    if (!activeInput) return;
+
+    const { id, field, index } = activeInput;
+
+    if (field === 'option') {
+      setFormData(prev => ({
+        ...prev,
+        questions: prev.questions.map(q => {
+          if (q.id === id) {
+            const newOpts = [...q.options];
+            newOpts[index] = (newOpts[index] || "") + symbol;
+            return { ...q, options: newOpts };
+          }
+          return q;
+        })
+      }));
+    } else {
+      setFormData(prev => ({
+        ...prev,
+        questions: prev.questions.map(q => {
+          if (q.id === id) {
+            return { ...q, [field]: (q[field] || "") + symbol };
+          }
+          return q;
+        })
+      }));
+    }
+  };
+
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 relative">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-bold text-purple-500">Questions ({formData.questions.length})</h2>
+        <div className="flex items-center space-x-4">
+          <h2 className="text-2xl font-bold text-purple-500">Questions ({formData.questions.length})</h2>
+          <button
+            onClick={() => setShowKeyboard(!showKeyboard)}
+            className={`flex items-center space-x-2 px-3 py-1.5 rounded-lg border transition-all ${showKeyboard ? 'bg-purple-600 border-purple-500 text-white' : 'bg-purple-500/10 border-purple-500/20 text-purple-400 hover:bg-purple-500/20'}`}
+          >
+            <Sigma size={16} />
+            <span className="text-xs font-bold uppercase tracking-wider">Math Keyboard</span>
+          </button>
+        </div>
         <button onClick={addQuestion} className="text-sm bg-purple-500/20 text-purple-500 hover:bg-purple-500 hover:text-white px-3 py-1 rounded transition-colors">
           + Add Question
         </button>
       </div>
 
-      <div className="space-y-4 max-h-[50vh] overflow-y-auto pr-2">
+      {showKeyboard && (
+        <div className="fixed bottom-8 right-8 z-[100] animate-in slide-in-from-bottom-5 duration-300">
+          <MathJaxKeyboard onSelect={handleSymbolSelect} onClose={() => setShowKeyboard(false)} />
+        </div>
+      )}
+
+      <div className="space-y-4 max-h-[50vh] overflow-y-auto pr-2 custom-scrollbar">
         {formData.questions.map((q, index) => (
           <div key={q.id} className="bg-white/5 p-4 rounded-xl border border-white/10 relative group">
             <div className="flex justify-between mb-2">
@@ -527,6 +576,7 @@ const Step4Questions = ({ formData, setFormData }) => {
 
             <textarea
               value={q.text}
+              onFocus={() => setActiveInput({ id: q.id, field: 'text' })}
               onChange={(e) => updateQuestion(q.id, 'text', e.target.value)}
               className="w-full bg-black/20 border border-white/10 rounded p-2 text-white text-sm focus:border-purple-500 focus:outline-none mb-3"
               placeholder="Enter question text..."
@@ -546,6 +596,7 @@ const Step4Questions = ({ formData, setFormData }) => {
                     />
                     <input
                       value={opt}
+                      onFocus={() => setActiveInput({ id: q.id, field: 'option', index: oIdx })}
                       onChange={(e) => updateOption(q.id, oIdx, e.target.value)}
                       className={`w-full bg-black/20 border ${q.correctOption === oIdx ? 'border-purple-500/50' : 'border-white/10'} rounded p-2 text-xs text-white focus:outline-none`}
                       placeholder={`Option ${oIdx + 1}`}
@@ -558,6 +609,7 @@ const Step4Questions = ({ formData, setFormData }) => {
             {(formData.quizType === 'theory' || formData.quizType === 'fill_blanks') && !q.isTableAnswer && (
               <input
                 value={q.answer}
+                onFocus={() => setActiveInput({ id: q.id, field: 'answer' })}
                 onChange={(e) => updateQuestion(q.id, 'answer', e.target.value)}
                 className="w-full bg-black/20 border border-white/10 rounded p-2 text-xs text-white focus:outline-none"
                 placeholder={formData.quizType === 'theory' ? "Model Answer / Key Points (Optional)" : "Correct Answer"}
@@ -579,6 +631,7 @@ const Step4Questions = ({ formData, setFormData }) => {
               </div>
               <textarea
                 value={q.explanation || ""}
+                onFocus={() => setActiveInput({ id: q.id, field: 'explanation' })}
                 onChange={(e) => updateQuestion(q.id, 'explanation', e.target.value)}
                 className="w-full bg-black/40 border border-white/5 rounded p-2 text-xs text-gray-300 focus:border-purple-500 focus:outline-none"
                 placeholder="Explain why this answer is correct..."

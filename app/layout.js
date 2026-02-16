@@ -1,5 +1,6 @@
 import { Cinzel, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { MathJaxContext } from "better-react-mathjax";
 import "./globals.css";
 
 const cinzel = Cinzel({
@@ -19,13 +20,23 @@ export const metadata = {
   themeColor: "#FFD700",
 };
 
+const mathJaxConfig = {
+  loader: { load: ["input/tex", "output/chtml"] },
+  tex: {
+    inlineMath: [["$", "$"], ["\\(", "\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
         className={`${cinzel.variable} ${inter.variable} antialiased`}
       >
-        {children}
+        <MathJaxContext config={mathJaxConfig}>
+          {children}
+        </MathJaxContext>
         <Analytics />
       </body>
     </html>

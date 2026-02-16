@@ -1,0 +1,530 @@
+{
+  "courseCode": "ATS II ",
+  "topic": "QA TOPIC 1.1",
+  "marks": "1000",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1771149746283,
+      "text": "an important key needed for a smooth running of an organization or a country is ",
+      "type": "mcq",
+      "options": [
+        "information",
+        "data",
+        "theory ",
+        "statictic"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771149811343,
+      "text": "A piece of information or raw facts in either numerical or non-numerical form that are collected, analysed and summarised for presentation and interpretation purposes, is known as ",
+      "type": "mcq",
+      "options": [
+        "statistical data",
+        "statistics ",
+        "data analysis",
+        "quantitative analysis"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771149811762,
+      "text": "statistics involves the study of the theory and methods in collection,\nanalysis, interpretation and ............. of the results for a set of data.",
+      "type": "mcq",
+      "options": [
+        "printing ",
+        "utilization",
+        "given out",
+        "explaining"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771149811996,
+      "text": "the basic raw facts needed for statistical investigations are ",
+      "type": "mcq",
+      "options": [
+        "values",
+        "data",
+        "variables ",
+        "statistical analysis"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771149812170,
+      "text": "the scientific method that is  concernd  data collection, presentation, analysis, interpretation or inference about data when issues of uncertainties are involved with ",
+      "type": "mcq",
+      "options": [
+        "quantitative analysis ",
+        "qualitative analysis ",
+        "Statistics",
+        "analyst  "
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771149812354,
+      "text": "Statistics can be broadly classified into two whic are ",
+      "type": "mcq",
+      "options": [
+        " Descriptive and expository",
+        "differential  and Inferential.",
+        " Descriptive and Inferential.",
+        "differential and expository"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771149812558,
+      "text": "a type of  statistics that deals with data collection, summarizing and comparing numerical data, is the",
+      "type": "mcq",
+      "options": [
+        "",
+        "",
+        "",
+        "Descriptive"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771149813242,
+      "text": "descriptive statistics is concerned with summarizing a data set rather than\nusing the data to learn about the population",
+      "type": "mcq",
+      "options": [
+        "true",
+        "false ",
+        "i dont know ",
+        "none of the above"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771150873379,
+      "text": "a data whose values can be quantified are ",
+      "type": "mcq",
+      "options": [
+        "Continuous data",
+        "Discrete data",
+        "Non – numeric data",
+        "Numeric data"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771151567478,
+      "text": " a numeric data that consist of numbers whose values are integers is a ",
+      "type": "mcq",
+      "options": [
+        "Discrete data",
+        "Continuous data",
+        "Non – numeric data",
+        "Numeric data"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771151568877,
+      "text": " data whose values cannot be quantified or data that cannot assume numerical\nvalue are ",
+      "type": "mcq",
+      "options": [
+        "Categorical data",
+        "Non – numeric data ",
+        "Continuous data",
+        "Ordinal data"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771151569051,
+      "text": "Statistical data can be classified into two, based on collection process, namely",
+      "type": "mcq",
+      "options": [
+        "planned and unplanned",
+        "primary and secondary",
+        "numerical and non numerical",
+        "planned and unplanned "
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771151569234,
+      "text": "Primary data are data that are obtained by direct collection from respondents/informants or through",
+      "type": "mcq",
+      "options": [
+        "collective research",
+        "science observation",
+        "one – on-one interaction",
+        "deduction"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    }
+  ],
+  "createdAt": "2026-02-15T11:52:11.146Z"
+}

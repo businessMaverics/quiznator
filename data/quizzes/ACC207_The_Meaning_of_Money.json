@@ -1,0 +1,410 @@
+{
+  "courseCode": "ACC207",
+  "topic": "The Meaning of Money",
+  "marks": "100",
+  "timeLimit": "30",
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1771194302097,
+      "text": "The word “money” is derived from the Latin word ",
+      "type": "mcq",
+      "options": [
+        "moneta ",
+        "monta",
+        "monieta",
+        "mannie"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771194368741,
+      "text": "what  served as money from the early days of human civilization",
+      "type": "mcq",
+      "options": [
+        "Various commodities",
+        "stone",
+        "coin",
+        "cow skin"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771194457309,
+      "text": "all of the following are Defects of commodity money except",
+      "type": "mcq",
+      "options": [
+        ".Lack of portability",
+        "Difficult to store or prevent perishing.",
+        " Supply was certain.",
+        "Lack of uniform quality made pricing difficult."
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771194457544,
+      "text": "which one of the following is correct about the evolution of money\n\ni. comodity money\nii. paper money \niii. metalic money \niv. near money",
+      "type": "mcq",
+      "options": [
+        "money eveloved from iv, i, ii, to iii",
+        "money eveloved from i, ii, iii, to iv",
+        "money eveloved from i, iii, ii, to iv",
+        "none of the above"
+      ],
+      "correctOption": 2,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771194457789,
+      "text": "Near Money includes the following except ",
+      "type": "mcq",
+      "options": [
+        " bills of exchange",
+        "cheque transfers",
+        "treasury bills",
+        "bonds"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771194457963,
+      "text": "money as a Medium of Exchange  is a ",
+      "type": "mcq",
+      "options": [
+        "dynamic role",
+        " static role",
+        "DAILY ROLE",
+        "near money"
+      ],
+      "correctOption": 1,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771194462711,
+      "text": "a fall in value of money means ",
+      "type": "mcq",
+      "options": [
+        "economies of scale ",
+        "economic slowdown",
+        " healthy, growing economy",
+        "distorted growth"
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771194463058,
+      "text": "a characteristic of money which makes Money to be accepted by everyone for transactions",
+      "type": "mcq",
+      "options": [
+        "medium of exchange",
+        "durability",
+        "popular",
+        "Acceptability "
+      ],
+      "correctOption": 3,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771196194422,
+      "text": "the primary function for money are all except ",
+      "type": "mcq",
+      "options": [
+        "Money as a Store of Value",
+        "Unit of Account",
+        "Money as a Medium of Exchange",
+        "Money as a Unit of Value"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1771196194585,
+      "text": "one of the  Contingent Functions of money is ",
+      "type": "mcq",
+      "options": [
+        "Money as the Most Liquid Asset",
+        "Money as a Transfer of Value",
+        "money as a Store of Value",
+        "all of the above"
+      ],
+      "correctOption": 0,
+      "answer": "",
+      "explanation": "",
+      "includeTable": false,
+      "tableData": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      "isTableAnswer": false,
+      "answerTable": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    }
+  ],
+  "createdAt": "2026-02-15T23:27:49.879Z"
+}
