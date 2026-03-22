@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, use } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, ArrowLeft, CheckCircle, XCircle, RefreshCw, BookOpen, Clock, Sparkles } from "lucide-react";
+import { ArrowRight, ArrowLeft, CheckCircle, XCircle, RefreshCw, BookOpen, Clock, Sparkles, Trash2 } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { MathJax } from "better-react-mathjax";
@@ -23,6 +23,9 @@ export default function QuizRoom({ params }) {
     const [showSolution, setShowSolution] = useState(false);
     const [loading, setLoading] = useState(true);
     const [timeLeft, setTimeLeft] = useState(0);
+    const [deletedQuestionIds, setDeletedQuestionIds] = useState(new Set());
+    const [deleteToast, setDeleteToast] = useState(null); // { message, type }
+    const [manuallyCorrectIds, setManuallyCorrectIds] = useState(new Set());
 
     // Royal Blue Theme Constants
     const THEME = {
@@ -134,7 +137,7 @@ export default function QuizRoom({ params }) {
         return matrix[b.length][a.length];
     };
 
-    const calculateScore = () => {
+    const calculateScore = (overrides = manuallyCorrectIds) => {
         let newScore = 0;
         let totalPossible = 0;
 
@@ -154,6 +157,12 @@ export default function QuizRoom({ params }) {
             }
 
             totalPossible += 1;
+            
+            if (overrides instanceof Set && overrides.has(q.id)) {
+                newScore++;
+                return;
+            }
+
             if (q.type === 'mcq') {
                 if (uAns === q.correctOption) newScore++;
             } else {
@@ -186,7 +195,8 @@ export default function QuizRoom({ params }) {
     };
 
     const retakeQuiz = () => {
-        let qList = shuffleArray([...(quizData.questions || [])]);
+        // Exclude permanently deleted questions from retake pool
+        let qList = shuffleArray([...(quizData.questions || [])].filter(q => !deletedQuestionIds.has(String(q.id))));
         if (qList.length > 40) qList = qList.slice(0, 40);
         setQuestions(qList);
 
@@ -195,7 +205,47 @@ export default function QuizRoom({ params }) {
         setShowResult(false);
         setShowSolution(false);
         setScore(0);
+        setManuallyCorrectIds(new Set());
         if (quizData.timeLimit) setTimeLeft(parseInt(quizData.timeLimit) * 60);
+    };
+
+    const showToast = (message, type = 'success') => {
+        setDeleteToast({ message, type });
+        setTimeout(() => setDeleteToast(null), 3000);
+    };
+
+    const markAsCorrect = (qId) => {
+        if (!manuallyCorrectIds.has(qId)) {
+            const newSet = new Set(manuallyCorrectIds);
+            newSet.add(qId);
+            setManuallyCorrectIds(newSet);
+            calculateScore(newSet);
+            showToast('Score recalculated! ✨');
+        }
+    };
+
+    const deleteQuestion = async (questionId) => {
+        if (!fileName) return;
+        try {
+            const res = await fetch(`/api/quiz?filename=${encodeURIComponent(fileName)}&questionId=${encodeURIComponent(questionId)}`, {
+                method: 'DELETE',
+            });
+            const data = await res.json();
+            if (res.ok && data.success) {
+                setDeletedQuestionIds(prev => new Set([...prev, String(questionId)]));
+                // Also remove from quizData.questions so retake won't see it
+                setQuizData(prev => ({
+                    ...prev,
+                    questions: (prev.questions || []).filter(q => String(q.id) !== String(questionId))
+                }));
+                showToast('Question deleted — you won\'t see it again! ✅');
+            } else {
+                showToast(data.error || 'Failed to delete question', 'error');
+            }
+        } catch (err) {
+            console.error('Delete question error:', err);
+            showToast('Network error — could not delete question', 'error');
+        }
     };
 
     // --- UI COMPONENTS ---
@@ -274,8 +324,26 @@ export default function QuizRoom({ params }) {
     };
 
     if (showResult) {
+        const visibleSolutionQuestions = questions.filter(q => !deletedQuestionIds.has(String(q.id)));
         return (
             <main className={`min-h-screen ${THEME.bg} text-white p-4 flex flex-col items-center justify-center`}>
+                {/* Toast Notification */}
+                <AnimatePresence>
+                    {deleteToast && (
+                        <motion.div
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -20 }}
+                            className={`fixed top-5 left-1/2 -translate-x-1/2 z-50 px-5 py-3 rounded-2xl shadow-xl font-bold text-sm flex items-center gap-2 ${deleteToast.type === 'error'
+                                    ? 'bg-red-600 text-white'
+                                    : 'bg-green-600 text-white'
+                                }`}
+                        >
+                            {deleteToast.message}
+                        </motion.div>
+                    )}
+                </AnimatePresence>
+
                 <motion.div
                     initial={{ scale: 0.9, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
@@ -312,7 +380,10 @@ export default function QuizRoom({ params }) {
 
                     {showSolution && (
                         <div className="mt-10 text-left space-y-6 max-h-[50vh] overflow-y-auto pr-2 custom-scrollbar">
-                            {questions.map((q, i) => (
+                            {visibleSolutionQuestions.length === 0 && (
+                                <p className="text-center text-gray-400 py-8">All questions have been removed from your practice set. 🎓</p>
+                            )}
+                            {visibleSolutionQuestions.map((q, i) => (
                                 <div key={q.id} className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                                     <div className="font-bold mb-2">
                                         Q{i + 1}: <TabularText text={q.text} />
@@ -332,8 +403,8 @@ export default function QuizRoom({ params }) {
                                             <p className="text-xs text-gray-500">
                                                 Your Answer:{" "}
                                                 <span className={
-                                                    (typeof userAnswers[q.id] === 'string' && typeof q.answer === 'string' && userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase())
-                                                        ? "text-green-600"
+                                                    manuallyCorrectIds.has(q.id) || (typeof userAnswers[q.id] === 'string' && typeof q.answer === 'string' && userAnswers[q.id]?.toLowerCase() === q.answer?.toLowerCase())
+                                                        ? "text-green-600 font-bold"
                                                         : q.isTableAnswer ? "text-blue-600" : "text-red-500"
                                                 }>
                                                     {q.isTableAnswer ? "(Table Submitted)" : (userAnswers[q.id] || "No Answer")}
@@ -375,6 +446,32 @@ export default function QuizRoom({ params }) {
                                             <DisplayTable tableData={q.tableData} />
                                         </div>
                                     )}
+
+                                    {/* ─── Action Buttons ─── */}
+                                    <div className="mt-4 pt-4 border-t border-dashed border-gray-200 flex justify-between items-center">
+                                        {!q.isTableAnswer && q.type !== 'mcq' && !manuallyCorrectIds.has(q.id) && (
+                                            <button
+                                                onClick={() => markAsCorrect(q.id)}
+                                                className="flex items-center gap-1.5 px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-green-600 border border-green-200 rounded-lg hover:bg-green-50 hover:border-green-400 transition-all active:scale-95 bg-white shadow-sm"
+                                            >
+                                                <CheckCircle size={14} />
+                                                My Answer is Correct
+                                            </button>
+                                        )}
+                                        {manuallyCorrectIds.has(q.id) && (
+                                            <span className="flex items-center gap-1.5 px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-green-700 bg-green-50 rounded-lg">
+                                                <CheckCircle size={14} /> Marked as Correct
+                                            </span>
+                                        )}
+                                        <button
+                                            onClick={() => deleteQuestion(q.id)}
+                                            className="flex items-center gap-1.5 px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-red-500 border border-red-200 rounded-lg hover:bg-red-50 hover:border-red-400 transition-all active:scale-95 ml-auto bg-white shadow-sm"
+                                            title="Remove this question from future practice sessions"
+                                        >
+                                            <Trash2 size={14} />
+                                            I know this — delete it
+                                        </button>
+                                    </div>
                                 </div>
                             ))}
                         </div>
