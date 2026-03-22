@@ -132,7 +132,7 @@ export async function DELETE(req) {
             }
 
             const initialLength = data.questions.length;
-            data.questions = data.questions.filter(q => q.id !== questionId);
+            data.questions = data.questions.filter(q => String(q.id) !== String(questionId));
 
             if (data.questions.length === initialLength) {
                 return NextResponse.json({ error: `Question with ID ${questionId} not found in ${filename} ` }, { status: 404 });

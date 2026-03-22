@@ -166,46 +166,6 @@
       }
     },
     {
-      "id": 1774171224381,
-      "text": "The public fund set aside to mitigate unforeseen circumstances such as Ebola, COVID-19, or Fire Control is known as .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Contingencies Fund",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224382,
       "text": "In line with the Public Financial Management Reforms, the monthly transcript rendered by MDAs to the Accountant-General of the Federation is now known as .........",
       "type": "fill_blanks",
@@ -286,46 +246,6 @@
       }
     },
     {
-      "id": 1774171224384,
-      "text": "The accounting basis that recognizes revenue only when cash is received and expenditure when cash is paid is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Cash Basis",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224385,
       "text": "The acronym GPFS in Public Sector stands for .........",
       "type": "fill_blanks",
@@ -366,46 +286,6 @@
       }
     },
     {
-      "id": 1774171224386,
-      "text": "The officer who is the administrative head and Accounting Officer of a Ministry is the .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Permanent Secretary",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224387,
       "text": "The process of transferring funds from one sub-head to another within the same head is .........",
       "type": "fill_blanks",
@@ -417,46 +297,6 @@
       ],
       "correctOption": 0,
       "answer": "Virement",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224388,
-      "text": "The acronym IPSAS stands for .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "International Public Sector Accounting Standards",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -657,126 +497,6 @@
       ],
       "correctOption": 0,
       "answer": "Consolidated Revenue Fund",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224394,
-      "text": "The authority issued by the Minister of Finance to release funds for spending is a .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Warrant",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224395,
-      "text": "The system used to manage and automate the payroll of federal civil servants is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "IPPIS",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224396,
-      "text": "The officer responsible for auditing the accounts of all federal MDAs is the .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Auditor-General for the Federation",
       "explanation": "",
       "includeTable": false,
       "tableData": {

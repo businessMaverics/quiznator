@@ -16,7 +16,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Modified Cash Basis",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -56,7 +56,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Imprest Holder",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -96,7 +96,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Store Issue Voucher",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -136,7 +136,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "0% (Fully funded by Govt)",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -176,7 +176,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Economic Order Quantity",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -216,7 +216,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Two",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -256,7 +256,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Principal and Interest",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -296,7 +296,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "LIFO and Base Stock",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -336,7 +336,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Contingencies Fund",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -376,7 +376,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Budget Office of the Federation",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -416,7 +416,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Journal Voucher",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -456,7 +456,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Transcripts",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -496,7 +496,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Government Integrated Financial Management Information System",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -536,7 +536,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Oil and Non-Oil Revenue",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -576,7 +576,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Budgetary Control",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -616,47 +616,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224405,
-      "text": "The legal basis for Public Sector Accounting in Nigeria is the .................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "",
+      "answer": "Value for Money Audit",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -696,7 +656,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Touring Advance",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -736,7 +696,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Statement of Financial Position",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -776,7 +736,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "",
+      "answer": "Treasury Bills",
       "explanation": "",
       "includeTable": false,
       "tableData": {

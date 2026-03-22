@@ -526,46 +526,6 @@
       }
     },
     {
-      "id": 1774171224256,
-      "text": "The accounting concept that assumes a business will continue to operate for the foreseeable future is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Going Concern",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224257,
       "text": "The excess of purchase consideration over the fair value of net assets acquired in a business combination is .........",
       "type": "fill_blanks",

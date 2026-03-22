@@ -166,86 +166,6 @@
       }
     },
     {
-      "id": 1774171224388,
-      "text": "The process of moving funds from one sub-head to another within the same head of expenditure is ………",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Virement",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224389,
-      "text": "The officer constitutionally mandated to audit the accounts of all Federal Ministries, Departments and Agencies is ………",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Auditor-General for the Federation",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224390,
       "text": "The legislative committee responsible for reviewing the reports of the Auditor-General is the ………",
       "type": "fill_blanks",
@@ -526,86 +446,6 @@
       }
     },
     {
-      "id": 1774171224397,
-      "text": "The basis of accounting where revenue is recognized only when cash is received is ………",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Cash Basis",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224398,
-      "text": "The basis of accounting where transactions are recognized when they occur, regardless of cash flow, is ………",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Accrual Basis",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224399,
       "text": "The accounting method that emphasizes the segregation of resources into categories based on their purpose is ………",
       "type": "fill_blanks",
@@ -646,46 +486,6 @@
       }
     },
     {
-      "id": 1774171224400,
-      "text": "A fund established to hold resources in trust for a specific third party is ………",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Trust Fund",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224401,
       "text": "The legal authority given by the legislature for the executive to spend public funds is ………",
       "type": "fill_blanks",
@@ -697,46 +497,6 @@
       ],
       "correctOption": 0,
       "answer": "Appropriation",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224402,
-      "text": "The executive authority issued by the Minister of Finance to release funds to MDAs is ………",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Warrant",
       "explanation": "",
       "includeTable": false,
       "tableData": {
