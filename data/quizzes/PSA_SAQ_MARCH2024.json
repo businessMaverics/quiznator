@@ -486,46 +486,6 @@
       }
     },
     {
-      "id": 1774171224401,
-      "text": "The acronym 'GIFMIS' stands for .................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Government Integrated Financial Management Information System",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224402,
       "text": "TWO types of revenue recognized in the public sector are ................. and .................",
       "type": "fill_blanks",

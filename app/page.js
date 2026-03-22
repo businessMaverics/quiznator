@@ -56,7 +56,7 @@ export default function LandingPage() {
           MASTER YOUR CRAFT. CONQUER EXAMS.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Study Option */}
           <Link href="/dashboard" className="group block h-full">
             <motion.div
@@ -91,6 +91,25 @@ export default function LandingPage() {
               </h2>
               <p className="text-sm text-gray-500 group-hover:text-gray-300">
                 Upload new quizzes and manage content.
+              </p>
+            </motion.div>
+          </Link>
+
+          {/* PDF Generator Option */}
+          <Link href="/pdf-to-quiz" className="group block h-full">
+            <motion.div
+              initial={{ scale: 1 }}
+              whileHover={{ scale: 1.02 }}
+              className="bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-2xl hover:bg-emerald-500/10 hover:border-emerald-500/50 transition-all cursor-pointer h-full flex flex-col items-center justify-center space-y-4"
+            >
+              <div className="h-16 w-16 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-full flex items-center justify-center text-white shadow-lg shadow-emerald-500/20 group-hover:scale-110 transition-transform">
+                <BookOpen size={32} />
+              </div>
+              <h2 className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                PDF Generator
+              </h2>
+              <p className="text-sm text-gray-500 group-hover:text-gray-300">
+                Extract 60+ questions from PDF instantly.
               </p>
             </motion.div>
           </Link>
