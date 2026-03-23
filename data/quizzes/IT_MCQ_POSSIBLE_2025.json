@@ -1,0 +1,519 @@
+{
+  "courseCode": "IT ATS II",
+  "topic": "MCQ POSSIBLE 2025",
+  "timeLimit": 45,
+  "marks": 30,
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1740000000190,
+      "text": "Provide a historically classic example of a dominant single-user, single-tasking operating system primarily utilized in early personal computing.",
+      "type": "mcq",
+      "options": [
+        "Windows server",
+        "MS-DOS",
+        "Linux server",
+        "Unix",
+        "Network"
+      ],
+      "correctOption": 1,
+      "answer": "MS-DOS",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000191,
+      "text": "What is fundamentally considered the singular major function and operational boundary of computer system software?",
+      "type": "mcq",
+      "options": [
+        "User apps",
+        "Manage hardware",
+        "Games",
+        "Word process",
+        "Browser"
+      ],
+      "correctOption": 1,
+      "answer": "Manage hardware",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000192,
+      "text": "Within relational and hierarchical database management, what structural terminology accurately defines data systematically created by the end-user?",
+      "type": "mcq",
+      "options": [
+        "System files",
+        "Application files",
+        "Hardware",
+        "OS",
+        "Network"
+      ],
+      "correctOption": 1,
+      "answer": "Application files",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000193,
+      "text": "Provide a comprehensive structural definition of a Uniform Resource Locator (URL) and its functional integration on the World Wide Web.",
+      "type": "mcq",
+      "options": [
+        "Protocol/path",
+        "Hardware",
+        "CPU",
+        "RAM",
+        "Disk"
+      ],
+      "correctOption": 0,
+      "answer": "Protocol/path",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000194,
+      "text": "What is uniformly considered the primary legal and strategic purpose underlying the execution of an organizational confidentiality agreement?",
+      "type": "mcq",
+      "options": [
+        "Share all",
+        "Protect info",
+        "Delete",
+        "Modify",
+        "Copy"
+      ],
+      "correctOption": 1,
+      "answer": "Protect info",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000195,
+      "text": "Identify a significant regulatory or ethical apprehension strongly associated with incorporating Artificial Intelligence (AI) into financial reporting.",
+      "type": "mcq",
+      "options": [
+        "Speed",
+        "Bias/ethics",
+        "Cost",
+        "Size",
+        "Colour"
+      ],
+      "correctOption": 1,
+      "answer": "Bias/ethics",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000196,
+      "text": "List the foundational categories of account coding systems broadly integrated within structured computerized accounting environments.",
+      "type": "mcq",
+      "options": [
+        "Random",
+        "Hierarchical/sequential",
+        "Free text",
+        "Numbers only",
+        "Letters"
+      ],
+      "correctOption": 1,
+      "answer": "Hierarchical/sequential",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000197,
+      "text": "Summarize the enduring IT principle famously consolidated globally under the pervasive acronym GIGO (Garbage In, Garbage Out).",
+      "type": "mcq",
+      "options": [
+        "Good in good out",
+        "Garbage in garbage out",
+        "Fast process",
+        "Slow",
+        "Error free"
+      ],
+      "correctOption": 1,
+      "answer": "Garbage in garbage out",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000198,
+      "text": "Identify robust and structurally vital security measures an organization typically implements to deliberately mitigate pervasive data hacking risks.",
+      "type": "mcq",
+      "options": [
+        "Ignore",
+        "Firewalls/encryption",
+        "Share passwords",
+        "Open ports",
+        "No updates"
+      ],
+      "correctOption": 1,
+      "answer": "Firewalls/encryption",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000199,
+      "text": "State the predominant operational and broad economic characteristics that primarily drive organizations to adopt cloud computing infrastructures.",
+      "type": "mcq",
+      "options": [
+        "Local only",
+        "Scalable/access",
+        "Expensive",
+        "Slow",
+        "Fixed"
+      ],
+      "correctOption": 1,
+      "answer": "Scalable/access",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000200,
+      "text": "How does the direct integration of blockchain technology inherently optimize and safeguard the immutable audit trails of financial records?",
+      "type": "mcq",
+      "options": [
+        "Central",
+        "Distributed ledger",
+        "Manual",
+        "Paper",
+        "Single user"
+      ],
+      "correctOption": 1,
+      "answer": "Distributed ledger",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000201,
+      "text": "Identify the overarching categories representing the most aggressive and pervasive modern forms of malicious cybersecurity threats.",
+      "type": "mcq",
+      "options": [
+        "Virus/phishing",
+        "Speed",
+        "Storage",
+        "Print",
+        "Display"
+      ],
+      "correctOption": 0,
+      "answer": "Virus/phishing",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000202,
+      "text": "What are universally recognized as the central integration advantages obtained by universally deploying an Enterprise Resource Planning (ERP) platform?",
+      "type": "mcq",
+      "options": [
+        "Isolated",
+        "Integrated data",
+        "Slow",
+        "Expensive",
+        "Manual"
+      ],
+      "correctOption": 1,
+      "answer": "Integrated data",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000203,
+      "text": "Identify the foundational organizational models extensively utilized in the comprehensive design of standard Database Management Systems.",
+      "type": "mcq",
+      "options": [
+        "Flat",
+        "Relational/hierarchical",
+        "Linear",
+        "Sequential",
+        "Random"
+      ],
+      "correctOption": 1,
+      "answer": "Relational/hierarchical",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000204,
+      "text": "Name the diverse architectural blueprints actively used to govern the physical or localized arrangement of connections traversing a computer network topology.",
+      "type": "mcq",
+      "options": [
+        "Star/ring/bus",
+        "CPU",
+        "RAM",
+        "Disk",
+        "Monitor"
+      ],
+      "correctOption": 0,
+      "answer": "Star/ring/bus",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000205,
+      "text": "Identify the fundamental framework and the four core philosophical tenets comprehensively underlying universal IT data ethics.",
+      "type": "mcq",
+      "options": [
+        "Ignore",
+        "Integrity/confidentiality",
+        "Profit",
+        "Speed",
+        "Cost"
+      ],
+      "correctOption": 1,
+      "answer": "Integrity/confidentiality",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000206,
+      "text": "Which structural lifecycle strategies should an organization prioritize to robustly combat systemic vulnerabilities caused exclusively by software obsolescence?",
+      "type": "mcq",
+      "options": [
+        "Upgrade",
+        "Ignore",
+        "Delete",
+        "Sell",
+        "Keep old"
+      ],
+      "correctOption": 0,
+      "answer": "Upgrade",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000207,
+      "text": "Determine the primary mechanisms universally orchestrated by operational administrators to ensure total data storage redundancy and backup validity.",
+      "type": "mcq",
+      "options": [
+        "None",
+        "Full/incremental",
+        "Delete",
+        "Single",
+        "Manual only"
+      ],
+      "correctOption": 1,
+      "answer": "Full/incremental",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000208,
+      "text": "Which critical ethical paradigms fundamentally mandate the operational guardrails applied over Artificial Intelligence within high-stakes finance algorithms?",
+      "type": "mcq",
+      "options": [
+        "Bias free",
+        "Transparency",
+        "Secret",
+        "Fast only",
+        "Cheap"
+      ],
+      "correctOption": 1,
+      "answer": "Transparency",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000209,
+      "text": "Define the intrinsic configuration of Digital Ledger Technology (DLT) and explain how its structural redundancy facilitates radically secure transactions.",
+      "type": "mcq",
+      "options": [
+        "Paper",
+        "Blockchain",
+        "Manual",
+        "Excel",
+        "Word"
+      ],
+      "correctOption": 1,
+      "answer": "Blockchain",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000210,
+      "text": "Explain the core technical dilemma described explicitly as the 'black box' challenge regarding the fundamental transparency of AI algorithms.",
+      "type": "mcq",
+      "options": [
+        "Secret",
+        "High AI challenge",
+        "Easy",
+        "Ignore",
+        "Delete"
+      ],
+      "correctOption": 1,
+      "answer": "High AI challenge",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000211,
+      "text": "How critical is the preservation of extreme data quality metrics when formally training and deploying predictive artificial intelligence logic models?",
+      "type": "mcq",
+      "options": [
+        "Optional",
+        "Essential",
+        "Ignore",
+        "Random",
+        "Old"
+      ],
+      "correctOption": 1,
+      "answer": "Essential",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000212,
+      "text": "How has the widespread, modern integration of AI explicitly altered the overarching severity and requirement threshold surrounding active cybersecurity measures?",
+      "type": "mcq",
+      "options": [
+        "Decreased",
+        "Increased need",
+        "None",
+        "Optional",
+        "Simple"
+      ],
+      "correctOption": 1,
+      "answer": "Increased need",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000213,
+      "text": "List the fundamental operational advantages an entity realizes seamlessly upon migrating from a manual to a completely computerized accounting infrastructure.",
+      "type": "mcq",
+      "options": [
+        "Errors",
+        "Speed/accuracy",
+        "Slow",
+        "Manual",
+        "Costly"
+      ],
+      "correctOption": 1,
+      "answer": "Speed/accuracy",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000214,
+      "text": "What is the defining operational mandate explaining the existence, implementation, and overarching necessity of an enterprise computer network?",
+      "type": "mcq",
+      "options": [
+        "Isolate",
+        "Share resources",
+        "Single user",
+        "Print only",
+        "Store only"
+      ],
+      "correctOption": 1,
+      "answer": "Share resources",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000215,
+      "text": "Describe what operational phenomenon comprehensively defines and demonstrates the successful implementation of interconnected ERP architectural modules.",
+      "type": "mcq",
+      "options": [
+        "Modules",
+        "Separate",
+        "Delete",
+        "Ignore",
+        "Manual"
+      ],
+      "correctOption": 0,
+      "answer": "Modules",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000216,
+      "text": "Define the specific configuration and unyielding security function effectively executed by a network perimeter firewall.",
+      "type": "mcq",
+      "options": [
+        "Hardware",
+        "Blocks unauthorized",
+        "Allows all",
+        "Deletes",
+        "Copies"
+      ],
+      "correctOption": 1,
+      "answer": "Blocks unauthorized",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000217,
+      "text": "Explain the explicit cryptographic mechanism successfully deployed during the process of strategic data encryption.",
+      "type": "mcq",
+      "options": [
+        "Plain text",
+        "Scramble data",
+        "Delete",
+        "Share",
+        "Print"
+      ],
+      "correctOption": 1,
+      "answer": "Scramble data",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000218,
+      "text": "Determine the most structurally effective preliminary defense designed strictly to quarantine the organizational invasion of malicious software viruses.",
+      "type": "mcq",
+      "options": [
+        "Ignore",
+        "Antivirus/update",
+        "Open emails",
+        "Click links",
+        "Share USB"
+      ],
+      "correctOption": 1,
+      "answer": "Antivirus/update",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000219,
+      "text": "Identify an intrinsic administrative failure fundamentally characterized by auditors as a critical operational weakness in structural IT control systems.",
+      "type": "mcq",
+      "options": [
+        "Segregation",
+        "Lack duties sep",
+        "Audit trail",
+        "Backup",
+        "Logs"
+      ],
+      "correctOption": 1,
+      "answer": "Lack duties sep",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

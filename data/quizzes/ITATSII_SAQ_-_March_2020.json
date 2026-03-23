@@ -1,13 +1,13 @@
 {
-  "courseCode": "QA ATS II",
-  "topic": "SAQ - September 2022",
+  "courseCode": "IT ATS II",
+  "topic": "SAQ - March 2020",
   "marks": "20",
   "timeLimit": "30",
   "quizType": "fill_blanks",
   "questions": [
     {
-      "id": 1774171224490,
-      "text": "The type of data that takes on only specific integer values is .........",
+      "id": 1774236489379,
+      "text": "A data processing technique that processes data with Time Slice/Quantum of \ntime and simultaneously is called ………………………………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -16,7 +16,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Discrete Data",
+      "answer": "time sharing ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -46,8 +46,8 @@
       }
     },
     {
-      "id": 1774171224491,
-      "text": "The measure of central tendency that is affected by extreme values is .........",
+      "id": 1774236490737,
+      "text": ". A non-permanent and mobile office run with computer and communications \ntechnology is called………………………………… ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -56,7 +56,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Arithmetic Mean",
+      "answer": "virtual office",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -86,8 +86,8 @@
       }
     },
     {
-      "id": 1774171224492,
-      "text": "The probability of an impossible event is .........",
+      "id": 1774236490899,
+      "text": "A specialised portable computer that uses a pen-like device to enter data is \ncalled………………….. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -96,7 +96,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "0",
+      "answer": "pen computer",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -126,8 +126,8 @@
       }
     },
     {
-      "id": 1774171224493,
-      "text": "The general form of a linear equation is .........",
+      "id": 1774236491054,
+      "text": "A refined and rearranged basic facts is called…………………….…………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -136,7 +136,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "y = mx + c",
+      "answer": "infomation",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -166,8 +166,8 @@
       }
     },
     {
-      "id": 1774171224494,
-      "text": "A matrix with all its elements as zero is a .........",
+      "id": 1774236635364,
+      "text": " A printer that uses heat elements to produce images on heat sensitive paper is \nknown as ………………………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -176,7 +176,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Null (or Zero) Matrix",
+      "answer": "thermal printer",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -206,8 +206,8 @@
       }
     },
     {
-      "id": 1774171224495,
-      "text": "In LP, the constraints that ensure variables are not negative are .........",
+      "id": 1774236676135,
+      "text": "\n7. The VDU can be either colour or………………………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -216,7 +216,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Non-negativity constraints",
+      "answer": "monochrome",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -246,8 +246,8 @@
       }
     },
     {
-      "id": 1774171224496,
-      "text": "The square root of variance is .........",
+      "id": 1774236703097,
+      "text": "Text output includes alphabetic characters, digits and \n……………….……………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -256,7 +256,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Standard Deviation",
+      "answer": "special character ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -286,8 +286,8 @@
       }
     },
     {
-      "id": 1774171224497,
-      "text": "The measure of central tendency appearing most frequently is .........",
+      "id": 1774236725229,
+      "text": "A computer program expressed in the low-level language is converted to \nmachine language using…………………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -296,7 +296,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Mode",
+      "answer": "assembler",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -326,8 +326,8 @@
       }
     },
     {
-      "id": 1774171224498,
-      "text": "The path with zero slack in a project network is the .........",
+      "id": 1774236762734,
+      "text": "Assembly language is said to be machine dependent whereas a procedural \nlanguage is said to be …………………... ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -336,7 +336,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Critical Path",
+      "answer": "problem oriented",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -366,8 +366,8 @@
       }
     },
     {
-      "id": 1774171224499,
-      "text": "Interest calculated on the principal only is .........",
+      "id": 1774236763317,
+      "text": "A system whereby the operating system continually moves data back and forth \nbetween primary and secondary memories so that it appears as if the computer \nhas unlimited amount of memory is called…………………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -376,7 +376,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Simple Interest",
+      "answer": "virtual memeory",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -406,8 +406,8 @@
       }
     },
     {
-      "id": 1774171224500,
-      "text": "The value of 4! (four factorial) is .........",
+      "id": 1774236841390,
+      "text": "In environmentally friendly system units, display and manufacturing are the \nbasic elements of the ………………..…………….. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -416,7 +416,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "24",
+      "answer": "green pc",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -446,8 +446,8 @@
       }
     },
     {
-      "id": 1774171224501,
-      "text": "A correlation coefficient of +1 indicates .........",
+      "id": 1774236909335,
+      "text": "A data entry process where jobs are entered at a remote terminal is \ncalled……………………………….. \n",
       "type": "fill_blanks",
       "options": [
         "",
@@ -456,7 +456,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Perfect Positive Correlation",
+      "answer": "remote job entry ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -486,8 +486,8 @@
       }
     },
     {
-      "id": 1774171224502,
-      "text": "In a normal distribution, the curve is .........",
+      "id": 1774236936289,
+      "text": "In Bus Network, all the communications devices are connected to a common \nchannel called the  ….............................. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -496,7 +496,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Bell-shaped (or Symmetrical)",
+      "answer": "back bone",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -526,8 +526,8 @@
       }
     },
     {
-      "id": 1774171224503,
-      "text": "The difference between the highest and lowest values in a data set is .........",
+      "id": 1774236965453,
+      "text": "A technical staff that will be involved in setting up, administration, \nmaintenance and upgrading communication systems is called……………......... ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -536,7 +536,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Range",
+      "answer": "network engineer",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -566,8 +566,8 @@
       }
     },
     {
-      "id": 1774171224504,
-      "text": "A sample where every member of the population has an equal chance of being selected is a .........",
+      "id": 1774236989103,
+      "text": "The technology used in cloud computing that serves as an interface for users to \naccess applications provided by partners and customers is known \nas…………….. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -576,7 +576,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Random Sample",
+      "answer": "platform as service",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -606,8 +606,8 @@
       }
     },
     {
-      "id": 1774171224505,
-      "text": "The point where total revenue equals total cost is the .........",
+      "id": 1774237036525,
+      "text": "An internet-based computing model whereby shared resources, software, \nprocessing power, data storage and information are delivered as a set of \nservices on demand is called…………………………… \n",
       "type": "fill_blanks",
       "options": [
         "",
@@ -616,7 +616,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Break-even Point",
+      "answer": "user data protocol",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -646,8 +646,8 @@
       }
     },
     {
-      "id": 1774171224506,
-      "text": "A series of equal payments made at regular intervals is an .........",
+      "id": 1774237073228,
+      "text": "The protocol used together with IP when small amounts of information are \ninvolved is called ……………….. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -656,7 +656,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Annuity",
+      "answer": "UDP user data protocol",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -686,8 +686,8 @@
       }
     },
     {
-      "id": 1774171224507,
-      "text": "The change in total cost resulting from producing one additional unit is .........",
+      "id": 1774237088372,
+      "text": "An internet-based application used to search for information from any website \non the internet is known as ………………………….",
       "type": "fill_blanks",
       "options": [
         "",
@@ -696,87 +696,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Marginal Cost",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224508,
-      "text": "The science of collecting, analyzing, and interpreting numerical data is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Statistics",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224509,
-      "text": "The value that divides a data set into two equal halves is the .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Median",
+      "answer": "search engine",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -805,5 +725,6 @@
         ]
       }
     }
-  ]
+  ],
+  "createdAt": "2026-03-23T03:38:39.645Z"
 }

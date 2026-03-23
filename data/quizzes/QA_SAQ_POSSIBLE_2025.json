@@ -1,0 +1,349 @@
+{
+  "courseCode": "QA ATS II",
+  "topic": "POSSIBLE QUESTIONS 2025",
+  "timeLimit": 30,
+  "marks": 20,
+  "quizType": "fill_blanks",
+  "questions": [
+    {
+      "id": 1740000000041,
+      "text": "What are the four classical components that cause variations in a time series data analysis?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Trend, Seasonal, Cyclical, Irregular (Random)",
+      "explanation": "These four elements explain the movements or variations of data points over a specific time period.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000042,
+      "text": "What is the primary statistical purpose of constructing a linear regression model in business analytics?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "To estimate/predict the value of a dependent variable",
+      "explanation": "Regression draws a line of best fit to predict outcomes based on independent variables.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000043,
+      "text": "State the fundamental formula used to calculate a simple price index number relative to a predetermined base year.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "(Current Year Value / Base Year Value) * 100",
+      "explanation": "Used to measure relative changes in prices, quantities, or values over time.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000044,
+      "text": "Specify the exact mathematical range within which the Pearson product-moment correlation coefficient must always fall.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Between -1 and +1",
+      "explanation": "A value of +1 signifies a perfect positive relationship, -1 indicates perfect negative, and 0 means no linear relationship.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000045,
+      "text": "Identify the two foundational rules of probability that apply to mutually exclusive events and independent events, respectively.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Addition rule (OR) and Multiplication rule (AND)",
+      "explanation": "Used for mutually exclusive events and independent events, respectively.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000046,
+      "text": "What are the three most common statistical measures utilized to determine the central tendency of a given dataset?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Mean, Median, Mode",
+      "explanation": "These are the three most common ways to find the center or typical value of a dataset.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000047,
+      "text": "Describe the mathematical procedure, or formula, used to calculate the variance of a population data set.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Sum of squared deviations from the mean divided by N",
+      "explanation": "Variance measures how far a set of numbers is spread out from their average value.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000048,
+      "text": "Outline the sequential steps a statistician must follow when conducting a formal hypothesis test.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "State hypothesis, select significance level, compute test statistic, make decision",
+      "explanation": "These four fundamental steps are used to evaluate claims about a population parameter.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000049,
+      "text": "In what specific analytical scenarios is the Chi-square non-parametric test most appropriately applied?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Testing goodness of fit and independence of variables",
+      "explanation": "It compares observed frequencies against expected frequencies for categorical data.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000050,
+      "text": "Name three widely used quantitative forecasting techniques applied in the analysis of historical business data.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Moving Average, Exponential Smoothing, Trend Projection",
+      "explanation": "These are common quantitative models used to predict future values from past historical data.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000051,
+      "text": "List the primary probability and non-probability sampling techniques utilized in statistical data collection.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Random, Stratified, Systematic, Cluster, Quota",
+      "explanation": "Methods used to select a subset of individuals from a population to estimate characteristics of the whole.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000052,
+      "text": "What is the ultimate mathematical objective of formulating a linear programming problem in operations research?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "To maximize profit or minimize cost subject to constraints",
+      "explanation": "LP uses linear mathematical models to achieve the best outcome derived from scarce resources.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000053,
+      "text": "State the formula utilized in Cost-Volume-Profit analysis to calculate the break-even point in units.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Fixed Costs / Contribution Margin per Unit",
+      "explanation": "Shows the exact number of units that must be sold to cover all fixed and variable costs.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000054,
+      "text": "How is the traditional payback period calculated for a prospective capital investment project?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Initial Investment / Annual Cash Inflow",
+      "explanation": "It assesses the time required to recoup the funds expended in an investment (ignoring time value of money).",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000055,
+      "text": "State the definitive decision rule governing whether an investment project should be accepted or rejected based on its Net Present Value (NPV).",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Accept the project if Net Present Value is positive",
+      "explanation": "A positive NPV indicates that the projected earnings (discounted for time value of money) exceed the anticipated costs.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000056,
+      "text": "Provide a practical interpretation of what the standard deviation represents in relation to a dataset's mean.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "The average distance of data points from the mean",
+      "explanation": "It expresses data volatility and reliability; a high SD indicates high variance.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000057,
+      "text": "Explain the primary analytical purpose of calculating moving averages when analyzing a sequence of time-series data.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Smooths out short-term fluctuations to highlight longer-term trends",
+      "explanation": "Moving averages filter out the 'noise' from random price or data fluctuations.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000058,
+      "text": "What does a Z-score precisely measure when standardizing data within a normal probability distribution?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Measures number of standard deviations from the mean",
+      "explanation": "It helps standardize values on different scales so they can be compared using the standard normal probability table.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000059,
+      "text": "Define the concept of a decision tree analysis and its application in evaluating competing business alternatives under uncertainty.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Visual model mapping sequential decisions and outcomes",
+      "explanation": "Decision trees calculate expected values of competing alternatives using probabilities.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000060,
+      "text": "What specific types of mathematical skills and concepts are predominantly tested in the objective section of the Quantitative Analysis examination?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Tests fundamental concepts and basic calculations",
+      "explanation": "The objective section is designed to test wide syllabus coverage rather than deep, multi-step problem solving.",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

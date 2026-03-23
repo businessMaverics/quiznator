@@ -1,0 +1,349 @@
+{
+  "courseCode": "IT ATS II",
+  "topic": "POSSIBLE QUESTIONS 2025",
+  "timeLimit": 30,
+  "marks": 20,
+  "quizType": "fill_blanks",
+  "questions": [
+    {
+      "id": 1740000000061,
+      "text": "Provide a classic example of a single-user, single-tasking operating system that historically managed early personal computers.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "MS-DOS / Windows 95",
+      "explanation": "An OS designed so that only one user can effectively do one thing at a time.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000062,
+      "text": "What is the primary operational function of system software within a computer architecture?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "To control and manage computer hardware",
+      "explanation": "It acts as an interface between the hardware, application software, and the end user.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000063,
+      "text": "In database management, what term is used to describe a custom data type specifically defined and structurally created by the end-user?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "User-defined data type (UDT)",
+      "explanation": "A data type derived from an existing data type tailored to the user's specific database needs.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000064,
+      "text": "Provide a comprehensive definition of a Uniform Resource Locator (URL) and its function on the World Wide Web.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Acts as the unique web address for a resource",
+      "explanation": "A Uniform Resource Locator specifies the location of a web resource on a computer network.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000065,
+      "text": "What is the primary legal and structural purpose of executing a Non-Disclosure Agreement (NDA) in an IT corporate environment?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "To legally bind parties from disclosing sensitive info",
+      "explanation": "Also known as an NDA, it protects proprietary trade secrets and client data in IT infrastructures.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000066,
+      "text": "Identify a significant technical or ethical challenge associated with the integration of Artificial Intelligence (AI) in financial reporting processes.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Lack of explainability or data bias",
+      "explanation": "AI 'black box' issues make it difficult for auditors to trace exactly how the system concluded its reports.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000067,
+      "text": "List the common types of account coding systems utilized to logically organize data within a computerized accounting environment.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Sequential, Block, Hierarchical, Mnemonic codes",
+      "explanation": "Accounting codes make it easier to enter, search, and group general ledger data.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000068,
+      "text": "Explain the foundational IT principle summarized by the acronym GIGO (Garbage In, Garbage Out).",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Flawed input data results in flawed output",
+      "explanation": "An IT principle warning that a computer cannot fix logically incorrect input algorithms.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000069,
+      "text": "Identify three robust security measures that an organization should implement to mitigate the risk of unauthorized data hacking.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Firewalls, Encryption, MFA",
+      "explanation": "Implementing Multi-Factor Authentication and encryption protocols solidifies network defenses.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000070,
+      "text": "State the primary operational and economic benefits a corporate entity achieves by migrating its data infrastructure to cloud computing.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Cost efficiency, Scalability, Remote Access",
+      "explanation": "Cloud solutions allow companies to scale server space on demand without local hardware overhead.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000071,
+      "text": "How does the implementation of blockchain technology inherently improve the security and auditability of accounting records?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Creates secure, immutable ledgers",
+      "explanation": "Transactions on a blockchain cannot be altered, drastically reducing fraud and easing audits.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000072,
+      "text": "List the most common forms of cybersecurity threats designed to compromise corporate networks or extort financial assets.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Malware, Phishing, Ransomware, DoS",
+      "explanation": "Common digital threats designed to compromise networks or extort money.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000073,
+      "text": "What are the core organizational advantages of implementing an Enterprise Resource Planning (ERP) system across multiple business departments?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Centralized database, integrated business processes",
+      "explanation": "Enterprise Resource Planning allows HR, Finance, and Supply Chain to operate off one single source of truth.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000074,
+      "text": "Identify the four widely recognized structural models utilized in Database Management Systems (DBMS) to organize and process data.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Relational, Hierarchical, Network, Object-Oriented",
+      "explanation": "The structural models defining how databases organize and process queries.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000075,
+      "text": "Name the diverse physical or logical network topologies used to map out the connections within a local area network (LAN).",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Star, Bus, Ring, Mesh, Tree",
+      "explanation": "The physical or logical arrangement of links and nodes mapping out a computer network.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000076,
+      "text": "What are the four core moral guidelines, often represented by the PAPA framework, governing IT ethics and data management?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Privacy, Accuracy, Property, Accessibility (PAPA)",
+      "explanation": "The core moral guidelines for managing data and technological property respectfully.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000077,
+      "text": "What standard lifecycle management procedures should an organization employ to handle the impending obsolescence of legacy software systems?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Regular updates, patching, legacy migration",
+      "explanation": "Maintaining security by updating systems before they reach end-of-life.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000078,
+      "text": "Identify the primary redundancy procedures and backup methods crucial for safeguarding corporate data against catastrophic hardware failure.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Full, Incremental, Differential, Cloud",
+      "explanation": "Redundancy procedures crucial to safeguarding data against catastrophic hardware failure.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000079,
+      "text": "What critical ethical considerations must be addressed when deploying artificial intelligence algorithms for sensitive financial decisions?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Ensuring fairness, transparency, and eliminating bias",
+      "explanation": "Using artificial intelligence responsibly so that algorithmic credit approvals do not discriminate.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000080,
+      "text": "Define Digital Ledger Technology (DLT) and explain its structural mechanism in facilitating secure and decentralized transactions.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "A decentralized database managed by multiple participants",
+      "explanation": "The structural mechanism underpinning cryptocurrencies and secure supply chains.",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

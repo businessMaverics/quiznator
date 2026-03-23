@@ -1,0 +1,349 @@
+{
+  "courseCode": "FA ATS II",
+  "topic": "POSSIBLE QUESTIONS 2025",
+  "timeLimit": 30,
+  "marks": 20,
+  "quizType": "fill_blanks",
+  "questions": [
+    {
+      "id": 1740000000001,
+      "text": "According to the fundamental accounting equation, the residual interest in the assets of an entity after deducting all its liabilities is exclusively referred to as:",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Equity / Capital",
+      "explanation": "According to the accounting equation (Assets = Liabilities + Equity), rearranging it gives Assets - Liabilities = Equity.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000002,
+      "text": "State the name of the specific source document that is issued by a supplier to a customer to formally acknowledge the return of defective goods.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Credit Note",
+      "explanation": "A credit note is sent by a seller to a buyer to acknowledge that returned goods have been received and the buyer's account has been credited.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000003,
+      "text": "An invitation made by a company to its existing shareholders to purchase additional new shares, usually at a discount to the current market price, is called a:",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Rights Issue",
+      "explanation": "A rights issue is an invitation to existing shareholders to purchase additional new shares in the company (usually at a discount to market price) in proportion to their existing holdings.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000004,
+      "text": "What is the primary technical purpose of preparing a profit appropriation account in partnership or corporate financial statements?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "To show the distribution of profit",
+      "explanation": "The appropriation account shows how the net profit for the year is distributed among partners (interest on capital, salaries, share of profit) or shareholders (dividends, reserves).",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000005,
+      "text": "Under the professional ethics guidelines for accountants, under what specific circumstance is a breach of client confidentiality considered legally or professionally acceptable?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Required by law or professional duty",
+      "explanation": "Accountants may breach confidentiality if there is a legal requirement (e.g. money laundering) or a professional duty to disclose.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000006,
+      "text": "In the context of modern financial technology, how is a 'smart contract' accurately defined?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Self-executing contract written in code",
+      "explanation": "A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code, often on a blockchain.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000007,
+      "text": "When making year-end adjustments, an allowance for doubtful debts is typically calculated as a percentage of which specific ledger account balance?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Trade Receivables / Debtors",
+      "explanation": "The allowance for doubtful debts is typically calculated as a percentage of the outstanding trade receivables at year-end.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000008,
+      "text": "Under the shipping terms 'Free on Board (FOB) destination', at what specific point is the inventory officially recognized as belonging to the buyer?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Upon delivery to the buyer",
+      "explanation": "Under FOB destination, the title and ownership of the goods transfer to the buyer only when the goods reach their destination.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000009,
+      "text": "Give an example of a secondary profitability ratio that measures how efficiently an entity utilizes its capital base to generate operating profits.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Return on Capital Employed (ROCE)",
+      "explanation": "While Net Margin is primary, ROCE measures how efficiently an entity uses its capital to generate profits.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000010,
+      "text": "List the fundamental year-end adjustments that must be passed to ensure financial statements comply strictly with the accrual concept of accounting.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Accruals, Prepayments, Depreciation, Bad Debts",
+      "explanation": "These are the standard adjustments made before finalizing accounts to adhere to the accrual concept.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000011,
+      "text": "The International Financial Reporting Standard (IFRS) 18, which addresses Presentation and Disclosure in Financial Statements, was introduced to replace which earlier accounting standard?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "IAS 1",
+      "explanation": "IFRS 18 (Presentation and Disclosure in Financial Statements) replaces IAS 1 to improve how information is communicated.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000012,
+      "text": "What financial mechanism is often used in a partnership agreement as an 'attractive force' to strictly reward partners for their capital contributions?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Interest on Capital / Salaries",
+      "explanation": "Partners are incentivized through interest on their capital contributions and partnership salaries.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000013,
+      "text": "The historical cost convention in accounting is primarily supported and reinforced by which underlying accounting concept?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Objective / Verifiability Concept",
+      "explanation": "Historical cost is supported by objective evidence (like a receipt) making it easily verifiable.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000014,
+      "text": "Which qualitative characteristic demands that financial transactions must be accounted for and presented in accordance with their commercial reality rather than their strict legal form?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Substance Over Form",
+      "explanation": "Substance over form ensures that transactions are accounted for according to their commercial reality, not just their legal form.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000015,
+      "text": "Provide common examples of items that would be treated as a 'change in accounting estimate' in accordance with the provisions of IAS 8.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Useful life of assets, allowance for bad debts",
+      "explanation": "Changes in accounting estimates under IAS 8 include revising the useful life of an asset or the percentage of doubtful debts.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000016,
+      "text": "Which fundamental accounting principle dictates a cautious approach where revenues are not anticipated but recognized only when realized, while losses are recognized immediately?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Prudence Concept",
+      "explanation": "Prudence dictates that revenues and profits are not anticipated, but recognized only when realized, while losses are recognized as soon as foreseen.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000017,
+      "text": "In a computerized accounting system, what is the primary structural purpose of designing a comprehensive chart of accounts?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "To organize and code all ledger accounts",
+      "explanation": "A chart of accounts is a structured list of all the accounts used in the general ledger of an organization.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000018,
+      "text": "State the double-entry journal postings required to record the annual depreciation charge using the provision method.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Debit Depreciation Expense, Credit Accumulated Depreciation",
+      "explanation": "This entry records the expense in the income statement while accumulating the total depreciation in a separate liability/contra-asset account.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000019,
+      "text": "Explain the double-entry correction required when a cash payment is erroneously recorded on the debit (receipt) side of the cash book.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Debit Suspense Account, Credit Cash",
+      "explanation": "To fix a payment wrongly posted as a receipt, you must credit the cash book with double the amount (to cancel the false receipt and record the true payment).",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000020,
+      "text": "Upon the dissolution of a partnership, what entries are passed to record a loss sustained on the realization of the partnership's assets?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Debit Partners' Capital Accounts, Credit Realisation Account",
+      "explanation": "A loss on realisation is transferred to the partners' capital accounts in their profit-sharing ratio, reducing their capital balance.",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

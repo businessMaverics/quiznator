@@ -1,0 +1,519 @@
+{
+  "courseCode": "QA ATS II",
+  "topic": "MCQ POSSIBLE 2025",
+  "timeLimit": 45,
+  "marks": 30,
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1740000000160,
+      "text": "What are the four classical mathematical components intricately responsible for the variations observed in time series data analysis?",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Trend/seasonal",
+        "Assets",
+        "Liabilities",
+        "Equity"
+      ],
+      "correctOption": 1,
+      "answer": "Trend/seasonal",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000161,
+      "text": "What is the primary overarching statistical purpose of constructing a linear regression model within business analytics?",
+      "type": "mcq",
+      "options": [
+        "Describe data",
+        "Predict relationships",
+        "Classify",
+        "Cluster",
+        "Factor"
+      ],
+      "correctOption": 1,
+      "answer": "Predict relationships",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000162,
+      "text": "Identify the fundamental algebraic property or numerical base primarily utilized in the calculation of an index number.",
+      "type": "mcq",
+      "options": [
+        "Current",
+        "Base period=100",
+        "Average",
+        "Median",
+        "Mode"
+      ],
+      "correctOption": 1,
+      "answer": "Base period=100",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000163,
+      "text": "Specify the exact theoretical and mathematical boundary within which the Pearson product-moment correlation coefficient must be contained.",
+      "type": "mcq",
+      "options": [
+        "0-1",
+        "-1 to +1",
+        "0-100",
+        "Positive only",
+        "Negative only"
+      ],
+      "correctOption": 1,
+      "answer": "-1 to +1",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000164,
+      "text": "Which foundational rule of probability analysis comprehensively dictates the mathematical treatment of mutually exclusive events?",
+      "type": "mcq",
+      "options": [
+        "Multiply",
+        "Add independents",
+        "Subtract",
+        "Divide",
+        "Power"
+      ],
+      "correctOption": 1,
+      "answer": "Add independents",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000165,
+      "text": "Which statistical metrics are collectively acknowledged and defined as the primary measures of central tendency?",
+      "type": "mcq",
+      "options": [
+        "Variance",
+        "Mean/median/mode",
+        "Range",
+        "Quartile",
+        "Percentile"
+      ],
+      "correctOption": 1,
+      "answer": "Mean/median/mode",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000166,
+      "text": "Describe the underlying architectural formula utilized to calculate the variance describing the spread of a localized population data set.",
+      "type": "mcq",
+      "options": [
+        "Sum",
+        "Mean squared deviation",
+        "Average",
+        "Median",
+        "Mode"
+      ],
+      "correctOption": 1,
+      "answer": "Mean squared deviation",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000167,
+      "text": "Outline the rigorous and sequential logical steps a statistician must employ when conducting a formal hypothesis test.",
+      "type": "mcq",
+      "options": [
+        "Ignore",
+        "Null/alternative/test",
+        "Guess",
+        "Average",
+        "Plot"
+      ],
+      "correctOption": 1,
+      "answer": "Null/alternative/test",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000168,
+      "text": "In what specific analytical scenario or structural distribution is the Chi-square non-parametric test most appropriately deployed?",
+      "type": "mcq",
+      "options": [
+        "Means",
+        "Independence",
+        "Correlation",
+        "Regression",
+        "Trend"
+      ],
+      "correctOption": 1,
+      "answer": "Independence",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000169,
+      "text": "Identify the classic quantitative modeling methodologies most broadly applied in time-series business forecasting.",
+      "type": "mcq",
+      "options": [
+        "Past",
+        "Moving average/trend",
+        "Static",
+        "Random",
+        "Fixed"
+      ],
+      "correctOption": 1,
+      "answer": "Moving average/trend",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000170,
+      "text": "Which process exemplifies the fundamental methodology involved in executing a pure, unstratified random sample?",
+      "type": "mcq",
+      "options": [
+        "Select",
+        "Equal chance",
+        "Convenience",
+        "Judgement",
+        "Quota"
+      ],
+      "correctOption": 1,
+      "answer": "Equal chance",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000171,
+      "text": "What is the ultimate, defining mathematical objective of successfully formulating a linear programming framework in operations research?",
+      "type": "mcq",
+      "options": [
+        "Minimize",
+        "Optimize constraints",
+        "Average",
+        "Sum",
+        "Plot"
+      ],
+      "correctOption": 1,
+      "answer": "Optimize constraints",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000172,
+      "text": "Identify the structural formula utilized in Cost-Volume-Profit analysis to calculate the operational break-even point.",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Fixed/var contrib",
+        "Loss",
+        "Revenue",
+        "Cost"
+      ],
+      "correctOption": 1,
+      "answer": "Fixed/var contrib",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000173,
+      "text": "How is the rudimentary payback period accurately calculated when exclusively evaluating initial investment liquidities?",
+      "type": "mcq",
+      "options": [
+        "NPV",
+        "Initial/recover",
+        "IRR",
+        "ROI",
+        "Profit"
+      ],
+      "correctOption": 1,
+      "answer": "Initial/recover",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000174,
+      "text": "State the definitive and universal decision rule utilized to accept or reject an investment project based on Net Present Value (NPV).",
+      "type": "mcq",
+      "options": [
+        "Negative",
+        "Positive accept",
+        "Zero",
+        "Ignore",
+        "Average"
+      ],
+      "correctOption": 1,
+      "answer": "Positive accept",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000175,
+      "text": "What specific dispersion characteristic does the classical standard deviation precisely measure and represent within a given dataset?",
+      "type": "mcq",
+      "options": [
+        "Centre",
+        "Dispersion",
+        "Trend",
+        "Season",
+        "Cycle"
+      ],
+      "correctOption": 1,
+      "answer": "Dispersion",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000176,
+      "text": "Explain the overarching analytical strategy embedded within the calculation of moving averages across a sequence of time-series data.",
+      "type": "mcq",
+      "options": [
+        "Noise",
+        "Trends",
+        "Random",
+        "Fixed",
+        "Static"
+      ],
+      "correctOption": 1,
+      "answer": "Trends",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000177,
+      "text": "What does a standardized Z-score precisely measure and contextualize within the boundaries of a normal probability distribution?",
+      "type": "mcq",
+      "options": [
+        "Mean",
+        "Std dev units",
+        "Median",
+        "Mode",
+        "Range"
+      ],
+      "correctOption": 1,
+      "answer": "Std dev units",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000178,
+      "text": "Define the structural implementation of a decision tree analysis architecture as actively used to evaluate business alternatives.",
+      "type": "mcq",
+      "options": [
+        "Linear",
+        "Sequential choices",
+        "Static",
+        "Random",
+        "Average"
+      ],
+      "correctOption": 1,
+      "answer": "Sequential choices",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000179,
+      "text": "Under the Central Limit Theorem framework, how is the structural distribution of sample means described as sample sizes grow sufficiently large?",
+      "type": "mcq",
+      "options": [
+        "Small",
+        "Normal large sample",
+        "Uniform",
+        "Skewed",
+        "Bimodal"
+      ],
+      "correctOption": 1,
+      "answer": "Normal large sample",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000180,
+      "text": "What is the primary, distinct analytical parameter tested and validated when executing an Analysis of Variance (ANOVA)?",
+      "type": "mcq",
+      "options": [
+        "Means equal",
+        "Variances",
+        "Correlation",
+        "Regression",
+        "Independence"
+      ],
+      "correctOption": 0,
+      "answer": "Means equal",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000181,
+      "text": "How does statistical skewness mathematically describe the structural shape and visual representation of an underlying data distribution?",
+      "type": "mcq",
+      "options": [
+        "Centre",
+        "Asymmetry",
+        "Peak",
+        "Tail",
+        "Flat"
+      ],
+      "correctOption": 1,
+      "answer": "Asymmetry",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000182,
+      "text": "Which distinct characteristic of a statistical distribution is specifically quantified and evaluated by the concept of kurtosis?",
+      "type": "mcq",
+      "options": [
+        "Tail",
+        "Peakness",
+        "Spread",
+        "Mean",
+        "Median"
+      ],
+      "correctOption": 1,
+      "answer": "Peakness",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000183,
+      "text": "Define what a calculated confidence interval explicitly attempts to establish within the realm of inferential statistics.",
+      "type": "mcq",
+      "options": [
+        "Point",
+        "Range estimate",
+        "Exact",
+        "Guess",
+        "Average"
+      ],
+      "correctOption": 1,
+      "answer": "Range estimate",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000184,
+      "text": "Explain the fundamental role and threshold interpretation of a P-value when formally testing a statistical hypothesis.",
+      "type": "mcq",
+      "options": [
+        "Accept",
+        "Reject null if low",
+        "Ignore",
+        "Mean",
+        "Variance"
+      ],
+      "correctOption": 1,
+      "answer": "Reject null if low",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000185,
+      "text": "Identify the specialized characteristic that distinguishes Spearman's rank correlation coefficient from other broad correlation tests.",
+      "type": "mcq",
+      "options": [
+        "Parametric",
+        "Non-parametric corr",
+        "Mean",
+        "Variance",
+        "Normal"
+      ],
+      "correctOption": 1,
+      "answer": "Non-parametric corr",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000186,
+      "text": "State the definitive decision rule determining whether to accept an investment project heavily relying upon the Internal Rate of Return (IRR).",
+      "type": "mcq",
+      "options": [
+        "Below cost",
+        "Above cost accept",
+        "Equal",
+        "Negative",
+        "Zero"
+      ],
+      "correctOption": 1,
+      "answer": "Above cost accept",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000187,
+      "text": "Identify the specific structural formula required to formally index and calculate a consumer price index (CPI).",
+      "type": "mcq",
+      "options": [
+        "Current/base x100",
+        "Nominal",
+        "Real",
+        "GDP",
+        "GNP"
+      ],
+      "correctOption": 0,
+      "answer": "Current/base x100",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000188,
+      "text": "Describe the operative function and mathematical integration of a seasonal index within the breakdown of time series models.",
+      "type": "mcq",
+      "options": [
+        "Trend",
+        "Avg/seasonal factor",
+        "Random",
+        "Cyclic",
+        "Irregular"
+      ],
+      "correctOption": 1,
+      "answer": "Avg/seasonal factor",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000189,
+      "text": "Which foundational principle of inferential probability theory explicitly underpins the mathematical architecture of Bayes' Theorem?",
+      "type": "mcq",
+      "options": [
+        "Independent",
+        "Conditional prob",
+        "Addition",
+        "Multiplication",
+        "Total"
+      ],
+      "correctOption": 1,
+      "answer": "Conditional prob",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

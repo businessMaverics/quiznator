@@ -1,0 +1,519 @@
+{
+  "courseCode": "FA ATS II",
+  "topic": "MCQ POSSIBLE 2025",
+  "timeLimit": 45,
+  "marks": 30,
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1740000000100,
+      "text": "According to the fundamental accounting equation, which of the following represents the residual interest in the assets of an entity after deducting all its liabilities?",
+      "type": "mcq",
+      "options": [
+        "Revenue",
+        "Equity",
+        "Expenses",
+        "Profit",
+        "Capital"
+      ],
+      "correctOption": 1,
+      "answer": "Equity",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000101,
+      "text": "Which of the following source documents is typically issued by a supplier to a customer to formally acknowledge that returned goods have been received?",
+      "type": "mcq",
+      "options": [
+        "Debit note",
+        "Invoice",
+        "Credit note",
+        "Receipt",
+        "Statement"
+      ],
+      "correctOption": 2,
+      "answer": "Credit note",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000102,
+      "text": "An invitation made by a company to its existing shareholders to purchase additional new shares, usually at a discount to the current market price, is recognized as a:",
+      "type": "mcq",
+      "options": [
+        "Rights issue",
+        "Bonus issue",
+        "Preference shares",
+        "Debentures",
+        "IPO"
+      ],
+      "correctOption": 1,
+      "answer": "Bonus issue",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000103,
+      "text": "What is the primary technical purpose of preparing a profit appropriation account in the financial statements of a partnership?",
+      "type": "mcq",
+      "options": [
+        "Record sales",
+        "Distribute profits",
+        "Calculate tax",
+        "Show assets",
+        "Track expenses"
+      ],
+      "correctOption": 1,
+      "answer": "Distribute profits",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000104,
+      "text": "Under the professional ethics guidelines for accountants, under what specific circumstance is a breach of client confidentiality considered legally or professionally acceptable?",
+      "type": "mcq",
+      "options": [
+        "Client request",
+        "Legal requirement",
+        "Personal gain",
+        "Convenience",
+        "Always"
+      ],
+      "correctOption": 1,
+      "answer": "Legal requirement",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000105,
+      "text": "In the context of modern financial technology, how is a 'smart contract' fundamentally executed and enforced?",
+      "type": "mcq",
+      "options": [
+        "Manual agreement",
+        "Blockchain code",
+        "Court order",
+        "Notary",
+        "Email"
+      ],
+      "correctOption": 1,
+      "answer": "Blockchain code",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000106,
+      "text": "When making year-end adjustments, the calculation of an allowance for doubtful debts most commonly relies upon which of the following analytical methods?",
+      "type": "mcq",
+      "options": [
+        "Historical cost",
+        "Ageing analysis",
+        "Market value",
+        "Replacement cost",
+        "Fair value"
+      ],
+      "correctOption": 1,
+      "answer": "Ageing analysis",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000107,
+      "text": "Under the shipping terms 'Free on Board (FOB) destination', at what specific point is the legal title to the inventory officially transferred to the buyer?",
+      "type": "mcq",
+      "options": [
+        "On shipment",
+        "At destination",
+        "On payment",
+        "At factory",
+        "On order"
+      ],
+      "correctOption": 1,
+      "answer": "At destination",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000108,
+      "text": "Which of the following serves as a secondary profitability ratio that measures how efficiently an entity utilizes its capital base to generate operating profits?",
+      "type": "mcq",
+      "options": [
+        "Gross margin",
+        "ROCE",
+        "Current ratio",
+        "Debt ratio",
+        "EPS"
+      ],
+      "correctOption": 1,
+      "answer": "ROCE",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000109,
+      "text": "Which of the following is considered a standard year-end adjustment that must be passed to ensure financial statements strictly comply with the accrual concept?",
+      "type": "mcq",
+      "options": [
+        "Sales",
+        "Depreciation",
+        "Purchases",
+        "Equity",
+        "Revenue"
+      ],
+      "correctOption": 1,
+      "answer": "Depreciation",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000110,
+      "text": "The International Financial Reporting Standard (IFRS) 18, which addresses Presentation and Disclosure, was recently introduced to replace which earlier accounting standard?",
+      "type": "mcq",
+      "options": [
+        "IAS 7",
+        "IAS 1",
+        "IAS 16",
+        "IAS 37",
+        "IAS 2"
+      ],
+      "correctOption": 1,
+      "answer": "IAS 1",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000111,
+      "text": "What financial mechanism is typically stipulated in a partnership agreement as an 'attractive force' to effectively reward partners for their invested capital?",
+      "type": "mcq",
+      "options": [
+        "Capital",
+        "Goodwill",
+        "Interest",
+        "Salary",
+        "Drawings"
+      ],
+      "correctOption": 1,
+      "answer": "Goodwill",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000112,
+      "text": "The historical cost convention in accounting is primarily supported and reinforced by its reliance upon which of the following intrinsic characteristics?",
+      "type": "mcq",
+      "options": [
+        "Subjectivity",
+        "Objectivity",
+        "Estimates",
+        "Forecasts",
+        "Market views"
+      ],
+      "correctOption": 1,
+      "answer": "Objectivity",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000113,
+      "text": "Which qualitative characteristic demands that financial transactions must be accounted for and presented in accordance with their commercial reality rather than strictly their legal form?",
+      "type": "mcq",
+      "options": [
+        "Verifiability",
+        "Relevance",
+        "Timeliness",
+        "Comparability",
+        "Understandability"
+      ],
+      "correctOption": 1,
+      "answer": "Relevance",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000114,
+      "text": "Which of the following represents a common example of an item that would be treated as a 'change in accounting estimate' in accordance with IAS 8?",
+      "type": "mcq",
+      "options": [
+        "Fixed assets",
+        "Bad debts",
+        "Share capital",
+        "Loans",
+        "Sales"
+      ],
+      "correctOption": 1,
+      "answer": "Bad debts",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000115,
+      "text": "Which fundamental accounting concept dictates a cautious approach where revenues are not anticipated but recognized only when realized, while losses are recognized immediately?",
+      "type": "mcq",
+      "options": [
+        "Accrual",
+        "Prudence",
+        "Going concern",
+        "Consistency",
+        "Matching"
+      ],
+      "correctOption": 1,
+      "answer": "Prudence",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000116,
+      "text": "In a computerized accounting system, what is the primary structural purpose of designing a comprehensive chart of accounts?",
+      "type": "mcq",
+      "options": [
+        "Record transactions",
+        "Organize ledgers",
+        "Calculate profit",
+        "Prepare tax",
+        "Audit trail"
+      ],
+      "correctOption": 1,
+      "answer": "Organize ledgers",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000117,
+      "text": "Identify the correct double-entry journal postings required to strictly record the annual depreciation charge using the provision method.",
+      "type": "mcq",
+      "options": [
+        "Dr Asset Cr Cash",
+        "Dr Expense Cr Provision",
+        "Dr Cash Cr Expense",
+        "Dr Provision Cr Expense",
+        "Dr Asset Cr Expense"
+      ],
+      "correctOption": 1,
+      "answer": "Dr Expense Cr Provision",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000118,
+      "text": "When a cash payment made by a business is erroneously recorded on the debit (receipt) side of the cash book, what type of bookkeeping error has occurred?",
+      "type": "mcq",
+      "options": [
+        "Omission",
+        "Commission",
+        "Principle",
+        "Complete",
+        "Original entry"
+      ],
+      "correctOption": 1,
+      "answer": "Commission",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000119,
+      "text": "Upon the dissolution of a partnership, what entries are passed to accurately record a loss sustained on the realization of the partnership's assets?",
+      "type": "mcq",
+      "options": [
+        "Dr Assets Cr Partners",
+        "Dr Partners Cr Assets",
+        "Dr Profit Cr Assets",
+        "Dr Assets Cr Profit",
+        "Dr Cash Cr Partners"
+      ],
+      "correctOption": 1,
+      "answer": "Dr Partners Cr Assets",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000120,
+      "text": "The accrual basis of accounting is fundamentally designed to properly match which of the following elements within a specific reporting period?",
+      "type": "mcq",
+      "options": [
+        "Cash flows",
+        "Income/expenses period",
+        "Assets/liabilities",
+        "Equity/profit",
+        "Revenue/capital"
+      ],
+      "correctOption": 1,
+      "answer": "Income/expenses period",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000121,
+      "text": "Which of the following elements is strictly excluded from the scope and structural design of the Conceptual Framework for Financial Reporting?",
+      "type": "mcq",
+      "options": [
+        "Objectives",
+        "Accountant roles",
+        "Qualitative traits",
+        "Capital maintenance",
+        "Element recognition"
+      ],
+      "correctOption": 1,
+      "answer": "Accountant roles",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000122,
+      "text": "Under the provisions of IAS 8, which of the following is strictly excluded from being classified as a formal accounting change?",
+      "type": "mcq",
+      "options": [
+        "Policy selection",
+        "Error correction",
+        "Estimate changes",
+        "Cash flow adjustments",
+        "Voluntary policy"
+      ],
+      "correctOption": 3,
+      "answer": "Cash flow adjustments",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000123,
+      "text": "What is the primary audit objective when an independent auditor is verifying a company's schedule of prepayments?",
+      "type": "mcq",
+      "options": [
+        "Tax reduction",
+        "Compliance",
+        "Profit increase",
+        "Bonus payment",
+        "Asset cover"
+      ],
+      "correctOption": 1,
+      "answer": "Compliance",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000124,
+      "text": "In the preparation of an extended trial balance, which specific figures typically appear twice across the adjustment columns to maintain double-entry balance?",
+      "type": "mcq",
+      "options": [
+        "All",
+        "Depreciation only",
+        "None",
+        "Opening balances",
+        "Closing balances"
+      ],
+      "correctOption": 0,
+      "answer": "All",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000125,
+      "text": "Uniformity and consistent presentation in general purpose financial statements are primarily ensured by strict adherence to the:",
+      "type": "mcq",
+      "options": [
+        "Cash basis",
+        "Conceptual framework",
+        "Tax rules",
+        "Management policy",
+        "Audit opinion"
+      ],
+      "correctOption": 1,
+      "answer": "Conceptual framework",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000126,
+      "text": "According to the recognition criteria for financial elements, an asset is strictly included in the statement of financial position when:",
+      "type": "mcq",
+      "options": [
+        "Paid",
+        "Probable benefits",
+        "Generate income only",
+        "Cash only",
+        "Fixed only"
+      ],
+      "correctOption": 1,
+      "answer": "Probable benefits",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000127,
+      "text": "What is the primary overarching purpose of preparing a Statement of Financial Position at the conclusion of a financial reporting period?",
+      "type": "mcq",
+      "options": [
+        "Profitability",
+        "Assets/liabilities/equity",
+        "Cash flows",
+        "Equity changes",
+        "Revenue summary"
+      ],
+      "correctOption": 1,
+      "answer": "Assets/liabilities/equity",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000128,
+      "text": "Which of the following events is a legally recognized cause that triggers the compulsory dissolution of a business partnership?",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Expiry",
+        "Growth",
+        "Expansion",
+        "Merger"
+      ],
+      "correctOption": 1,
+      "answer": "Expiry",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000129,
+      "text": "According to the qualitative characteristics of useful financial information, relevance is intrinsically composed of which dual attributes?",
+      "type": "mcq",
+      "options": [
+        "Predictive/confirmatory",
+        "Faithful/neutral",
+        "Timely/comparable",
+        "Verifiable/understandable",
+        "Complete/all aspects"
+      ],
+      "correctOption": 0,
+      "answer": "Predictive/confirmatory",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

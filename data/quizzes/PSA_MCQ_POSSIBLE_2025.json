@@ -1,0 +1,519 @@
+{
+  "courseCode": "PSA ATS II",
+  "topic": "MCQ POSSIBLE 2025",
+  "timeLimit": 45,
+  "marks": 30,
+  "quizType": "mcq",
+  "questions": [
+    {
+      "id": 1740000000130,
+      "text": "What are the overarching primary objectives of preparing public sector accounting records and statements?",
+      "type": "mcq",
+      "options": [
+        "Profit maximization",
+        "Stewardship",
+        "Dividend payment",
+        "Market share",
+        "Cost reduction"
+      ],
+      "correctOption": 1,
+      "answer": "Stewardship",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000131,
+      "text": "Which demographic or structural group represents the primary targeted users of public sector financial reports and budgets?",
+      "type": "mcq",
+      "options": [
+        "Shareholders only",
+        "Citizens/legislature",
+        "Customers",
+        "Suppliers",
+        "Employees"
+      ],
+      "correctOption": 1,
+      "answer": "Citizens/legislature",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000132,
+      "text": "Identify the permissible accounting bases utilized comprehensively across global public sector accounting frameworks.",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Cash/accrual",
+        "Equity",
+        "Revenue",
+        "Cost"
+      ],
+      "correctOption": 1,
+      "answer": "Cash/accrual",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000133,
+      "text": "What constitutes the most fundamental operative difference between a public sector entity and a private sector enterprise?",
+      "type": "mcq",
+      "options": [
+        "Profit focus",
+        "Stewardship/non-profit",
+        "Equity shares",
+        "Dividends",
+        "Bonuses"
+      ],
+      "correctOption": 1,
+      "answer": "Stewardship/non-profit",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000134,
+      "text": "Explain the primary administrative purpose behind the strict implementation of 'fund accounting' within governmental agencies.",
+      "type": "mcq",
+      "options": [
+        "Mix resources",
+        "Segregate by purpose",
+        "Ignore restrictions",
+        "Profit allocation",
+        "Tax planning"
+      ],
+      "correctOption": 1,
+      "answer": "Segregate by purpose",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000135,
+      "text": "Which designated International Public Sector Accounting Standard (IPSAS) comprehensively regulates the accounting treatment for Property, Plant, and Equipment?",
+      "type": "mcq",
+      "options": [
+        "IPSAS 1",
+        "IPSAS 17",
+        "IPSAS 23",
+        "IPSAS 39",
+        "IPSAS 41"
+      ],
+      "correctOption": 1,
+      "answer": "IPSAS 17",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000136,
+      "text": "Outline the correct sequential stages involved in the execution of the public sector budgetary control process.",
+      "type": "mcq",
+      "options": [
+        "Ignore variances",
+        "Prepare/execute/report",
+        "Profit only",
+        "Cash only",
+        "Assets only"
+      ],
+      "correctOption": 1,
+      "answer": "Prepare/execute/report",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000137,
+      "text": "Under a modified accrual basis of accounting in the public sector, at what exact point are revenues formally recognized?",
+      "type": "mcq",
+      "options": [
+        "Incurred",
+        "Measurable/available",
+        "Paid",
+        "Ordered",
+        "Budgeted"
+      ],
+      "correctOption": 1,
+      "answer": "Measurable/available",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000138,
+      "text": "Which International Public Sector Accounting Standard (IPSAS) governs the accounting procedures for government grants and subventions?",
+      "type": "mcq",
+      "options": [
+        "IAS 20",
+        "IPSAS 23",
+        "IAS 16",
+        "IFRS 15",
+        "IPSAS 9"
+      ],
+      "correctOption": 1,
+      "answer": "IPSAS 23",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000139,
+      "text": "Identify the major classifications of comprehensive audits typically conducted within the public sector administration.",
+      "type": "mcq",
+      "options": [
+        "Profit only",
+        "Financial/compliance",
+        "Tax",
+        "Internal only",
+        "Management"
+      ],
+      "correctOption": 1,
+      "answer": "Financial/compliance",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000140,
+      "text": "What specific fiscal activity is formally recorded and tracked using 'commitment accounting' in government systems?",
+      "type": "mcq",
+      "options": [
+        "Payments",
+        "Obligations pre-payment",
+        "Receipts",
+        "Assets",
+        "Profits"
+      ],
+      "correctOption": 1,
+      "answer": "Obligations pre-payment",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000141,
+      "text": "In the context of budgetary control, what are the primary classifications of variances that indicate a departure from fiscal plans?",
+      "type": "mcq",
+      "options": [
+        "Favourable/adverse",
+        "Profit/loss",
+        "Asset/liability",
+        "Cash/non-cash",
+        "Fixed/variable"
+      ],
+      "correctOption": 0,
+      "answer": "Favourable/adverse",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000142,
+      "text": "Which of the following crucial parameters must be meticulously monitored and recorded within a government fixed asset register?",
+      "type": "mcq",
+      "options": [
+        "Cash",
+        "Depreciation/disposal",
+        "Revenue",
+        "Expenses",
+        "Equity"
+      ],
+      "correctOption": 1,
+      "answer": "Depreciation/disposal",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000143,
+      "text": "Which International Public Sector Accounting Standard (IPSAS) specifically orchestrates the rigorous accounting treatment surrounding public debt?",
+      "type": "mcq",
+      "options": [
+        "17",
+        "23",
+        "39",
+        "41",
+        "1"
+      ],
+      "correctOption": 3,
+      "answer": "41",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000144,
+      "text": "According to public sector accounting guidelines, which IPSAS formally dictates the standards for revenue recognition from exchange transactions?",
+      "type": "mcq",
+      "options": [
+        "9",
+        "17",
+        "23",
+        "39",
+        "2"
+      ],
+      "correctOption": 0,
+      "answer": "9",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000145,
+      "text": "Which specific IPSAS provides the authoritative guidelines for the comprehensive recognition and measurement of government employee pension liabilities?",
+      "type": "mcq",
+      "options": [
+        "17",
+        "23",
+        "39",
+        "41",
+        "1"
+      ],
+      "correctOption": 2,
+      "answer": "39",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000146,
+      "text": "How should externally provided restricted donor funds accurately be managed and accounted for to ensure absolute operational transparency?",
+      "type": "mcq",
+      "options": [
+        "Unrestricted",
+        "Restricted accounting",
+        "Profit share",
+        "Dividend",
+        "Tax free"
+      ],
+      "correctOption": 1,
+      "answer": "Restricted accounting",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000147,
+      "text": "According to public sector reporting standards, which IPSAS mandates the structural presentation of a Statement of Cash Flows?",
+      "type": "mcq",
+      "options": [
+        "1",
+        "2",
+        "17",
+        "23",
+        "39"
+      ],
+      "correctOption": 1,
+      "answer": "2",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000148,
+      "text": "Under the IPSAS framework governing consolidated financial statements, which entities are strictly mandated to be included in the public sector consolidation?",
+      "type": "mcq",
+      "options": [
+        "Ignore entities",
+        "Controlled entities",
+        "Profit only",
+        "Equity only",
+        "Cash only"
+      ],
+      "correctOption": 1,
+      "answer": "Controlled entities",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000149,
+      "text": "Which of the following represents an essential pillar included within the ICAN Accountability Index (ICAN-AI) framework?",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Budget credibility",
+        "Dividends",
+        "Shares",
+        "Sales"
+      ],
+      "correctOption": 1,
+      "answer": "Budget credibility",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000150,
+      "text": "What is the overarching operational and strategic objective of the Pan African Federation of Accountants (PAFA)?",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Harmonise standards",
+        "Tax avoidance",
+        "Private focus",
+        "Local only"
+      ],
+      "correctOption": 1,
+      "answer": "Harmonise standards",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000151,
+      "text": "Which of the following objectives is strictly NOT a primary goal of conducting a public sector pre-payment audit?",
+      "type": "mcq",
+      "options": [
+        "Compliance",
+        "Unreasonable spend",
+        "Tax reduction",
+        "Guide expenditure",
+        "Value for money"
+      ],
+      "correctOption": 2,
+      "answer": "Tax reduction",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000152,
+      "text": "Identify an intrinsic component that serves as a cornerstone pillar during the process of budget execution in government.",
+      "type": "mcq",
+      "options": [
+        "Planning",
+        "Cash flow management",
+        "Forecasting",
+        "Policy",
+        "Reporting"
+      ],
+      "correctOption": 1,
+      "answer": "Cash flow management",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000153,
+      "text": "According to IPSAS 1, what specific overarching guidelines are prescribed for public sector entities?",
+      "type": "mcq",
+      "options": [
+        "PPE",
+        "Presentation",
+        "Grants",
+        "Pensions",
+        "Debt"
+      ],
+      "correctOption": 1,
+      "answer": "Presentation",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000154,
+      "text": "Which of the following structural checks functions as a primary mechanism for managing expenditure controls in public sector entities?",
+      "type": "mcq",
+      "options": [
+        "Ignore",
+        "Approvals/audits",
+        "Free spend",
+        "Personal",
+        "Profit driven"
+      ],
+      "correctOption": 1,
+      "answer": "Approvals/audits",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000155,
+      "text": "What is implied when a localized government project is strictly classified and executed as a 'direct labour contract'?",
+      "type": "mcq",
+      "options": [
+        "Private",
+        "Government self-execute",
+        "Outsource",
+        "Profit",
+        "Tax"
+      ],
+      "correctOption": 1,
+      "answer": "Government self-execute",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000156,
+      "text": "Within the parameters of public fiscal health, the accountability index primarily scrutinizes which of the following sectors?",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Policy/budgeting",
+        "Shares",
+        "Dividends",
+        "Sales"
+      ],
+      "correctOption": 1,
+      "answer": "Policy/budgeting",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000157,
+      "text": "What standard of quality is inherently paramount regarding the timeliness of financial reporting in the public sector?",
+      "type": "mcq",
+      "options": [
+        "Optional",
+        "Accurate/complete",
+        "Profit focus",
+        "Private like",
+        "Ignore"
+      ],
+      "correctOption": 1,
+      "answer": "Accurate/complete",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000158,
+      "text": "Which professional body actively promotes and facilitates the adoption of International Public Sector Accounting Standards (IPSAS) across Africa?",
+      "type": "mcq",
+      "options": [
+        "Optional",
+        "PAFA promotes",
+        "Private only",
+        "Profit",
+        "Tax"
+      ],
+      "correctOption": 1,
+      "answer": "PAFA promotes",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000159,
+      "text": "What is the central operational objective of enforcing 'stewardship' principles within public financial management?",
+      "type": "mcq",
+      "options": [
+        "Profit",
+        "Accountability resources",
+        "Dividends",
+        "Growth",
+        "Market"
+      ],
+      "correctOption": 1,
+      "answer": "Accountability resources",
+      "explanation": "",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "courseCode": "PSA ATS II",
+  "topic": "POSSIBLE QUESTIONS 2025",
+  "timeLimit": 30,
+  "marks": 20,
+  "quizType": "fill_blanks",
+  "questions": [
+    {
+      "id": 1740000000021,
+      "text": "What are the three primary accounting bases utilized in the preparation of government and public sector financial statements?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Cash, Accrual, and Modified Bases",
+      "explanation": "Government accounts can be maintained on a strict cash basis, full accrual basis, or a modified version of either.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000022,
+      "text": "State the core objectives of public sector accounting as distinct from private sector financial reporting.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Transparency, Accountability, Stewardship",
+      "explanation": "The main goal is to demonstrate accountability and stewardship rather than to measure profit.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000023,
+      "text": "Identify three exclusive terminologies that are unique to government budgeting and public sector accounting practices.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Warrant, Virement, Consolidated Revenue Fund",
+      "explanation": "These are common specialized terms used uniquely within government budgeting and accounting.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000024,
+      "text": "What is the fundamental difference in the overarching objective of a public sector entity compared to a private sector commercial enterprise?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Profit motive vs Service provision",
+      "explanation": "Private sector aims to maximize wealth for owners, while the public sector aims to provide public services.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000025,
+      "text": "Explain the primary regulatory purpose of adopting 'fund accounting' within governmental and public sector entities.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "To ensure resources are used for specifically designated purposes",
+      "explanation": "Fund accounting emphasizes accountability rather than profitability, segregating resources into independent funds.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000026,
+      "text": "Which International Public Sector Accounting Standard (IPSAS) specifically prescribes the accounting treatment for Property, Plant, and Equipment?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "IPSAS 17",
+      "explanation": "International Public Sector Accounting Standard 17 deals with the accounting treatment for PPE.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000027,
+      "text": "Under the IPSAS framework, which standard governs the preparation and presentation of Consolidated Financial Statements for public sector economic entities?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "IPSAS 6 / IPSAS 35",
+      "explanation": "Consolidation involves combining the financial statements of a controlling entity and its controlled entities.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000028,
+      "text": "Outline the sequential stages involved in the public sector budgetary control process.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Preparation, Approval, Execution, Monitoring",
+      "explanation": "The budget cycle includes defining the budget, securing legislative approval, executing it, and monitoring variances.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000029,
+      "text": "How is public debt typically classified and treated in the financial records of a sovereign government?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Recorded as domestic or external liabilities",
+      "explanation": "Government borrowings must be accurately recorded, distinguishing between internal lending and external/foreign debt.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000030,
+      "text": "Under what two distinct conditions is revenue formally recognized by a government entity, depending on the accounting basis employed?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "When received (Cash) or when earned (Accrual)",
+      "explanation": "Depending on the accounting basis implemented, revenue is recognized either at the point of cash receipt or when a legal claim arises.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000031,
+      "text": "Define 'Commitment Accounting' and explain its importance in preventing budget overruns in the public sector.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Recording encumbrances when orders are placed",
+      "explanation": "It reserves portions of the budget for upcoming liabilities to prevent accidental overspending.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000032,
+      "text": "Provide a comprehensive explanation of the 'modified accrual basis' of accounting as applied in governmental funds.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Revenues recognized when measurable and available, expenditures when incurred",
+      "explanation": "A hybrid method predominantly used in governmental fund accounting.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000033,
+      "text": "Which International Public Sector Accounting Standard (IPSAS) dictates the treatment of revenue arising from non-exchange transactions, such as government grants?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "IPSAS 23 (Revenue from Non-Exchange Transactions)",
+      "explanation": "Deals with transactions where an entity receives value from another entity without directly giving approximately equal value in exchange.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000034,
+      "text": "List the essential details that must be permanently maintained within a government entity's fixed asset register.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Date of purchase, cost, location, depreciation, unique ID",
+      "explanation": "Registers are critical internal control tools to physically safeguard and account for state-owned non-current assets.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000035,
+      "text": "Identify the three major classifications of audits typically conducted within the public sector to ensure accountability and value for money.",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Financial, Compliance, and Value for Money Audit",
+      "explanation": "Public audits assess financial accuracy, adherence to laws, and whether the 3 Es (Economy, Efficiency, Effectiveness) were achieved.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000036,
+      "text": "What is the specific purpose of conducting variance analysis in the context of governmental budgetary control?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Comparing actual expenditure/revenue against budgeted figures",
+      "explanation": "Highlights shortfalls in revenue collection or over/under-spending by ministries.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000037,
+      "text": "How should restricted donor funds (e.g., from international agencies) be accounted for to ensure transparency?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Restricted funds requiring separate ledger tracking",
+      "explanation": "Funds given by bodies like the World Bank often have strict stipulations and must not be commingled with the consolidated revenue fund.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000038,
+      "text": "Which IPSAS provides the guidelines for the recognition and measurement of government employee pension liabilities?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "IPSAS 39 (Employee Benefits)",
+      "explanation": "Governments must recognize their present obligation to pay retirement benefits as civil servants earn them.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000039,
+      "text": "According to IPSAS 2, public entities are required to present their cash flows classified into which three distinct categories?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Operating, Investing, and Financing activities (IPSAS 2)",
+      "explanation": "Like private entities, public entities use a cash flow statement to present information about historical changes in cash.",
+      "includeTable": false,
+      "isTableAnswer": false
+    },
+    {
+      "id": 1740000000040,
+      "text": "According to IPSAS 1, what are the primary components that must be included in a complete set of public sector financial statements?",
+      "type": "fill_blanks",
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctOption": 0,
+      "answer": "Statement of Financial Position, Performance, and Net Assets",
+      "explanation": "IPSAS 1 prescribes the overall considerations for the presentation of financial statements for public sector entities.",
+      "includeTable": false,
+      "isTableAnswer": false
+    }
+  ]
+}

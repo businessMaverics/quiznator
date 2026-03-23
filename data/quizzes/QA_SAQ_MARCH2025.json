@@ -6,86 +6,6 @@
   "quizType": "fill_blanks",
   "questions": [
     {
-      "id": 1774171224476,
-      "text": "A fruit seller sold a basket of oranges for GH¢3,000 at a profit of 10%. What is the cost price of the basket of oranges?",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224477,
-      "text": "The price elasticity of demand function is ......................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
       "id": 1774171224478,
       "text": "The price for which he should sell the books in order to maximize revenue is ..................",
       "type": "fill_blanks",
@@ -96,7 +16,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "Depends on function",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -136,7 +56,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "(Q3 - Q1) / 2",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -176,7 +96,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "N88,400",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -216,47 +136,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224482,
-      "text": "The probability of an event happening is 0.4. What is the probability of the event not happening?",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "8.47%",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -296,7 +176,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "18",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -336,7 +216,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "3/8 or 0.375",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -376,7 +256,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "Σ|x - μ| / N",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -416,87 +296,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224487,
-      "text": "The square root of the variance is known as the .................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224488,
-      "text": "A sequence where each term is found by multiplying the previous term by a constant is a .................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "Y-intercept",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -536,47 +336,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224490,
-      "text": "What is the mode of the following data: 2, 4, 4, 5, 6, 7, 7, 7, 8?",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "Break-Even Point",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -616,47 +376,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224492,
-      "text": "In set theory, the set containing all elements under consideration is the .................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "Slope / Gradient",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -696,87 +416,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224494,
-      "text": "If demand is perfectly inelastic, the price elasticity of demand is equal to .................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224495,
-      "text": "The difference between the highest and lowest values in a data set is the .................",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Please Provide Answer",
+      "answer": "120",
       "explanation": "",
       "includeTable": false,
       "tableData": {

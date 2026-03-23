@@ -1,13 +1,13 @@
 {
-  "courseCode": "FA ATS II",
-  "topic": "SAQ - September 2023",
+  "courseCode": "PSA ATS II",
+  "topic": "SAQ - March 2020",
   "marks": "20",
   "timeLimit": "30",
   "quizType": "fill_blanks",
   "questions": [
     {
-      "id": 1774171224292,
-      "text": "The accounting concept that states that for every debit entry there must be a corresponding credit entry is ………",
+      "id": 1774235308589,
+      "text": "The Officer that is responsible for the preparation and presentation of Financial \nStatements of the Parastatal is …………………………",
       "type": "fill_blanks",
       "options": [
         "",
@@ -16,7 +16,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Duality",
+      "answer": "Accounting officer",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -46,8 +46,8 @@
       }
     },
     {
-      "id": 1774171224293,
-      "text": "A list of ledger balances extracted at a specific date to check the arithmetical accuracy of the books is ………",
+      "id": 1774235327438,
+      "text": "The pre-payment made by entities for goods and services expected to be \nreceived is called ……………………….",
       "type": "fill_blanks",
       "options": [
         "",
@@ -56,7 +56,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Trial Balance",
+      "answer": "Advance Payment ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -86,8 +86,8 @@
       }
     },
     {
-      "id": 1774171224295,
-      "text": "The cost of an asset at the beginning of the year plus additions during the year less depreciation is known as …………………",
+      "id": 1774235327621,
+      "text": "The parastatals are expected to adopt. ………………….. basis of accounting in \npreparation and presentation of financial status.",
       "type": "fill_blanks",
       "options": [
         "",
@@ -96,7 +96,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Carrying Amount",
+      "answer": "accrual",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -126,8 +126,8 @@
       }
     },
     {
-      "id": 1774171224296,
-      "text": "Assets held for sale in the ordinary course of business are …………..",
+      "id": 1774235327784,
+      "text": "A medium-plan whereby projections are made and acted upon yearly in \nkeeping with the state of the economy is called ………………………….",
       "type": "fill_blanks",
       "options": [
         "",
@@ -136,7 +136,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Inventory",
+      "answer": "Rolling Plan ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -166,8 +166,8 @@
       }
     },
     {
-      "id": 1774171224297,
-      "text": "The profit as a percentage of cost is known as …………., while profit as a percentage of sales is called ………………..",
+      "id": 1774235327927,
+      "text": "The mechanism for ensuring strict compliance with the openness, competition \nand cost accuracy, rules and procedure that should guide contract awards in \ngovernment is called …………………………",
       "type": "fill_blanks",
       "options": [
         "",
@@ -176,7 +176,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Markup and Margin",
+      "answer": "  Due Process ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -206,8 +206,8 @@
       }
     },
     {
-      "id": 1774171224298,
-      "text": "TWO methods of accounting for transactions in accordance with provisions of IAS 1 are ……………… and………………",
+      "id": 1774235328121,
+      "text": "The assistance received by a department apart from releases from the \nConsolidated Revenue Fund (CRF) deducted from the total supply estimates is \nknown as ………………………..",
       "type": "fill_blanks",
       "options": [
         "",
@@ -216,7 +216,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Accrual basis and Cash basis",
+      "answer": "grants",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -246,8 +246,8 @@
       }
     },
     {
-      "id": 1774171224299,
-      "text": "The body responsible for issuing new accounting standard globally is ………….",
+      "id": 1774235484715,
+      "text": "The body set-up by the government to oversee the scrutiny of contract\nprocesses and approval of the contracts is known as ….……………………….",
       "type": "fill_blanks",
       "options": [
         "",
@@ -256,7 +256,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "International Accounting Standards Board (IASB)",
+      "answer": "tender board",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -286,8 +286,8 @@
       }
     },
     {
-      "id": 1774171224300,
-      "text": "The financial tools used for evaluating past, current and future performance of an entity is known as ………………",
+      "id": 1774235484909,
+      "text": "An IT-based system for budget management and accounting implemented by \nthe Federal Government of Nigeria (FGN) to improve Public Expenditure \nManagement Processes is ..……………………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -296,7 +296,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Financial Ratios",
+      "answer": "gifmis",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -326,8 +326,8 @@
       }
     },
     {
-      "id": 1774171224301,
-      "text": "Two enhancing qualitative characteristics of financial information are …………….. and ……………..",
+      "id": 1774235485205,
+      "text": "Examples of Non-Self Accounting unit are ……………………… and \n………………………..",
       "type": "fill_blanks",
       "options": [
         "",
@@ -336,7 +336,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Comparability and Verifiability",
+      "answer": "   (i)   (ii)   (iii)   (iv)   (v)       Public Complaints Commission  Code of Conduct Bureau (CCB)  Independent Corrupt Practices and Other Related Offences            Commission (ICPC)  Economic and Financial Crimes Commission (EFCC)  Federal Road Safety Commission",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -366,8 +366,8 @@
       }
     },
     {
-      "id": 1774171224302,
-      "text": "TWO main ways of processing computerised business transactions are ……………. and …………….",
+      "id": 1774235579201,
+      "text": "A summary of total receipts and payments as posted in the cashbook of a Self\nAccounting unit is a  ………..................... ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -376,7 +376,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Batch processing and Real-time processing",
+      "answer": "transacript",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -406,8 +406,8 @@
       }
     },
     {
-      "id": 1774171224303,
-      "text": "The proper trail generated in a computerised financial transaction is called ………….",
+      "id": 1774235579740,
+      "text": "Among the Financial Officers in a Local Government, the Officer that must not \nbe the cashier in the Treasury is …………………………. ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -416,7 +416,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Audit Trail",
+      "answer": "treasurer",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -446,8 +446,8 @@
       }
     },
     {
-      "id": 1774171224304,
-      "text": "The shares issued to ordinary shareholders at a price which is usually lower than the market price of the share is called ………………………..",
+      "id": 1774235580363,
+      "text": "Before inclusion in the Financial Regulations, new rules and policies could be \nintroduced by issuance of …………...........................",
       "type": "fill_blanks",
       "options": [
         "",
@@ -456,7 +456,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Rights Issue",
+      "answer": "circulars  ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -486,8 +486,8 @@
       }
     },
     {
-      "id": 1774171224305,
-      "text": "The difference in a trial balance as a result of an omission is temporarily transferred to a…………..account",
+      "id": 1774235580567,
+      "text": "The body established by Act of Parliament No.5 of December 2002 which has \nthe power to enforce the provisions of the Bank and other Financial Institutions \nAct is …………………………",
       "type": "fill_blanks",
       "options": [
         "",
@@ -496,7 +496,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Suspense Account",
+      "answer": "EFCC",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -526,8 +526,8 @@
       }
     },
     {
-      "id": 1774171224306,
-      "text": "The equity of an entity is accounted for in ……………………..",
+      "id": 1774235580781,
+      "text": "The office of the Accountant-General of the Federation is an Extra-Ministerial \nAgency under the  ..................................",
       "type": "fill_blanks",
       "options": [
         "",
@@ -536,127 +536,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Statement of Changes in Equity",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224307,
-      "text": "The increase in the inflow of economic benefit during an accounting year is referred to as ………………………",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Revenue",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224308,
-      "text": "The difference between the par value of a company’s shares and the total amount a company receives for shares recently issued is………………..",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Share Premium",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224309,
-      "text": "The other name for script issue is …………..",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Bonus Issue",
+      "answer": "ministry of finance",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -685,5 +565,6 @@
         ]
       }
     }
-  ]
+  ],
+  "createdAt": "2026-03-23T03:17:03.195Z"
 }

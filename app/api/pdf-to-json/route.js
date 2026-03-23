@@ -3,19 +3,27 @@ import pdf from 'pdf-parse';
 
 export async function POST(req) {
     try {
-        const formData = await req.formData();
-        const file = formData.get('pdf');
+        const body = await req.json();
+        const { pdfBase64, rawText } = body;
 
-        if (!file) {
-            return NextResponse.json({ error: "No PDF file uploaded. Please attach a file." }, { status: 400 });
+        if (!pdfBase64 && !rawText) {
+            return NextResponse.json({ error: "No PDF file or text provided." }, { status: 400 });
         }
 
-        const arrayBuffer = await file.arrayBuffer();
-        const buffer = Buffer.from(arrayBuffer);
+        let text = "";
 
-        // Extract text using pdf-parse
-        const data = await pdf(buffer);
-        const text = data.text;
+        if (pdfBase64) {
+            const buffer = Buffer.from(pdfBase64, 'base64');
+            try {
+                const data = await pdf(buffer);
+                text = data.text;
+            } catch (err) {
+                console.error("PDF-Parse library threw:", err);
+                return NextResponse.json({ error: "pdf-parse threw an exception: " + err.message + ". Are you sure this is a valid PDF?" }, { status: 500 });
+            }
+        } else {
+            text = rawText;
+        }
 
         // Custom Extractor Logic
         const lines = text.split('\n');
@@ -25,7 +33,7 @@ export async function POST(req) {
         // Regex to find numbering: "1.", "1)", "Q1.", etc.
         const questionRegex = /^(?:Q|Question)?\s*(\d+)[\.\)]\s*(.*)/i;
         // Regex to find MCQ options: "A.", "A)", "(A)", etc.
-        const optionRegex = /^(?:\()?([A-D])[\.\)]\s*(.*)/i;
+        const optionRegex = /^(?:\()?([A-E])[\.\)]\s*(.*)/i;
 
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i].trim();
@@ -44,7 +52,7 @@ export async function POST(req) {
                     id: Date.now() + i,
                     text: qMatch[2] || "",
                     type: 'fill_blanks',
-                    options: ["", "", "", ""],
+                    options: ["", "", "", "", ""],
                     correctOption: 0,
                     answer: "",
                     explanation: "",
@@ -59,7 +67,7 @@ export async function POST(req) {
                     // Convert 'A' to 0, 'B' to 1, etc.
                     const charCode = optMatch[1].toUpperCase().charCodeAt(0);
                     const optIndex = charCode - 65;
-                    if (optIndex >= 0 && optIndex < 4) {
+                    if (optIndex >= 0 && optIndex < 5) {
                         currentQ.options[optIndex] = optMatch[2] || "";
                     }
                 } else {

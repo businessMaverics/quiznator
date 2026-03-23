@@ -1,0 +1,483 @@
+## Financial Accounting (30 Questions)
+1. Total assets minus total liabilities equals?  
+   A. Revenue B. Equity C. Expenses D. Profit E. Capital  
+   **B**
+
+2. Document issued for returned goods?  
+   A. Debit note B. Invoice C. Credit note D. Receipt E. Statement  
+   **C**
+
+3. Shares issued below market price to shareholders?  
+   A. Rights issue B. Bonus issue C. Preference shares D. Debentures E. IPO  
+   **B**
+
+4. Purpose of profit appropriation account?  
+   A. Record sales B. Distribute profits C. Calculate tax D. Show assets E. Track expenses  
+   **B**
+
+5. Breach of confidentiality acceptable when?  
+   A. Client request B. Legal requirement C. Personal gain D. Convenience E. Always  
+   **B**
+
+6. Smart contract executes via?  
+   A. Manual agreement B. Blockchain code C. Court order D. Notary E. Email  
+   **B**
+
+7. Allowance for doubtful debts uses?  
+   A. Historical cost B. Ageing analysis C. Market value D. Replacement cost E. Fair value  
+   **B**
+
+8. FOB destination title passes?  
+   A. On shipment B. At destination C. On payment D. At factory E. On order  
+   **B**
+
+9. Secondary profitability ratio?  
+   A. Gross margin B. ROCE C. Current ratio D. Debt ratio E. EPS  
+   **B**
+
+10. Common year-end adjustment?  
+    A. Sales B. Depreciation C. Purchases D. Equity E. Revenue  
+    **B**
+
+11. IFRS 18 replaces?  
+    A. IAS 7 B. IAS 1 C. IAS 16 D. IAS 37 E. IAS 2  
+    **B**
+
+12. Partnership profit attractive force?  
+    A. Capital B. Goodwill C. Interest D. Salary E. Drawings  
+    **B**
+
+13. Historical cost principle relies on?  
+    A. Subjectivity B. Objectivity C. Estimates D. Forecasts E. Market views  
+    **B**
+
+14. Qualitative characteristic for reality?  
+    A. Verifiability B. Relevance C. Timeliness D. Comparability E. Understandability  
+    **B**
+
+15. IAS 8 estimates examples?  
+    A. Fixed assets B. Bad debts C. Share capital D. Loans E. Sales  
+    **B**
+
+16. Cautious revenue principle?  
+    A. Accrual B. Prudence C. Going concern D. Consistency E. Matching  
+    **B**
+
+17. Chart of accounts purpose?  
+    A. Record transactions B. Organize ledgers C. Calculate profit D. Prepare tax E. Audit trail  
+    **B**
+
+18. Depreciation journal (provision)?  
+    A. Dr Asset Cr Cash B. Dr Expense Cr Provision C. Dr Cash Cr Expense D. Dr Provision Cr Expense E. Dr Asset Cr Expense  
+    **B**
+
+19. Cash payment as receipt error?  
+    A. Omission B. Commission C. Principle D. Complete E. Original entry  
+    **B**
+
+20. Partnership loss on assets?  
+    A. Dr Assets Cr Partners B. Dr Partners Cr Assets C. Dr Profit Cr Assets D. Dr Assets Cr Profit E. Dr Cash Cr Partners  
+    **B**
+
+21. Accrual basis matches?  
+    A. Cash flows B. Income/expenses period C. Assets/liabilities D. Equity/profit E. Revenue/capital  
+    **B**
+
+22. Conceptual framework excludes?  
+    A. Objectives B. Accountant roles C. Qualitative traits D. Capital maintenance E. Element recognition  
+    **B**
+
+23. IAS 8 changes exclude?  
+    A. Policy selection B. Error correction C. Estimate changes D. Cash flow adjustments E. Voluntary policy  
+    **D**
+
+24. Prepayment audit objective?  
+    A. Tax reduction B. Compliance C. Profit increase D. Bonus payment E. Asset cover  
+    **B**
+
+25. Extended trial balance adjustments twice?  
+    A. All B. Depreciation only C. None D. Opening balances E. Closing balances  
+    **A**
+
+26. Uniformity in statements ensured by?  
+    A. Cash basis B. Conceptual framework C. Tax rules D. Management policy E. Audit opinion  
+    **B**
+
+27. Assets included when?  
+    A. Paid B. Probable benefits C. Generate income only D. Cash only E. Fixed only  
+    **B**
+
+28. Statement of position purpose?  
+    A. Profitability B. Assets/liabilities/equity C. Cash flows D. Equity changes E. Revenue summary  
+    **B**
+
+29. Partnership dissolution cause?  
+    A. Profit B. Expiry C. Growth D. Expansion E. Merger  
+    **B**
+
+30. Relevance attributes?  
+    A. Predictive/confirmatory B. Faithful/neutral C. Timely/comparable D. Verifiable/understandable E. Complete/all aspects  
+    **A**
+
+## Public Sector Accounting (30 Questions)
+1. Public accounting objectives include?  
+   A. Profit maximization B. Stewardship C. Dividend payment D. Market share E. Cost reduction  
+   **B**
+
+2. Public accounting users?  
+   A. Shareholders only B. Citizens/legislature C. Customers D. Suppliers E. Employees  
+   **B**
+
+3. Accounting bases include?  
+   A. Profit B. Cash/accrual C. Equity D. Revenue E. Cost  
+   **B**
+
+4. Public vs private difference?  
+   A. Profit focus B. Stewardship/non-profit C. Equity shares D. Dividends E. Bonuses  
+   **B**
+
+5. Funds accounting purpose?  
+   A. Mix resources B. Segregate by purpose C. Ignore restrictions D. Profit allocation E. Tax planning  
+   **B**
+
+6. IPSAS for PPE?  
+   A. IPSAS 1 B. IPSAS 17 C. IPSAS 23 D. IPSAS 39 E. IPSAS 41  
+   **B**
+
+7. Budgetary control steps?  
+   A. Ignore variances B. Prepare/execute/report C. Profit only D. Cash only E. Assets only  
+   **B**
+
+8. Modified accrual revenues when?  
+   A. Incurred B. Measurable/available C. Paid D. Ordered E. Budgeted  
+   **B**
+
+9. Government grants per?  
+   A. IAS 20 B. IPSAS 23 C. IAS 16 D. IFRS 15 E. IPSAS 9  
+   **B**
+
+10. Public audit types?  
+    A. Profit only B. Financial/compliance C. Tax D. Internal only E. Management  
+    **B**
+
+11. Commitment accounting records?  
+    A. Payments B. Obligations pre-payment C. Receipts D. Assets E. Profits  
+    **B**
+
+12. Variance types?  
+    A. Favourable/adverse B. Profit/loss C. Asset/liability D. Cash/non-cash E. Fixed/variable  
+    **A**
+
+13. Fixed asset register tracks?  
+    A. Cash B. Depreciation/disposal C. Revenue D. Expenses E. Equity  
+    **B**
+
+14. Public debt IPSAS?  
+    A. 17 B. 23 C. 39 D. 41 E. 1  
+    **D**
+
+15. Revenue recognition IPSAS?  
+    A. 9 B. 17 C. 23 D. 39 E. 2  
+    **A**
+
+16. Pension per IPSAS?  
+    A. 17 B. 23 C. 39 D. 41 E. 1  
+    **C**
+
+17. Donor funds?  
+    A. Unrestricted B. Restricted accounting C. Profit share D. Dividend E. Tax free  
+    **B**
+
+18. Public cash flow IPSAS?  
+    A. 1 B. 2 C. 17 D. 23 E. 39  
+    **B**
+
+19. Consolidated in public?  
+    A. Ignore entities B. Controlled entities C. Profit only D. Equity only E. Cash only  
+    **B**
+
+20. ICAN-AI pillars include?  
+    A. Profit B. Budget credibility C. Dividends D. Shares E. Sales  
+    **B**
+
+21. PAFA objective?  
+    A. Profit B. Harmonise standards C. Tax avoidance D. Private focus E. Local only  
+    **B**
+
+22. Pre-payment audit NOT?  
+    A. Compliance B. Unreasonable spend C. Tax reduction D. Guide expenditure E. Value for money  
+    **C**
+
+23. Budget execution pillar?  
+    A. Planning B. Cash flow management C. Forecasting D. Policy E. Reporting  
+    **B**
+
+24. IPSAS 1 covers?  
+    A. PPE B. Presentation C. Grants D. Pensions E. Debt  
+    **B**
+
+25. Expenditure controls?  
+    A. Ignore B. Approvals/audits C. Free spend D. Personal E. Profit driven  
+    **B**
+
+26. Direct labour contract?  
+    A. Private B. Government self-execute C. Outsource D. Profit E. Tax  
+    **B**
+
+27. Accountability index fiscal?  
+    A. Profit B. Policy/budgeting C. Shares D. Dividends E. Sales  
+    **B**
+
+28. Public reporting timeliness?  
+    A. Optional B. Accurate/complete C. Profit focus D. Private like E. Ignore  
+    **B**
+
+29. IPSAS adoption Africa?  
+    A. Optional B. PAFA promotes C. Private only D. Profit E. Tax  
+    **B**
+
+30. Stewardship objective?  
+    A. Profit B. Accountability resources C. Dividends D. Growth E. Market  
+    **B**
+
+## Quantitative Analysis (30 Questions)
+1. Time series components?  
+   A. Profit B. Trend/seasonal C. Assets D. Liabilities E. Equity  
+   **B**
+
+2. Regression purpose?  
+   A. Describe data B. Predict relationships C. Classify D. Cluster E. Factor  
+   **B**
+
+3. Index numbers base?  
+   A. Current B. Base period=100 C. Average D. Median E. Mode  
+   **B**
+
+4. Correlation range?  
+   A. 0-1 B. -1 to +1 C. 0-100 D. Positive only E. Negative only  
+   **B**
+
+5. Probability rule addition?  
+   A. Multiply B. Add independents C. Subtract D. Divide E. Power  
+   **B**
+
+6. Central tendency?  
+   A. Variance B. Mean/median/mode C. Range D. Quartile E. Percentile  
+   **B**
+
+7. Variance formula?  
+   A. Sum B. Mean squared deviation C. Average D. Median E. Mode  
+   **B**
+
+8. Hypothesis steps?  
+   A. Ignore B. Null/alternative/test C. Guess D. Average E. Plot  
+   **B**
+
+9. Chi-square use?  
+   A. Means B. Independence C. Correlation D. Regression E. Trend  
+   **B**
+
+10. Forecasting?  
+    A. Past B. Moving average/trend C. Static D. Random E. Fixed  
+    **B**
+
+11. Sampling random?  
+    A. Select B. Equal chance C. Convenience D. Judgement E. Quota  
+    **B**
+
+12. Linear programming?  
+    A. Minimize B. Optimize constraints C. Average D. Sum E. Plot  
+    **B**
+
+13. Break-even?  
+    A. Profit B. Fixed/var contrib C. Loss D. Revenue E. Cost  
+    **B**
+
+14. Payback?  
+    A. NPV B. Initial/recover C. IRR D. ROI E. Profit  
+    **B**
+
+15. NPV rule?  
+    A. Negative B. Positive accept C. Zero D. Ignore E. Average  
+    **B**
+
+16. Std dev measures?  
+    A. Centre B. Dispersion C. Trend D. Season E. Cycle  
+    **B**
+
+17. Moving average smooths?  
+    A. Noise B. Trends C. Random D. Fixed E. Static  
+    **B**
+
+18. Z-score normal?  
+    A. Mean B. Std dev units C. Median D. Mode E. Range  
+    **B**
+
+19. Decision tree?  
+    A. Linear B. Sequential choices C. Static D. Random E. Average  
+    **B**
+
+20. Central limit?  
+    A. Small B. Normal large sample C. Uniform D. Skewed E. Bimodal  
+    **B**
+
+21. ANOVA tests?  
+    A. Means equal B. Variances C. Correlation D. Regression E. Independence  
+    **A**
+
+22. Skewness?  
+    A. Centre B. Asymmetry C. Peak D. Tail E. Flat  
+    **B**
+
+23. Kurtosis?  
+    A. Tail B. Peakness C. Spread D. Mean E. Median  
+    **B**
+
+24. Confidence interval?  
+    A. Point B. Range estimate C. Exact D. Guess E. Average  
+    **B**
+
+25. P-value?  
+    A. Accept B. Reject null if low C. Ignore D. Mean E. Variance  
+    **B**
+
+26. Spearman rank?  
+    A. Parametric B. Non-parametric corr C. Mean D. Variance E. Normal  
+    **B**
+
+27. IRR decision?  
+    A. Below cost B. Above cost accept C. Equal D. Negative E. Zero  
+    **B**
+
+28. CPI formula?  
+    A. Current/base x100 B. Nominal C. Real D. GDP E. GNP  
+    **A**
+
+29. Seasonal index?  
+    A. Trend B. Avg/seasonal factor C. Random D. Cyclic E. Irregular  
+    **B**
+
+30. Bayes theorem?  
+    A. Independent B. Conditional prob C. Addition D. Multiplication E. Total  
+    **B**
+
+## Information Technology (30 Questions)
+1. Single-user OS?  
+   A. Windows server B. MS-DOS C. Linux server D. Unix E. Network  
+   **B**
+
+2. System software function?  
+   A. User apps B. Manage hardware C. Games D. Word process E. Browser  
+   **B**
+
+3. User-created data?  
+   A. System files B. Application files C. Hardware D. OS E. Network  
+   **B**
+
+4. URL includes?  
+   A. Protocol/path B. Hardware C. CPU D. RAM E. Disk  
+   **A**
+
+5. Confidentiality purpose?  
+   A. Share all B. Protect info C. Delete D. Modify E. Copy  
+   **B**
+
+6. AI reporting challenge?  
+   A. Speed B. Bias/ethics C. Cost D. Size E. Colour  
+   **B**
+
+7. Coding systems?  
+   A. Random B. Hierarchical/sequential C. Free text D. Numbers only E. Letters  
+   **B**
+
+8. GIGO means?  
+   A. Good in good out B. Garbage in garbage out C. Fast process D. Slow E. Error free  
+   **B**
+
+9. Hacking mitigation?  
+   A. Ignore B. Firewalls/encryption C. Share passwords D. Open ports E. No updates  
+   **B**
+
+10. Cloud benefits?  
+    A. Local only B. Scalable/access C. Expensive D. Slow E. Fixed  
+    **B**
+
+11. Blockchain accounting?  
+    A. Central B. Distributed ledger C. Manual D. Paper E. Single user  
+    **B**
+
+12. Cyber threats?  
+    A. Virus/phishing B. Speed C. Storage D. Print E. Display  
+    **A**
+
+13. ERP advantages?  
+    A. Isolated B. Integrated data C. Slow D. Expensive E. Manual  
+    **B**
+
+14. Database types?  
+    A. Flat B. Relational/hierarchical C. Linear D. Sequential E. Random  
+    **B**
+
+15. Network topologies?  
+    A. Star/ring/bus B. CPU C. RAM D. Disk E. Monitor  
+    **A**
+
+16. IT ethics?  
+    A. Ignore B. Integrity/confidentiality C. Profit D. Speed E. Cost  
+    **B**
+
+17. Software obsolescence?  
+    A. Upgrade B. Ignore C. Delete D. Sell E. Keep old  
+    **A**
+
+18. Backup methods?  
+    A. None B. Full/incremental C. Delete D. Single E. Manual only  
+    **B**
+
+19. AI ethics finance?  
+    A. Bias free B. Transparency C. Secret D. Fast only E. Cheap  
+    **B**
+
+20. Digital ledger?  
+    A. Paper B. Blockchain C. Manual D. Excel E. Word  
+    **B**
+
+21. Algorithm transparency?  
+    A. Secret B. High AI challenge C. Easy D. Ignore E. Delete  
+    **B**
+
+22. Data quality AI?  
+    A. Optional B. Essential C. Ignore D. Random E. Old  
+    **B**
+
+23. Cyber security AI?  
+    A. Decreased B. Increased need C. None D. Optional E. Simple  
+    **B**
+
+24. Computerised advantages?  
+    A. Errors B. Speed/accuracy C. Slow D. Manual E. Costly  
+    **B**
+
+25. Network purpose?  
+    A. Isolate B. Share resources C. Single user D. Print only E. Store only  
+    **B**
+
+26. ERP integrates?  
+    A. Modules B. Separate C. Delete D. Ignore E. Manual  
+    **A**
+
+27. Firewall?  
+    A. Hardware B. Blocks unauthorized C. Allows all D. Deletes E. Copies  
+    **B**
+
+28. Encryption?  
+    A. Plain text B. Scramble data C. Delete D. Share E. Print  
+    **B**
+
+29. Virus protection?  
+    A. Ignore B. Antivirus/update C. Open emails D. Click links E. Share USB  
+    **B**
+
+30. IT control weakness?  
+    A. Segregation B. Lack duties sep C. Audit trail D. Backup E. Logs  
+    **B**

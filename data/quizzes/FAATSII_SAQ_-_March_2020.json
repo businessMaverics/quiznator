@@ -1,13 +1,13 @@
 {
-  "courseCode": "FA ATS II",
-  "topic": "SAQ - September 2022",
+  "courseCode": "FA ATS II ",
+  "topic": "SAQ - March 2020",
   "marks": "20",
   "timeLimit": "30",
   "quizType": "fill_blanks",
   "questions": [
     {
-      "id": 1774171224287,
-      "text": "The accounting concept which states that an enterprise will continue in operation for the foreseeable future is .........",
+      "id": 1774233803678,
+      "text": "What effect will deficit in the income and expenditure account have on the \nstatement of financial position of a Not-for-profit organisation? ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -16,7 +16,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Going concern",
+      "answer": "Decreases/Reduces the accumulated fund ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -46,8 +46,8 @@
       }
     },
     {
-      "id": 1774171224288,
-      "text": "A list of ledger balances extracted at a particular date to check the arithmetical accuracy of the books is .........",
+      "id": 1774233852423,
+      "text": "The accounting entries to correct purchase of a computer wrongly debited into \nPurchases Account are ................ and ………….",
       "type": "fill_blanks",
       "options": [
         "",
@@ -56,7 +56,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Trial Balance",
+      "answer": "Dr. Computer Account, Cr purchases Account",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -86,8 +86,8 @@
       }
     },
     {
-      "id": 1774171224289,
-      "text": "The excess of income over expenditure in a not-for-profit organisation is called .........",
+      "id": 1774233854149,
+      "text": "The accounting entries to record Provision for Discount on Trade Receivables \nare ................. and .......................",
       "type": "fill_blanks",
       "options": [
         "",
@@ -96,7 +96,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Surplus",
+      "answer": "",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -126,8 +126,8 @@
       }
     },
     {
-      "id": 1774171224290,
-      "text": "The profit as a percentage of cost is known as .........",
+      "id": 1774233854333,
+      "text": "The accounting entries to record Provision for Discount on Trade Receivables \nare ................. and .......................",
       "type": "fill_blanks",
       "options": [
         "",
@@ -136,7 +136,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Mark-up",
+      "answer": "Dr, statement of profit or loss Account   Cr. Provision for Discount on Trade Receivables",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -166,8 +166,8 @@
       }
     },
     {
-      "id": 1774171224291,
-      "text": "The accounting entry to record the purchase of a motor vehicle for cash is .........",
+      "id": 1774233921767,
+      "text": "The model that requires an asset after initial recognition to be carried at cost \nless accumulated depreciation and impairment losses is called  ....................",
       "type": "fill_blanks",
       "options": [
         "",
@@ -176,7 +176,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Debit: Motor Vehicle; Credit: Cash",
+      "answer": "Cost Model",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -206,8 +206,8 @@
       }
     },
     {
-      "id": 1774171224292,
-      "text": "The book of original entry where credit purchases are first recorded is .........",
+      "id": 1774233921961,
+      "text": "The benchmark standard of IAS 16 requires that Property, Plant and Equipment \nshould be initially measured at ...................",
       "type": "fill_blanks",
       "options": [
         "",
@@ -216,7 +216,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Purchases Day Book (or Journal)",
+      "answer": "cost",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -246,8 +246,8 @@
       }
     },
     {
-      "id": 1774171224293,
-      "text": "The method of depreciation that charges a constant amount over the useful life of an asset is .........",
+      "id": 1774233922175,
+      "text": "Two examples of non-cash transaction relating to financing activity are \n…………. and …………………..",
       "type": "fill_blanks",
       "options": [
         "",
@@ -256,7 +256,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Straight Line Method",
+      "answer": "Conversion of loan notes/preference shares to equity   (ii) Issue of shares capital to acquire property, plant and equipment   (iii) Bonus Issue.",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -286,8 +286,8 @@
       }
     },
     {
-      "id": 1774171224294,
-      "text": "Assets that are expected to be converted to cash within one year are .........",
+      "id": 1774233922370,
+      "text": "The events that occur between the reporting date and the date when the \nfinancial statements are authorised for issue is known as ............................... ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -296,7 +296,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Current Assets",
+      "answer": "/Post Balance sheet event ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -326,8 +326,8 @@
       }
     },
     {
-      "id": 1774171224295,
-      "text": "The document sent by a seller to a buyer when goods are returned is .........",
+      "id": 1774234076534,
+      "text": "State the formula for calculating dividend yield.",
       "type": "fill_blanks",
       "options": [
         "",
@@ -336,7 +336,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Credit Note",
+      "answer": "Dividend per share/ 𝑀𝑎𝑟𝑘𝑒𝑡 𝑝𝑟𝑖𝑐𝑒 𝑝𝑒𝑟 𝑠𝑕𝑎𝑟𝑒 x100 ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -366,8 +366,8 @@
       }
     },
     {
-      "id": 1774171224296,
-      "text": "The difference between total assets and total liabilities is known as .........",
+      "id": 1774234077532,
+      "text": "A lease agreement that transfers to the Lessee substantially all risks and \nrewards incidental to the ownership of an asset, although title may or may not \neventually be transferred is known as ..................",
       "type": "fill_blanks",
       "options": [
         "",
@@ -376,7 +376,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Equity (or Capital)",
+      "answer": "Finance lease ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -406,8 +406,8 @@
       }
     },
     {
-      "id": 1774171224297,
-      "text": "The process of transferring entries from the journals to the ledgers is .........",
+      "id": 1774234078624,
+      "text": "In hire purchase transaction ....................... is the seller of the asset  ",
       "type": "fill_blanks",
       "options": [
         "",
@@ -416,7 +416,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Posting",
+      "answer": "vendor ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -446,8 +446,8 @@
       }
     },
     {
-      "id": 1774171224298,
-      "text": "The systematic allocation of the cost of an intangible asset over its useful life is .........",
+      "id": 1774234079134,
+      "text": "When a partnership is converted to a Limited company, the purchase \nconsideration could be in various forms.   Two of the forms are ………….. and \n………….",
       "type": "fill_blanks",
       "options": [
         "",
@@ -456,7 +456,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Amortisation",
+      "answer": "(i) Cash/Bank   (ii) Issue of shares ",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -486,8 +486,8 @@
       }
     },
     {
-      "id": 1774171224299,
-      "text": "A person to whom a business owes money for goods or services is a .........",
+      "id": 1774234282770,
+      "text": "19. The account prepared for partners but not required for sole traders is………",
       "type": "fill_blanks",
       "options": [
         "",
@@ -496,287 +496,7 @@
         ""
       ],
       "correctOption": 0,
-      "answer": "Creditor (or Accounts Payable)",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224300,
-      "text": "The accounting principle that requires expenses to be recognized in the same period as the revenue they help generate is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Matching Principle",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224301,
-      "text": "The petty cash system where the cashier is given a fixed sum of money at the start of a period is the .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Imprest System",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224302,
-      "text": "The portion of a company's profit distributed to its shareholders is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Dividend",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224303,
-      "text": "A budget prepared for a single level of activity is a .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Fixed Budget",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224304,
-      "text": "The financial statement that shows the financial position of an entity at a specific point in time is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Statement of Financial Position",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224305,
-      "text": "The set of rules and guidelines used for financial reporting is known as .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Accounting Standards",
-      "explanation": "",
-      "includeTable": false,
-      "tableData": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      },
-      "isTableAnswer": false,
-      "answerTable": {
-        "headers": [
-          "",
-          ""
-        ],
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
-      }
-    },
-    {
-      "id": 1774171224306,
-      "text": "The amount by which sales exceed the cost of goods sold is .........",
-      "type": "fill_blanks",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctOption": 0,
-      "answer": "Gross Profit",
+      "answer": "Statement of distribution of profit/Appropriation Account",
       "explanation": "",
       "includeTable": false,
       "tableData": {
@@ -805,5 +525,6 @@
         ]
       }
     }
-  ]
+  ],
+  "createdAt": "2026-03-23T02:51:35.587Z"
 }
